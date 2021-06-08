@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    padding: 2em;
+    background-color: #C7B9FF;
+}
+
+.challenge-container {
+    background-color: aliceblue;
+    padding: 2em;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 100px auto auto;
+    grid-template-areas: 
+        "logo logo logo"
+        "title title title"
+        ". . . "
+        ". . . ";
+    grid-auto-rows: auto;
+}
+
+h1 {
+    text-align: center;
+    grid-area: title;
+}
+
+.logo {
+    grid-area: logo;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.submission {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.submission-img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: -5px 5px 0px 5px #2B283A; 
+    box-shadow: -5px 5px 0px 5px #2B283A;
+}
+
+.poll-btn {
+    padding: 0.5em 1em;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background: #5035FF;
+    border-radius: 100px;
+    font-family: Karla;
+    font-weight: bold;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin: 1em;
+}
+
+.poll-btn:hover,
+.poll-btn:focus {
+    transform: skew(-20deg);
+}
