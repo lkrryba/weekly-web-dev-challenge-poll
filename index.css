@@ -56,12 +56,42 @@ h1 {
     font-weight: bold;
     font-size: 16px;
     color: #FFFFFF;
+    text-decoration: none;
+
 }
 
 .poll-btn:hover,
 .poll-btn:focus {
     transform: skew(-20deg);
 }
+
+.poll-btn-inactive {
+    background:lightgrey;
+    cursor: not-allowed;
+}
+
+.poll-btn-inactive:hover,
+.poll-btn-inactive:focus {
+    transform: skew(0deg);
+    /* cursor: ; */
+}
+
+[data-tooltip]:before {
+    /* needed - do not touch */
+    content: attr(data-tooltip);
+    position: absolute;
+    opacity: 0;
+}
+
+[data-tooltip]:hover:before {
+    opacity: 1;
+    margin-top: 30%;
+    margin-left: -10%; 
+    font-size: 1rem; 
+    color: black;
+    text-align: left;
+}
+
 
 
 /* *************************
