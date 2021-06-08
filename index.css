@@ -16,33 +16,24 @@ body {
 .challenge-container {
     background-color: aliceblue;
     padding: 2em;
-    display: grid;
-    gap: 2em;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 50px 100px auto auto;
-    grid-template-areas: 
-        "logo logo logo"
-        "title title title"
-        ". . . "
-        ". . . ";
-    grid-auto-rows: auto;
+  
+}
+
+.logo,
+h1 {
+    margin-bottom: 1em;
 }
 
 h1 {
-    text-align: center;
-    grid-area: title;
+   font-size: 1em;
 }
 
 .logo {
-    grid-area: logo;
-    margin: 0 auto;
-    width: 400px;
+    width: 150px;
 }
 
 .submission {
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 1.5em;
 }
 
 .submission-img {
@@ -72,4 +63,43 @@ h1 {
 .poll-btn:hover,
 .poll-btn:focus {
     transform: skew(-20deg);
+}
+
+
+/* *************************
+desktop styles
+************************* */
+
+@media only screen and (min-width: 600px) {
+    .logo {
+        grid-area: logo;
+        margin: 0 auto;
+        padding-bottom: 2em;
+        width: 400px;
+    }
+
+    h1 {
+        text-align: center;
+        grid-area: title;
+        font-size: 2em;
+    }
+
+
+    .challenge-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100px 120px auto auto;
+        grid-template-areas: 
+            "logo logo logo"
+            "title title title"
+            ". . . "
+            ". . . ";
+        grid-auto-rows: auto;
+    }
+
+    .submission {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
 }
