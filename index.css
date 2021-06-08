@@ -57,7 +57,6 @@ h1 {
     font-weight: bold;
     font-size: 16px;
     color: #FFFFFF;
-    /* margin: 1em; */
 }
 
 .poll-btn:hover,
@@ -106,5 +105,6 @@ desktop styles
     .poll-btn {
         padding: 0.5em 1em;
         font-size: 32px;
+        margin: 1em;
     }
 }
