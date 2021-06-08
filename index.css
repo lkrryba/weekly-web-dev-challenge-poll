@@ -16,6 +16,7 @@ body {
 .challenge-container {
     background-color: aliceblue;
     padding: 2em 2em 1em;
+    border-radius: 10px;
 }
 
 .logo,
