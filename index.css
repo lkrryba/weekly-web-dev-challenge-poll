@@ -93,6 +93,8 @@ desktop styles
             ". . . "
             ". . . ";
         grid-auto-rows: auto;
+        max-width: 1400px;
+        margin: 0 auto;
     }
 
     .submission {
