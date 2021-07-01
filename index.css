@@ -95,6 +95,9 @@ h1 {
     text-align: right;
 }
 
+li::marker {
+    content: '⚡️';
+}
 
 
 /* *************************
