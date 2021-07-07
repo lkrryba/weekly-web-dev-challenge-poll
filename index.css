@@ -74,19 +74,12 @@ h1 {
 }
 
 .btn {
-    padding: 1em 2em;
     text-align: center;
-    position: absolute;
-    top: 7%;
-    right: 15%;
     background: #5035FF;
-    border-radius: 100px;
-    font-family: Karla;
     font-weight: bold;
-    font-size: .75rem;
     color: #FFFFFF;
     text-decoration: none;
-    z-index: 10;
+    /* z-index: 10; */
 }
 
 .btn:hover,
@@ -94,13 +87,22 @@ h1 {
     transform: skew(-20deg);
 }
 
-.btn-poll-inactive {
+.btn-poll {
+    padding: 1em 2em;
+    align-self: flex-end;
+    border-radius: 100px;
+    font-family: Karla;
+    font-size: .75rem;
+    margin: 0 auto 1em;
+}
+
+.inactive {
     background:lightgrey;
     cursor: not-allowed;
 }
 
-.btn-poll-inactive:hover,
-.btn-poll-inactive:focus {
+.inactive:hover,
+.inactive:focus {
     transform: skew(0deg);
 }
 
@@ -168,8 +170,6 @@ desktop styles
     .btn-poll {
         padding: 0.5em 1em;
         font-size: 1.25rem;
-        margin: 1em;
-        top: 0;
-        right: 2%;
+        margin: 0;
     }
 }
