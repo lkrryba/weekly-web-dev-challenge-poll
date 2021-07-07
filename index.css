@@ -23,6 +23,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1em;
 }
 
 .btn_home {
@@ -43,23 +44,12 @@ header {
     color: black;
 }
 
-.challenge-container {
-    background-color: aliceblue;
-    padding: 2em 2em 1em;
-    border-radius: 10px;
-}
-
-.logo,
-h1 {
-    margin-bottom: 1em;
-}
-
 h1 {
    font-size: 1em;
 }
 
 .logo {
-    width: 150px;
+    width: 350px;
 }
 
 .submission {
@@ -143,10 +133,12 @@ desktop styles
     .subtitle {
         text-align: center;
     }
-
+    
     h1 {
         font-size: 2em;
+        margin-bottom: 0.5em;
     }
+    
     .page-container {
         margin: 0 auto;
         max-width: 1500px;
