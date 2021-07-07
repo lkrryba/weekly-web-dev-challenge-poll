@@ -44,6 +44,11 @@ header {
     color: black;
 }
 
+h1,
+.subtitle {
+    text-align: center;
+}
+
 h1 {
    font-size: 1em;
 }
@@ -128,17 +133,12 @@ desktop styles
         margin: 0 auto;
         width: 400px;
     }
-
-    h1,
-    .subtitle {
-        text-align: center;
-    }
     
     h1 {
-        font-size: 2em;
+        font-size: 1.5em;
         margin-bottom: 0.5em;
     }
-    
+
     .page-container {
         margin: 0 auto;
         max-width: 1500px;
