@@ -13,6 +13,36 @@ body {
     background-color: #C7B9FF;
 }
 
+.page-container {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 1em;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn_home {
+    align-self: flex-start;
+    border: none;
+    padding: 1em;
+    background: #5035FF;
+    border-radius: 10px; 
+    font-weight: bold;
+    font-size: .75rem;
+    color: #FFFFFF;
+}
+
+.btn_home:hover,
+.btn_home:focus {
+    background: #C7B9FF;
+    cursor: pointer;
+    color: black;
+}
 
 .challenge-container {
     background-color: aliceblue;
@@ -129,11 +159,9 @@ desktop styles
     .challenge-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 100px 70px  120px auto auto;
+        grid-template-rows: auto auto;
         grid-template-areas: 
-            "logo logo logo"
-            "title title title"
-            "p p p "
+            "sub sub sub"
             ". . . "
             ". . . ";
         grid-auto-rows: auto;
@@ -144,6 +172,7 @@ desktop styles
 
     .submission {
         display: grid;
+        grid-area: sub;
         justify-content: center;
         align-items: center;
     }
