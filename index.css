@@ -149,7 +149,7 @@ desktop styles
     .challenge-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto auto;
+        grid-template-rows: auto;
         grid-template-areas: 
             "sub sub sub"
             ". . . "
@@ -160,16 +160,30 @@ desktop styles
         position: relative;
     }
 
-    .submission {
-        display: grid;
-        grid-area: sub;
-        justify-content: center;
-        align-items: center;
-    }
-
     .btn-poll {
         padding: 0.5em 1em;
         font-size: 1.25rem;
         margin: 0;
     }
+
+    .submission {
+        grid-area: sub;
+    }
+
+    .challenge-container-past {
+        grid-template-areas: 
+            "winner winner winner"
+            "sub sub sub"
+            ". . . "
+            ". . . ";
+    }
+
+    .challenge-container-past .winner {
+        order: 1;
+        grid-area: winner;
+        grid-column: 1 / -1;
+        /* grid-row: 1; */
+        /* background: hotpink; */
+    }
+
 }
