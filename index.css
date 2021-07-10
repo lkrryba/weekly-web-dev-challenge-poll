@@ -54,6 +54,19 @@ h1 {
     font-size: 1em;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    font-weight: 700;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
 .logo {
     width: 250px;
 }
@@ -136,6 +149,43 @@ li::marker {
     content: '⚡️';
 }
 
+.challenge-container {
+    display: grid;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.winner {
+    /* background: hotpink; */
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    transform: scale(1.2);
+    position: relative;
+}
+
+.winner::after {
+    content: ' 🏆';
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 3rem;
+    transform: scale(1) rotate(-3deg);
+    filter: drop-shadow(0 0 10px hotpink);
+    animation: pulse 1s ease-out infinite alternate;
+}
+
+.winner a {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+@keyframes pulse {
+    to {
+        transform: scale(1.2) rotate(3deg);
+    }
+}
+
 
 /* *************************
 desktop styles
@@ -155,25 +205,12 @@ desktop styles
         max-width: 1500px;
     }
     .challenge-container {
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
-        max-width: 1400px;
-        margin: 0 auto;
-        position: relative;
     }
     .btn-poll {
         padding: 0.5em 1em;
         font-size: 1.25rem;
         margin: 0;
-    }
-    .winner {
-        /* background: hotpink; */
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-        transform: scale(1.2);
-    }
-    .winner a {
-        font-weight: 700;
     }
 }
