@@ -157,7 +157,6 @@ li::marker {
 }
 
 .winner {
-    /* background: hotpink; */
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     transform: scale(1.2);
@@ -185,6 +184,7 @@ li::marker {
         transform: scale(1.2) rotate(3deg);
     }
 }
+
 
 
 /* *************************
