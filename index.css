@@ -78,6 +78,10 @@ a:active {
     margin-bottom: 1.5em;
 }
 
+.submission > a:hover >  .submission-img {
+    filter: invert(75%);
+}
+
 .submission-img {
     width: 100%;
     height: 300px;
@@ -87,13 +91,19 @@ a:active {
     box-shadow: -5px 5px 0px 5px #2b283a;
 }
 
+.submission > a {
+    text-decoration: none;
+}
+
+
+/* buttons */
+
 .btn {
     text-align: center;
     background: #5035ff;
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
-    /* z-index: 10; */
 }
 
 .btn:hover,
