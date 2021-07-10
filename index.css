@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
@@ -10,7 +11,7 @@ html, body {
 body {
     font-family: 'Karla', sans-serif;
     padding: 2em;
-    background-color: #C7B9FF;
+    background-color: #c7b9ff;
 }
 
 .page-container {
@@ -30,16 +31,16 @@ header {
     align-self: flex-start;
     border: none;
     padding: 1em;
-    background: #5035FF;
-    border-radius: 10px; 
+    background: #5035ff;
+    border-radius: 10px;
     font-weight: bold;
-    font-size: .75rem;
-    color: #FFFFFF;
+    font-size: 0.75rem;
+    color: #ffffff;
 }
 
 .btn_home:hover,
 .btn_home:focus {
-    background: #C7B9FF;
+    background: #c7b9ff;
     cursor: pointer;
     color: black;
 }
@@ -50,7 +51,7 @@ h1,
 }
 
 h1 {
-   font-size: 1em;
+    font-size: 1em;
 }
 
 .logo {
@@ -69,15 +70,15 @@ h1 {
     height: 300px;
     border-radius: 10px;
     cursor: pointer;
-    -webkit-box-shadow: -5px 5px 0px 5px #2B283A; 
-    box-shadow: -5px 5px 0px 5px #2B283A;
+    -webkit-box-shadow: -5px 5px 0px 5px #2b283a;
+    box-shadow: -5px 5px 0px 5px #2b283a;
 }
 
 .btn {
     text-align: center;
-    background: #5035FF;
+    background: #5035ff;
     font-weight: bold;
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
     /* z-index: 10; */
 }
@@ -92,12 +93,12 @@ h1 {
     align-self: flex-end;
     border-radius: 100px;
     font-family: Karla;
-    font-size: .75rem;
+    font-size: 0.75rem;
     margin: 0 auto 1em;
 }
 
 .inactive {
-    background:lightgrey;
+    background: lightgrey;
     cursor: not-allowed;
 }
 
@@ -115,8 +116,8 @@ h1 {
 [data-tooltip]:hover:before {
     opacity: 1;
     margin-top: 30%;
-    margin-left: -10%; 
-    font-size: 1rem; 
+    margin-left: -10%;
+    font-size: 1rem;
     color: black;
     text-align: right;
 }
@@ -135,55 +136,34 @@ desktop styles
         margin: 0 auto;
         width: 400px;
     }
-    
     h1 {
         font-size: 1.5em;
         margin-bottom: 0.5em;
     }
-
     .page-container {
         margin: 0 auto;
         max-width: 1500px;
     }
-
     .challenge-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto;
-        grid-template-areas: 
-            "sub sub sub"
-            ". . . "
-            ". . . ";
-        grid-auto-rows: auto;
+        gap: 1rem;
         max-width: 1400px;
         margin: 0 auto;
         position: relative;
     }
-
     .btn-poll {
         padding: 0.5em 1em;
         font-size: 1.25rem;
         margin: 0;
     }
-
-    .submission {
-        grid-area: sub;
-    }
-
-    .challenge-container-past {
-        grid-template-areas: 
-            "winner winner winner"
-            "sub sub sub"
-            ". . . "
-            ". . . ";
-    }
-
-    .challenge-container-past .winner {
-        order: 1;
-        grid-area: winner;
-        grid-column: 1 / -1;
-        /* grid-row: 1; */
+    .winner {
         /* background: hotpink; */
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        transform: scale(1.2);
     }
-
+    .winner a {
+        font-weight: 700;
+    }
 }
