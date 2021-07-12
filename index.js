@@ -57,6 +57,24 @@ const submissions = [
     entryURL: 'https://scrimba.com/scrim/co9ae4c0c9ae42996b433a8cc',
     thumbnail: 'Mareike.png',
     winner: false
+  },
+  {
+    name: 'Ambreen',
+    entryURL: 'https://scrimba.com/scrim/co0ad4cfd9951c55e68d35836',
+    thumbnail: 'Ambreen.png',
+    winner: false
+  },
+  {
+    name: 'Michael Larocca',
+    entryURL: 'https://scrimba.com/scrim/co7f64f67a90d47e3618359a8',
+    thumbnail: 'M-Larocca.png',
+    winner: false
+  },
+  {
+    name: 'bird555',
+    entryURL: 'https://scrimba.com/scrim/cob964758ac977c19a5b52c2a',
+    thumbnail: 'Bird555.png',
+    winner: false
   }
 ]
 
