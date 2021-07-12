@@ -72,7 +72,7 @@ const submissions = [
   },
   {
     name: 'bird555',
-    entryURL: 'https://scrimba.com/scrim/cob964758ac977c19a5b52c2a',
+    entryURL: 'https://scrimba.com/scrim/co1174e43b48bd9b777e52f0e',
     thumbnail: 'Bird555.png',
     winner: false
   },
