@@ -75,7 +75,14 @@ const submissions = [
     entryURL: 'https://scrimba.com/scrim/cob964758ac977c19a5b52c2a',
     thumbnail: 'Bird555.png',
     winner: false
-  }
+  },
+  {
+    name: 'Sriyans',
+    entryURL: '  https://scrimba.com/scrim/co6034424ad0252ab719d3672',
+    thumbnail: 'Sriyans.png',
+    winner: false
+  },
+
 ]
 
 console.log(imagePath, submissions[0].thumbnail)
