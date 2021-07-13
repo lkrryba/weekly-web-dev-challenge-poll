@@ -103,6 +103,7 @@ submissions.forEach(submission => {
   const link = document.createElement('a')
   link.href = submission.entryURL
   link.target = '_blank'
+  link.rel = "noopener"
   submissionElement.appendChild(link)
 
   // Then, inside the anchor tag, the thumbnail and name.
@@ -110,9 +111,11 @@ submissions.forEach(submission => {
   img.src = `${imagePath}${submission.thumbnail}`
   img.classList.add('submission-img')
   link.appendChild(img)
+
   const nameParagraph = document.createElement('p')
   nameParagraph.textContent = submission.name
   link.appendChild(nameParagraph)
+  
   const altText = document.createAttribute('alt')
   altText.textContent = `${submission.name}'s submission`
   // img.append(altText)

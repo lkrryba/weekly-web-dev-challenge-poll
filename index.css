@@ -120,16 +120,6 @@ a:active {
     margin: 0 auto 1em;
 }
 
-.inactive {
-    background: #8d8a8a;
-    cursor: not-allowed;
-}
-
-.inactive:hover,
-.inactive:focus {
-    transform: skew(0deg);
-}
-
 [data-tooltip]:before {
     content: attr(data-tooltip);
     position: absolute;
@@ -143,6 +133,13 @@ a:active {
     font-size: 1rem;
     color: black;
     text-align: right;
+}
+
+.vote {
+    /* text-align: right; */
+    /* margin-left: auto; */
+    /* max-width: 10ch; */
+    /* background: hotpink; */
 }
 
 li::marker {
