@@ -11,6 +11,12 @@
       "entryURL": "https://scrimba.com/scrim/cof6d4c5699f03d840c40b266",
       "thumbnail": "benjamintautfest.png",
       "winner": false
+    },
+    {
+      "name": "Dev_N",
+      "entryURL": "https://scrimba.com/scrim/cob6a4f9d9d3a092a996fa847",
+      "thumbnail": "Dev_N.png",
+      "winner": false
     }
   ],
   "accessibility": [
@@ -48,7 +54,7 @@
       "name": "Dev_N",
       "entryURL": "https://scrimba.com/scrim/co2394864a21f331418cf9aa0",
       "thumbnail": "Dev_N.png",
-      "winner": false
+      "winner": true
     },
     {
       "name": "Alana",
