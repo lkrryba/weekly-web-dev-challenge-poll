@@ -121,7 +121,7 @@ a:active {
 }
 
 .inactive {
-    background: lightgrey;
+    background: #8d8a8a;
     cursor: not-allowed;
 }
 

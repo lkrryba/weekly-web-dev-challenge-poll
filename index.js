@@ -113,6 +113,10 @@ submissions.forEach(submission => {
   const nameParagraph = document.createElement('p')
   nameParagraph.textContent = submission.name
   link.appendChild(nameParagraph)
+  const altText = document.createAttribute('alt')
+  altText.textContent = `${submission.name}'s submission`
+  // img.append(altText)
+  img.setAttributeNode(altText)
 
   // Inject the submission element into the DOM
   takePartDiv.insertAdjacentElement('beforebegin', submissionElement)
