@@ -44,4 +44,4 @@ export async function getSubmissions(jsonPath) {
     const response = await fetch(jsonPath)
     let data = await response.json()
     return data;
-  }
+}
