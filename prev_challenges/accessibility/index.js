@@ -1,8 +1,15 @@
 import { renderSubmissions, getSubmissions } from "/submissions.js"
 
-const submissionsJson = "../../submissions.json"
+// All awaits need to be wrapped into async iifes, 
+// because top level await (https://v8.dev/features/top-level-await)
+// isn't supported in safari:
+// https://caniuse.com/?search=top%20level%20await
 
-const subs = (await getSubmissions(submissionsJson)).accessibility
-const images = './accessibility_imgs/'
+(async () => {
+    const submissionsJson = "../../submissions.json"
+    
+    const subs = (await getSubmissions(submissionsJson)).accessibility
+    const images = './accessibility_imgs/'
 
-renderSubmissions(subs, images)
+    renderSubmissions(subs, images)
+})()
