@@ -135,13 +135,6 @@ a:active {
     text-align: right;
 }
 
-.vote {
-    /* text-align: right; */
-    /* margin-left: auto; */
-    /* max-width: 10ch; */
-    /* background: hotpink; */
-}
-
 li::marker {
     content: '⚡️';
 }
@@ -156,7 +149,7 @@ li::marker {
 .winner {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
     position: relative;
 }
 
@@ -204,6 +197,9 @@ desktop styles
     .challenge-container {
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
+    }
+    .winner {
+        transform: scale(1.2);
     }
     .btn-poll {
         padding: 0.5em 1em;
