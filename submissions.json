@@ -94,8 +94,14 @@
     },
     {
       "name": "Sriyans",
-      "entryURL": "  https://scrimba.com/scrim/co6034424ad0252ab719d3672",
+      "entryURL": "https://scrimba.com/scrim/co6034424ad0252ab719d3672",
       "thumbnail": "Sriyans.png",
+      "winner": false
+    },
+    {
+      "name": "Ifo",
+      "entryURL": "https://scrimba.com/scrim/cod2b48d3a5b5d8fafbfd836c",
+      "thumbnail": "Ifo.png",
       "winner": false
     }
   ]
