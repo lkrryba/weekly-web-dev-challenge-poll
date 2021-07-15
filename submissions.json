@@ -23,6 +23,18 @@
       "entryURL": "https://scrimba.com/scrim/coebe4340bd62d0c4012d9bb9",
       "thumbnail": "Debbie.png",
       "winner": false
+    },
+    {
+      "name": "Alana",
+      "entryURL": "https://alanacapcreates-wwdc-dogbasket071221.netlify.app/",
+      "thumbnail": "Alana.png",
+      "winner": false
+    },
+    {
+      "name": "Ammar",
+      "entryURL": "https://scrimba.com/scrim/cocbd4ef9a51b24df8731580b",
+      "thumbnail": "Ammar.png",
+      "winner": false
     }
   ],
   "accessibility": [
