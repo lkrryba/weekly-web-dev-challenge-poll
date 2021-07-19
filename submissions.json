@@ -53,7 +53,56 @@
       "entryURL": "https://boring-payne-a18edc.netlify.app/",
       "thumbnail": "Bernard.png",
       "winner": false
+    },
+    {
+      "name": "Nigel Hargraves",
+      "entryURL": "https://codepen.io/nigel-hargraves/pen/RwVgLRq",
+      "thumbnail": "Nigel_Hargreaves.png",
+      "winner": false
+    },
+    {
+      "name": "Dlama",
+      "entryURL": "https://scrimba.com/scrim/co568456f90129e99ababd9bd",
+      "thumbnail": "Emily.png",
+      "winner": false
+    },
+    {
+      "name": "Irina",
+      "entryURL": "https://scrimba.com/scrim/co0e94127b01468663db564dc",
+      "thumbnail": "Irina.png",
+      "winner": false
+    },
+    {
+      "name": "Bird555",
+      "entryURL": "https://scrimba.com/scrim/co6f34afd99792d19632ff9ef",
+      "thumbnail": "Bird555.png",
+      "winner": false
+    },
+    {
+      "name": "David_Palmer",
+      "entryURL": "https://scrimba.com/scrim/coa994fcb94b32037ca5b2cb5",
+      "thumbnail": "David_Palmer.png",
+      "winner": false
+    },
+    {
+      "name": "Karan (open in FF or Safari)",
+      "entryURL": "https://woofstagram.netlify.app",
+      "thumbnail": "Karan.png",
+      "winner": false
+    },
+    {
+      "name": "Ambreen",
+      "entryURL": "https://scrimba.com/scrim/co744496ba6e9e5f68f847d06",
+      "thumbnail": "Ambreen.png",
+      "winner": false
+    },
+    {
+      "name": "Irena",
+      "entryURL": "https://scrimba.com/scrim/cobc34dad86bc211175f33a6f",
+      "thumbnail": "Irena.png",
+      "winner": false
     }
+    
   ],
   "accessibility": [
     {
