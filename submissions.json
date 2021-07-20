@@ -1,6 +1,29 @@
 {
   "energy_meter": [
-
+    {
+      "name": "Ania",
+      "entryURL": "https://scrimba.com/scrim/coc59475ba27e261c28fdac07",
+      "thumbnail": "Ania.png",
+      "winner": false
+    },
+    {
+      "name": "GraceFoxDragon",
+      "entryURL": "https://scrimba.com/scrim/co573475eb2112f8ab1546ae6",
+      "thumbnail": "GraceFoxDragon.png",
+      "winner": false
+    },
+    {
+      "name": "Renata",
+      "entryURL": "https://scrimba.com/scrim/cKrR29T8",
+      "thumbnail": "Renata.png",
+      "winner": false
+    },
+    {
+      "name": "ms",
+      "entryURL": "https://scrimba.com/scrim/cof884cdaa76e260440b3fc5a",
+      "thumbnail": "ms.png",
+      "winner": false
+    }
   ],
   "cat_basket": [
     {
