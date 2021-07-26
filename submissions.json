@@ -59,7 +59,43 @@
       "entryURL": "https://scrimba.com/scrim/co46c4ca2926b414f9ab1e7c3",
       "thumbnail": "dominic_myers.png",
       "winner": false
-    }
+    },
+    {
+      "name": "Alana",
+      "entryURL": "https://alanacapcreates-wwdc-energymeter071921.netlify.app/",
+      "thumbnail": "Alana.png",
+      "winner": false
+    },
+    {
+      "name": "Lucky Victory",
+      "entryURL": "https://lucky-victory.github.io/Scrimba_Challenge/energy-meter/",
+      "thumbnail": "Lucky_victory.png",
+      "winner": false
+    },
+    {
+      "name": "KoPyi",
+      "entryURL": "https://scrimba.com/scrim/cvQMVKhb",
+      "thumbnail": "KoPyi.png",
+      "winner": false
+    },
+    {
+      "name": "Miranda",
+      "entryURL": "https://scrimba.com/scrim/co9a248bbafa276364593b86c",
+      "thumbnail": "Miranda.png",
+      "winner": false
+    },
+    {
+      "name": "Ambreen",
+      "entryURL": "https://thetechjournal.github.io/challenge-energy-meter/#",
+      "thumbnail": "Ambreen.png",
+      "winner": false
+    },
+    {
+      "name": "Karan Pandit",
+      "entryURL": "https://babayaga110.github.io/weeklychallenge_meter/",
+      "thumbnail": "K_pandit.png",
+      "winner": false
+    }  
   ],
   "cat_basket": [
     {
