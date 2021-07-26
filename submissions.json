@@ -142,7 +142,7 @@
       "name": "Bird555",
       "entryURL": "https://scrimba.com/scrim/cobde4e8f8b76548b150f46cf",
       "thumbnail": "Bird555.png",
-      "winner": false
+      "winner": true
     },
     {
       "name": "Ed Dikotope",
@@ -155,7 +155,19 @@
       "entryURL": "https://scrimba.com/scrim/cof64491a830014610e45723b",
       "thumbnail": "Mritunjay.png",
       "winner": false
-    }                    
+    },
+    {
+      "name": "David A Creelman",
+      "entryURL": "https://scrimba.com/scrim/cB8nJ3Uz",
+      "thumbnail": "DavidA.png",
+      "winner": false
+    },
+    {
+      "name": "Khaidem",
+      "entryURL": "https://scrimba.com/scrim/co37e49c59f18a4ecfe59871a",
+      "thumbnail": "Khaidem.png",
+      "winner": false
+    }                       
   ],
   "cat_basket": [
     {
