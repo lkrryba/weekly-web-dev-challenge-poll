@@ -11,5 +11,20 @@ import { renderSubmissions, getSubmissions } from "./submissions.js"
     const subs = (await getSubmissions(submissionsJson)).energy_meter
     const images = '/imgs/entries/'
 
+    // display num of subs 
+    let submissionCountDisplay = document.getElementById("submission-count-display")
+    let submissionCount = Object.keys(subs).length
+    console.log(submissionCount)
+    submissionCountDisplay.textContent = "Submissions so far: " + submissionCount
+
+
     renderSubmissions(subs, images)
 })()
+
+// function showSubsNum(){
+//     let submissionCountDisplay = document.getElementById("submission-count-display")
+//     let submissionCount = 
+//     submissionCountDisplay.textContent = "submissions so far: " + "3"
+// }
+
+// showSubsNum()
