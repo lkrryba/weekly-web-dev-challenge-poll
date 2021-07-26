@@ -18,10 +18,7 @@ export function renderSubmissions(submissions, imagePath) {
 
         // Then, inside the anchor tag, the thumbnail and name.
         const img = document.createElement('img')
-        // img.src = `${imagePath}${submission.thumbnail}`
         img.src = `${imagePath}${submission.thumbnail}`
-
-        // img.src = "/prev_challenges/accessibility/a_imgs/Alana.png"
 
         img.classList.add('submission-img')
         link.appendChild(img)
