@@ -1,4 +1,18 @@
 {
+  "latest_challenge": [
+    {
+      "name": "Dibas",
+      "entryURL": "https://scrimba.com/scrim/cp9kwBSQ",
+      "thumbnail": "Dibas.png",
+      "winner": false
+    },
+    {
+      "name": "Rohina",
+      "entryURL": "https://scrimba.com/scrim/co4f64b0c8681e4c4a47712cf",
+      "thumbnail": "Rohina.png",
+      "winner": false
+    }
+  ],
   "energy_meter": [
     {
       "name": "Ania",

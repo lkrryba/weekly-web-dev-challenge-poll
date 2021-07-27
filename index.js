@@ -9,7 +9,7 @@ import { displaySubmissionCount } from "/displaySubmissionCount.js"
     const submissionsJson = "./submissions.json"
     const images = '/imgs/entries/'
     
-    const subs = (await getSubmissions(submissionsJson)).energy_meter
+    const subs = (await getSubmissions(submissionsJson)).latest_challenge
     // display num of subs 
     // let submissionCountDisplay = document.getElementById("submission-count-display")
     // let submissionCount = Object.keys(subs).length
