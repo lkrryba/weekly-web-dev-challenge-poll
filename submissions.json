@@ -119,6 +119,18 @@
       "entryURL": "https://scrimba.com/scrim/c7GndwS4",
       "thumbnail": "3drockdata.png",
       "winner": false
+    },
+    {
+      "name": "Ifo",
+      "entryURL": "https://scrimba.com/scrim/co06e4fe1a3a09c23fd275354",
+      "thumbnail": "Ifo.png",
+      "winner": false
+    },
+    {
+      "name": "Mike",
+      "entryURL": "https://scrimba.com/scrim/cgVPDMhm",
+      "thumbnail": "Mike.png",
+      "winner": false
     }
   ],
   "energy_meter": [
