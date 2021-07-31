@@ -131,6 +131,18 @@
       "entryURL": "https://scrimba.com/scrim/cgVPDMhm",
       "thumbnail": "Mike.png",
       "winner": false
+    },
+    {
+      "name": "Alana",
+      "entryURL": "https://alanacapcreates-wwdc-namebeautifier072521.netlify.app/",
+      "thumbnail": "Alana.png",
+      "winner": false
+    },
+    {
+      "name": "Ed Dikotope",
+      "entryURL": "https://scrimba.com/scrim/co7ef4c73ae64869dc973054c",
+      "thumbnail": "Ed.png",
+      "winner": false
     }
   ],
   "energy_meter": [
