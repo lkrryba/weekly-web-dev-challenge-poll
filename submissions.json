@@ -251,7 +251,14 @@
       "entryURL": "https://pulmunen.github.io/scrimba-challenge-name-beautifier/",
       "thumbnail": "Pulmunen.png",
       "winner": false
+    },
+    {
+      "name": "Pakki Pavan",
+      "entryURL": "https://scrimba-beautify-name.netlify.app/",
+      "thumbnail": "P_Pavan.png",
+      "winner": false
     }
+
   ],
   "energy_meter": [
     {
