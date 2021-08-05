@@ -233,6 +233,24 @@
       "entryURL": "https://scrimba.com/scrim/co2d94358814f4c8f32155d43",
       "thumbnail": "Aaron.png",
       "winner": false
+    },
+    {
+      "name": "Patrick",
+      "entryURL": "https://scrimba.com/scrim/ckGq3NHv",
+      "thumbnail": "Patrick.png",
+      "winner": false
+    },
+    {
+      "name": "Arigatito",
+      "entryURL": "https://scrimba.com/scrim/c87DVMtK",
+      "thumbnail": "Arigatito.png",
+      "winner": false
+    },
+    {
+      "name": "Pulmunen",
+      "entryURL": "https://pulmunen.github.io/scrimba-challenge-name-beautifier/",
+      "thumbnail": "Pulmunen.png",
+      "winner": false
     }
   ],
   "energy_meter": [
