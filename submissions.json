@@ -221,6 +221,18 @@
       "entryURL": "https://scrimba.com/scrim/co52f4046976a7758b23e1339",
       "thumbnail": "Dave.png",
       "winner": false
+    },
+    {
+      "name": "DevBajwa",
+      "entryURL": "https://scrimba.com/scrim/cRgeQqcg",
+      "thumbnail": "DevBajwa.png",
+      "winner": false
+    },
+    {
+      "name": "Aaron",
+      "entryURL": "https://scrimba.com/scrim/co2d94358814f4c8f32155d43",
+      "thumbnail": "Aaron.png",
+      "winner": false
     }
   ],
   "energy_meter": [
