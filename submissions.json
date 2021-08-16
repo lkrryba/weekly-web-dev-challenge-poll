@@ -1,5 +1,131 @@
 {
   "latest_challenge": [
+    {
+      "name": "Thanh",
+      "entryURL": "https://scrimba.com/scrim/co46e4461b4266943dd6f6997?a=8081.0.2.L42_44",
+      "thumbnail": "Thanh.png",
+      "winner": false
+    },
+    {
+      "name": "Learning Out Loud",
+      "entryURL": "https://scrimba.com/scrim/cp9WELha",
+      "thumbnail": "Learning_out_load.png",
+      "winner": false
+    },
+    {
+      "name": "Oshka",
+      "entryURL": "https://scrimba.com/scrim/co6474a9cbfaf274ecf59f040",
+      "thumbnail": "Oshka.png",
+      "winner": false
+    },
+    {
+      "name": "Oshka2",
+      "entryURL": "https://scrimba.com/scrim/coe834bc59f46790b80729ada",
+      "thumbnail": "Oshka2.png",
+      "winner": false
+    },
+    {
+      "name": "Dave",
+      "entryURL": "https://scrimba.com/scrim/cocde4c68827221b535220658",
+      "thumbnail": "Dave.png",
+      "winner": false
+    },
+    {
+      "name": "Sebastian",
+      "entryURL": "https://scrimba.com/scrim/co057414a8b5399bf8292a782",
+      "thumbnail": "Sebastian.png",
+      "winner": false
+    },
+    {
+      "name": "Dibas",
+      "entryURL": "https://scrimba.com/scrim/cocc145e8b9a76ec4bc07fc92",
+      "thumbnail": "Dibas.png",
+      "winner": false
+    },
+    {
+      "name": "Michael Alim",
+      "entryURL": "https://scrimba.com/scrim/co1cf40b39c93291bc6f501d2?a=54193.0.3.L86_6",
+      "thumbnail": "Michael_Alim.png",
+      "winner": false
+    },
+    {
+      "name": "Varun",
+      "entryURL": "https://scrimba.com/scrim/coe2749a5be7a3812259758aa",
+      "thumbnail": "Varun.png",
+      "winner": false
+    },
+    {
+      "name": "Yana",
+      "entryURL": "https://scrimba.com/scrim/cWWe9Qf8",
+      "thumbnail": "Yana.png",
+      "winner": false
+    },
+    {
+      "name": "Lucas",
+      "entryURL": "https://scrimba.com/scrim/cwQZpNhr",
+      "thumbnail": "Lucas.png",
+      "winner": false
+    },
+    {
+      "name": "Hugo",
+      "entryURL": "https://scrimba.com/scrim/cod3543bc8e7f1fbd9636d782",
+      "thumbnail": "Hugo.png",
+      "winner": false
+    },
+    {
+      "name": "Balve",
+      "entryURL": "https://scrimba.com/scrim/coaa943dca438946243b880d3",
+      "thumbnail": "Balve.png",
+      "winner": false
+    },
+    {
+      "name": "Fiona",
+      "entryURL": "https://scrimba.com/scrim/co5374975a87149e6de95d698",
+      "thumbnail": "Fiona.png",
+      "winner": false
+    },
+    {
+      "name": "Benjamin",
+      "entryURL": "https://scrimba.com/scrim/cof2e486a9cc5121f7c4d42e7",
+      "thumbnail": "Benjamin.png",
+      "winner": false
+    },
+    {
+      "name": "Lucky Victory",
+      "entryURL": "https://lucky-victory.github.io/Scrimba_Challenge/loader/",
+      "thumbnail": "Lucky.png",
+      "winner": false
+    },
+    {
+      "name": "Jaymie",
+      "entryURL": "https://scrimba.com/scrim/coc74435fa4300b7d6b9e9642",
+      "thumbnail": "Jaymie.png",
+      "winner": false
+    },
+    {
+      "name": "wisdomjuice",
+      "entryURL": "https://scrimba.com/scrim/co55b4a89bf4d2a08dd46a82c",
+      "thumbnail": "wisdomjuice.png",
+      "winner": false
+    },
+    {
+      "name": "Ruben Carlsen",
+      "entryURL": "https://scrimba.com/scrim/cocda47719c7e43440854c75f",
+      "thumbnail": "Ruben_Carlsen.png",
+      "winner": false
+    },
+    {
+      "name": "Jason",
+      "entryURL": "https://scrimba.com/scrim/cp9enbT9",
+      "thumbnail": "Jason.png",
+      "winner": false
+    },
+    {
+      "name": "Mdias",
+      "entryURL": "https://scrimba.com/scrim/cdQMvzsM",
+      "thumbnail": "Mdias.png",
+      "winner": false
+    }
     
   ],
   "name_beautifier": [
