@@ -137,8 +137,13 @@
       "entryURL": "https://scrimba.com/scrim/co6b04d5fac84d0a001f5225e",
       "thumbnail": "Virgil.png",
       "winner": false
-    }
-    
+    },
+    {
+      "name": "Gibin Ninan",
+      "entryURL": "https://scrimba.com/scrim/coc0d419287e7b8b59c855a95",
+      "thumbnail": "Gibin.png",
+      "winner": false
+    }    
   ],
   "name_beautifier": [
     {
