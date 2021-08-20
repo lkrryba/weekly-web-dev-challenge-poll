@@ -143,7 +143,13 @@
       "entryURL": "https://scrimba.com/scrim/coc0d419287e7b8b59c855a95",
       "thumbnail": "Gibin.png",
       "winner": false
-    }    
+    },
+    {
+      "name": "Carl",
+      "entryURL": "https://scrimba.com/scrim/cKrWzVcq",
+      "thumbnail": "Carl.png",
+      "winner": false
+    }       
   ],
   "name_beautifier": [
     {
