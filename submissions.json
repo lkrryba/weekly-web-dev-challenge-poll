@@ -149,7 +149,25 @@
       "entryURL": "https://scrimba.com/scrim/cKrWzVcq",
       "thumbnail": "Carl.png",
       "winner": false
-    }       
+    },
+    {
+      "name": "Ged",
+      "entryURL": "https://scrimba.com/scrim/cob78489387dfeb7f1a18d786",
+      "thumbnail": "Ged.png",
+      "winner": false
+    },
+    {
+      "name": "Pulmunen",
+      "entryURL": "https://pulmunen.github.io/scrimba-challenge-loader/",
+      "thumbnail": "Pulmunen.png",
+      "winner": false
+    },
+    {
+      "name": "Leane & Michael 🤡",
+      "entryURL": "https://scrimba.com/scrim/coc844a349fdfefbaea26ee01",
+      "thumbnail": "LM.png",
+      "winner": false
+    }              
   ],
   "name_beautifier": [
     {
