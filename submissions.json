@@ -209,7 +209,31 @@
       "entryURL": "https://scrimba.com/scrim/cn3NEpTr",
       "thumbnail": "Sriyans.png",
       "winner": false
-    }                         
+    },
+    {
+      "name": "Elayache",
+      "entryURL": "https://scrimba.com/scrim/c9aDGWc3",
+      "thumbnail": "Elayache.png",
+      "winner": false
+    },
+    {
+      "name": "Mamen",
+      "entryURL": "https://scrimba.com/scrim/co26d47679a5ebabeae292e39",
+      "thumbnail": "Mamen.png",
+      "winner": false
+    },
+    {
+      "name": "Miruthula",
+      "entryURL": "https://scrimba.com/scrim/co7ea43fb8e0e266fc47342e2",
+      "thumbnail": "Miruthula.png",
+      "winner": false
+    },
+    {
+      "name": "Priscilla",
+      "entryURL": "https://scrimba.com/scrim/coa1d4444a336065749fea77e",
+      "thumbnail": "Priscilla.png",
+      "winner": false
+    }                                               
   ],
   "name_beautifier": [
     {
