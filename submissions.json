@@ -167,7 +167,43 @@
       "entryURL": "https://scrimba.com/scrim/coc844a349fdfefbaea26ee01",
       "thumbnail": "LM.png",
       "winner": false
-    }              
+    },
+    {
+      "name": "Ambreen",
+      "entryURL": "https://scrimba.com/scrim/co4524bed80ea4a29347eb987",
+      "thumbnail": "Ambreen.png",
+      "winner": false
+    },
+    {
+      "name": "Neon",
+      "entryURL": "https://optimistic-cray-d30abb.netlify.app/",
+      "thumbnail": "Neon.png",
+      "winner": false
+    },
+    {
+      "name": "WillForCoding",
+      "entryURL": "https://scrimba.com/scrim/co1414d44bb2ade1b1e6f5813",
+      "thumbnail": "WillForCoding.png",
+      "winner": false
+    },
+    {
+      "name": "Radu",
+      "entryURL": "https://scrimba.com/scrim/cob0a428cb2222030cb67ce5b",
+      "thumbnail": "Radu.png",
+      "winner": false
+    },
+    {
+      "name": "Tim Rinkel",
+      "entryURL": "https://scrimba.com/scrim/co244472ba6b4d14865927afa",
+      "thumbnail": "Tim.png",
+      "winner": false
+    },
+    {
+      "name": "Tim Rinkel",
+      "entryURL": "https://scrimba.com/scrim/co1724b68afdc0e58fafaf26b",
+      "thumbnail": "Tim2.png",
+      "winner": false
+    }                       
   ],
   "name_beautifier": [
     {
