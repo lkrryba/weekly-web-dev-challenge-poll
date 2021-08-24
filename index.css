@@ -54,6 +54,11 @@ h1 {
     font-size: 1em;
 }
 
+.deadline-p {
+    /* max-width: 40ch; */
+    text-align: center;
+}
+
 a {
     text-decoration: none;
 }

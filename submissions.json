@@ -1,6 +1,63 @@
 {
   "latest_challenge": [
     {
+      "name": "Cytrynko",
+      "entryURL": "https://scrimba.com/scrim/co9ce4f578ac851f59cd4f6db",
+      "thumbnail": "Cytrynko.png",
+      "winner": false
+    },
+    {
+      "name": "BongBong",
+      "entryURL": "https://scrimba.com/scrim/cob0b411d840199e23b68bd83",
+      "thumbnail": "BongBong.png",
+      "winner": false
+    },
+    {
+      "name": "Axel",
+      "entryURL": "https://scrimba.com/scrim/co5214021831ac1d9c9edf179",
+      "thumbnail": "Axel.png",
+      "winner": false
+    },
+    {
+      "name": "Joshua",
+      "entryURL": "https://scrimba.com/scrim/cobc843668d9041b473f89660",
+      "thumbnail": "Joshua.png",
+      "winner": false
+    },
+    {
+      "name": "Jaymie",
+      "entryURL": "https://scrimba.com/scrim/coe8444cb9e06ee30746bb319",
+      "thumbnail": "jaymie.png",
+      "winner": false
+    },
+    {
+      "name": "BlizZard",
+      "entryURL": "https://scrimba.com/scrim/co85045cb810cf311fbfb4bca",
+      "thumbnail": "BlizZard.png",
+      "winner": false
+    },
+    {
+      "name": "Emin",
+      "entryURL": "https://scrimba.com/scrim/co5ea47bca06ea468afb07d7e",
+      "thumbnail": "Emin.png",
+      "winner": false
+    },
+    {
+      "name": "Mostafa",
+      "entryURL": "https://scrimba.com/scrim/coa8749f5aec124b9116055e0",
+      "thumbnail": "Mostafa.png",
+      "winner": false
+    },
+    {
+      "name": "Andrei",
+      "entryURL": "https://scrimba.com/scrim/coc89480b86538f8e8ce7927e",
+      "thumbnail": "Andrei.png",
+      "winner": false
+    }
+  ],
+
+  "loader": [
+    {
       "name": "Thanh",
       "entryURL": "https://scrimba.com/scrim/co46e4461b4266943dd6f6997?a=8081.0.2.L42_44",
       "thumbnail": "Thanh.png",
@@ -16,7 +73,7 @@
       "name": "Oshka",
       "entryURL": "https://scrimba.com/scrim/co6474a9cbfaf274ecf59f040",
       "thumbnail": "Oshka.png",
-      "winner": false
+      "winner": true
     },
     {
       "name": "Oshka2",
