@@ -95,6 +95,12 @@
       "entryURL": "https://scrimba.com/scrim/co7e24ca2bb8fc86ce99d8878",
       "thumbnail": "Gerald.png",
       "winner": false
+    },
+    {
+      "name": "Sebastian",
+      "entryURL": "https://sebastianpfliegel.github.io/scrimba-weekly-webdev-challenge/magic-8-ball/",
+      "thumbnail": "Sebastian.png",
+      "winner": false
     }
   ],
 
