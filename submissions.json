@@ -107,6 +107,18 @@
       "entryURL": "https://scrimba.com/scrim/co8d34264ab4c3bd9a088478c",
       "thumbnail": "Momin.png",
       "winner": false
+    },
+    {
+      "name": "Varun",
+      "entryURL": "https://scrimba.com/scrim/cof044857b1f004a22ed369ca",
+      "thumbnail": "Varun.png",
+      "winner": false
+    },
+    {
+      "name": "ChrisWilkinsonCodes",
+      "entryURL": "https://scrimba.com/scrim/co8cb498e9eae9bc409b69442",
+      "thumbnail": "chrisw.png",
+      "winner": false
     }
   ],
 
@@ -483,7 +495,7 @@
       "name": "Alana",
       "entryURL": "https://alanacapcreates-wwdc-namebeautifier072521.netlify.app/",
       "thumbnail": "Alana.png",
-      "winner": false
+      "winner": true
     },
     {
       "name": "Ed Dikotope",
