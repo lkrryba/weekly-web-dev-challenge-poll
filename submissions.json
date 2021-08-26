@@ -125,7 +125,44 @@
       "entryURL": "https://scrimba.com/scrim/coc644d11946e8143b4f07e78",
       "thumbnail": "Henrique.png",
       "winner": false
+    },
+    {
+      "name": "Neon",
+      "entryURL": "https://naughty-minsky-8f74bb.netlify.app/",
+      "thumbnail": "neon.png",
+      "winner": false
+    },
+    {
+      "name": "<!DOCTYPE_Pierre>",
+      "entryURL": "https://scrimba.com/scrim/cE2Bm7sK",
+      "thumbnail": "Pierre.png",
+      "winner": false
+    },
+    {
+      "name": "Parth",
+      "entryURL": "https://scrimba.com/scrim/cocad42a283c3bf1501e5903f",
+      "thumbnail": "Parth.png",
+      "winner": false
+    },
+    {
+      "name": "Aaron",
+      "entryURL": "https://scrimba.com/scrim/co8574b99bd879750d3a852d9",
+      "thumbnail": "Aaron.png",
+      "winner": false
+    },
+    {
+      "name": "Abir-ijkl",
+      "entryURL": "https://abdespro.github.io/scrimba_exercises/scrimba_challenge/magic_eight_ball/",
+      "thumbnail": "abir.png",
+      "winner": false
+    },
+    {
+      "name": "HlaChoHtut",
+      "entryURL": "https://scrimba.com/scrim/co80d4cafb3868a79ae8d8633",
+      "thumbnail": "HlaChoHtut.png",
+      "winner": false
     }
+    
   ],
 
   "loader": [
