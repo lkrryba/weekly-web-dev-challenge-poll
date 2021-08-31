@@ -215,6 +215,42 @@
       "entryURL": "https://scrimba.com/scrim/cPNrLVsg",
       "thumbnail": "Germican.png",
       "winner": false
+    },
+    {
+      "name": "Michael Alim",
+      "entryURL": "https://scrimba.com/scrim/cof144720bae0e3a6a9c64bf1",
+      "thumbnail": "MichaelA.png",
+      "winner": false
+    },
+    {
+      "name": "Dibas",
+      "entryURL": "https://scrimba.com/scrim/co493456792763c1cf7ec67a5",
+      "thumbnail": "Dibas.png",
+      "winner": false
+    },
+    {
+      "name": "Stephen",
+      "entryURL": "https://scrimba.com/scrim/cJL6L2cN",
+      "thumbnail": "Stephen.png",
+      "winner": false
+    },
+    {
+      "name": "Erik Von Schlehenried",
+      "entryURL": "http://www.erikvonschlehenried.com/scrimba/weeklychallenge/magic8ball/index.html",
+      "thumbnail": "Erik.png",
+      "winner": false
+    },
+    {
+      "name": "Estia",
+      "entryURL": "https://scrimba.com/scrim/co4bd4a9cb52dca0dd1ceb4d5",
+      "thumbnail": "Estia.png",
+      "winner": false
+    },
+    {
+      "name": "Alex",
+      "entryURL": "https://scrimba.com/scrim/cedn84TN",
+      "thumbnail": "Alex.png",
+      "winner": false
     }
     
   ],
