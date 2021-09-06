@@ -341,6 +341,18 @@
       "entryURL": "https://scrimba.com/scrim/co5cc4798b84a5361773650bd",
       "thumbnail": "gnv.png",
       "winner": false
+    },
+    {
+      "name": "diySane",
+      "entryURL": "https://scrimba.com/scrim/cRMPqmhQ",
+      "thumbnail": "diySane.png",
+      "winner": false
+    },
+    {
+      "name": "Arin",
+      "entryURL": "https://codesandbox.io/s/scrimba-weekly-dev-challenge-9-03-21-magic-8-ball-89em0?file=/src/index.js",
+      "thumbnail": "Arin.png",
+      "winner": false
     }
     
   ],
