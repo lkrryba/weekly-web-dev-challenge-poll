@@ -1,5 +1,9 @@
 {
   "latest_challenge": [
+
+  ],
+  
+  "ball": [
     {
       "name": "Cytrynko",
       "entryURL": "https://scrimba.com/scrim/co9ce4f578ac851f59cd4f6db",
@@ -160,7 +164,7 @@
       "name": "HlaChoHtut",
       "entryURL": "https://scrimba.com/scrim/co80d4cafb3868a79ae8d8633",
       "thumbnail": "HlaChoHtut.png",
-      "winner": false
+      "winner": true
     },
     {
       "name": "Andres",
