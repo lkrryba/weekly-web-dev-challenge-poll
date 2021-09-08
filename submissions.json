@@ -1,6 +1,17 @@
 {
   "latest_challenge": [
-
+    {
+      "name": "Michael Alim",
+      "entryURL": "https://scrimba.com/scrim/co6894be39cc40dd098845a94",
+      "thumbnail": "MichaelA.png",
+      "winner": false
+    },
+    {
+      "name": "Victor",
+      "entryURL": "https://scrimba.com/scrim/co1b840f5b2b77c0e53a9d435",
+      "thumbnail": "Victor.png",
+      "winner": false
+    }
   ],
   
   "ball": [
@@ -364,9 +375,7 @@
       "thumbnail": "Seun.png",
       "winner": false
     }
-
   ],
-
   "loader": [
     {
       "name": "Thanh",
