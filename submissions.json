@@ -29,7 +29,37 @@
       "entryURL": "https://scrimba.com/scrim/cvNzLQSP",
       "thumbnail": "Elayache.png",
       "winner": false
-    }
+    },
+    {
+      "name": "Debbie",
+      "entryURL": "https://scrimba.com/scrim/coaaf48d1a9b63c66f6bf4361",
+      "thumbnail": "Debbie.png",
+      "winner": false
+    },
+    {
+      "name": "thymadonakh",
+      "entryURL": "https://scrimba.com/scrim/cbVWJJsb",
+      "thumbnail": "thymadonakh.png",
+      "winner": false
+    },
+    {
+      "name": "Andrei",
+      "entryURL": "https://scrimba.com/scrim/co2f94b28aacc6e74052572dc",
+      "thumbnail": "Andrei.png",
+      "winner": false
+    },
+    {
+      "name": "Ro",
+      "entryURL": "https://scrimba.com/scrim/co36141b58a38a42890210675?a=0.0.3.L1",
+      "thumbnail": "Ro.png",
+      "winner": false
+    },
+    {
+      "name": "Mansisa",
+      "entryURL": "https://scrimba.com/scrim/co8884f9e9e9083ced374679e",
+      "thumbnail": "Mansisa.png",
+      "winner": false
+    }  
   ],
   
   "ball": [
