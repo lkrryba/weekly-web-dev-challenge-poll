@@ -59,7 +59,25 @@
       "entryURL": "https://scrimba.com/scrim/co8884f9e9e9083ced374679e",
       "thumbnail": "Mansisa.png",
       "winner": false
-    }  
+    },
+    {
+      "name": "LordMethi",
+      "entryURL": "https://scrimba.com/scrim/cocc94918bd531fa90ef77c56",
+      "thumbnail": "LordMethi.png",
+      "winner": false
+    },
+    {
+      "name": "Benjamin",
+      "entryURL": "https://scrimba.com/scrim/co3ca4097a40484df6c82877c",
+      "thumbnail": "Benjamin.png",
+      "winner": false
+    },
+    {
+      "name": "Aaron",
+      "entryURL": "https://scrimba.com/scrim/cob1e46f58dfd2da62866d8e1",
+      "thumbnail": "Aaron.png",
+      "winner": false
+    }    
   ],
   
   "ball": [
