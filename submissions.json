@@ -77,7 +77,13 @@
       "entryURL": "https://scrimba.com/scrim/cob1e46f58dfd2da62866d8e1",
       "thumbnail": "Aaron.png",
       "winner": false
-    }    
+    },
+    {
+      "name": "Ripleyx",
+      "entryURL": "https://scrimba.com/scrim/co2f8417082cef68b4cb7bae5",
+      "thumbnail": "Ripleyx.png",
+      "winner": false
+    }       
   ],
   
   "ball": [
