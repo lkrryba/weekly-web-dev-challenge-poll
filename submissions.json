@@ -101,7 +101,13 @@
       "entryURL": "https://scrimba.com/scrim/co93e470fae9a94c79da701c9",
       "thumbnail": "Erik.png",
       "winner": false
-    }          
+    },
+    {
+      "name": "Luffy",
+      "entryURL": "https://parthdoongarwal.github.io/pomodoroClock.github.io/",
+      "thumbnail": "Luffy.png",
+      "winner": false
+    }           
   ],
   
   "ball": [
