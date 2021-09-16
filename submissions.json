@@ -119,7 +119,13 @@
       "entryURL": "https://scrimba.com/scrim/cKQKKLfL",
       "thumbnail": "Stephen.png",
       "winner": false
-    }           
+    },
+    {
+      "name": "Abdelrahman",
+      "entryURL": "https://tempodoro.netlify.app/",
+      "thumbnail": "Abdelrahman.png",
+      "winner": false
+    }              
   ],
   
   "ball": [
