@@ -143,7 +143,19 @@
       "entryURL": " https://scrimba.com/scrim/cZgPJRfG",
       "thumbnail": "SnowBit.png",
       "winner": false
-    }                       
+    },
+    {
+      "name": "Peter",
+      "entryURL": "https://scrimba.com/scrim/co79e4338bbc4243c624ec972",
+      "thumbnail": "Peter.png",
+      "winner": false
+    },
+    {
+      "name": "Esa",
+      "entryURL": "https://scrimba.com/scrim/cod73476488730ddb4ae2052c",
+      "thumbnail": "Esa.png",
+      "winner": false
+    }                                
   ],
   
   "ball": [
