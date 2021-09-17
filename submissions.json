@@ -125,7 +125,25 @@
       "entryURL": "https://tempodoro.netlify.app/",
       "thumbnail": "Abdelrahman.png",
       "winner": false
-    }              
+    },
+     {
+      "name": "Clickers331",
+      "entryURL": "https://clickers331.github.io/MinimalistPomodoro/",
+      "thumbnail": "Clickers331.png",
+      "winner": false
+    },
+    {
+      "name": "Laurencet",
+      "entryURL": "https://scrimba.com/scrim/cob4d4e33b5a26f8e3ef62749",
+      "thumbnail": "Laurencet.png",
+      "winner": false
+    },
+    {
+      "name": "SnowBit",
+      "entryURL": " https://scrimba.com/scrim/cZgPJRfG",
+      "thumbnail": "SnowBit.png",
+      "winner": false
+    }                       
   ],
   
   "ball": [
