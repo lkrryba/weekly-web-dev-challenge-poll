@@ -155,7 +155,19 @@
       "entryURL": "https://scrimba.com/scrim/cod73476488730ddb4ae2052c",
       "thumbnail": "Esa.png",
       "winner": false
-    }                                
+    },
+    {
+      "name": "Farrah",
+      "entryURL": "https://scrimba.com/scrim/c2gKv3fB",
+      "thumbnail": "Farrah.png",
+      "winner": false
+    },
+    {
+      "name": "Leanne & Michael 🤡",
+      "entryURL": "https://scrimba.com/scrim/co7b7405ca0a8292bdfe593d1",
+      "thumbnail": "ML.png",
+      "winner": false
+    }                                     
   ],
   
   "ball": [
