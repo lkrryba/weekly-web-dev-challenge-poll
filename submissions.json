@@ -167,7 +167,13 @@
       "entryURL": "https://scrimba.com/scrim/co7b7405ca0a8292bdfe593d1",
       "thumbnail": "ML.png",
       "winner": false
-    }                                     
+    },
+    {
+      "name": "Dave",
+      "entryURL": "https://scrimba.com/scrim/coa4b4ba8932a5841175b170a",
+      "thumbnail": "Dave.png",
+      "winner": false
+    }                                        
   ],
   
   "ball": [
