@@ -245,7 +245,13 @@
       "entryURL": "https://willforcoding.github.io/wwdc-pomodoro/",
       "thumbnail": "will.png",
       "winner": false
-    }                                                                       
+    },
+    {
+      "name": "Tim Rinkel",
+      "entryURL": "https://scrimba.com/scrim/coc1a4ef08df59f86d748470d",
+      "thumbnail": "timR.png",
+      "winner": false
+    }                                                                        
   ],
   
   "ball": [
