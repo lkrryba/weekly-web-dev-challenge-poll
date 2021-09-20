@@ -140,7 +140,7 @@
     },
     {
       "name": "SnowBit",
-      "entryURL": " https://scrimba.com/scrim/cZgPJRfG",
+      "entryURL": "https://snowbit-coderboi.github.io/Pomodoro-Timer/",
       "thumbnail": "SnowBit.png",
       "winner": false
     },
@@ -173,7 +173,79 @@
       "entryURL": "https://scrimba.com/scrim/coa4b4ba8932a5841175b170a",
       "thumbnail": "Dave.png",
       "winner": false
-    }                                        
+    },
+    {
+      "name": "Rafael",
+      "entryURL": "https://scrimba.com/scrim/co4244db9858fb84d09c368b4",
+      "thumbnail": "Rafael.png",
+      "winner": false
+    },
+    {
+      "name": "Eric B",
+      "entryURL": "https://scrimba.com/scrim/c2gKdrAw",
+      "thumbnail": "Eric.png",
+      "winner": false
+    },
+    {
+      "name": "Miri52",
+      "entryURL": "https://scrimba.com/scrim/co42a4d23b609fdf586a13d75",
+      "thumbnail": "Miri52.png",
+      "winner": false
+    },
+    {
+      "name": "Yassin",
+      "entryURL": "https://callmepomodoro.herokuapp.com/",
+      "thumbnail": "Yassin.png",
+      "winner": false
+    },
+    {
+      "name": "Karan Pandit",
+      "entryURL": "https://babayaga110.github.io/Pomodoro/",
+      "thumbnail": "Karan.png",
+      "winner": false
+    },
+    {
+      "name": "Rachel",
+      "entryURL": "https://scrimba.com/scrim/cWbnd3cJ",
+      "thumbnail": "Rachel.png",
+      "winner": false
+    },
+    {
+      "name": "Luiz",
+      "entryURL": "https://scrimba.com/scrim/cw6dGVh9",
+      "thumbnail": "Luiz.png",
+      "winner": false
+    },
+    {
+      "name": "Alana",
+      "entryURL": "https://alanacapcreates-wwdc-pomodorotimer0921.netlify.app/",
+      "thumbnail": "Alana.png",
+      "winner": false
+    },
+    {
+      "name": "Ambreen",
+      "entryURL": "https://thetechjournal.github.io/challenge-pomodoro/",
+      "thumbnail": "Ambreen.png",
+      "winner": false
+    },
+    {
+      "name": "Fabio",
+      "entryURL": "https://scrimba.com/scrim/codb440dd92607ecaba2feb59",
+      "thumbnail": "Fabio.png",
+      "winner": false
+    },
+    {
+      "name": "GB",
+      "entryURL": "https://scrimba.com/scrim/coe984ab784c770f760122757",
+      "thumbnail": "GB.png",
+      "winner": false
+    },
+    {
+      "name": "WillForCoding",
+      "entryURL": "https://willforcoding.github.io/wwdc-pomodoro/",
+      "thumbnail": "will.png",
+      "winner": false
+    }                                                                       
   ],
   
   "ball": [
