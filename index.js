@@ -18,4 +18,3 @@ import { displaySubmissionCount } from "/displaySubmissionCount.js"
 
     renderSubmissions(subs, images)
 })()
-
