@@ -1,5 +1,52 @@
 {"latest_challenge" : [
-  
+  {
+    "name": "Ripleyx",
+    "entryURL": "https://scrimba.com/scrim/co81245c5b8fd668d64391f0a",
+    "thumbnail": "Ripleyx.png",
+    "winner": false
+  },
+  {
+    "name": "Mansi",
+    "entryURL": "https://scrimba.com/scrim/co4fe440a95e4dd7a788c4fc0",
+    "thumbnail": "Mansi.png",
+    "winner": false
+  },
+  {
+    "name": "Uma",
+    "entryURL": "https://scrimba.com/scrim/cyew3ytd",
+    "thumbnail": "Uma.png",
+    "winner": false
+  },
+  {
+    "name": "Eric B",
+    "entryURL": "https://scrimba.com/scrim/cnG4WMtJ",
+    "thumbnail": "Eric.png",
+    "winner": false
+  },
+  {
+    "name": "Benjamin",
+    "entryURL": "https://scrimba.com/scrim/co9fc4dc7a3e371522e6d2835",
+    "thumbnail": "Benjamin.png",
+    "winner": false
+  },
+  {
+    "name": "Yashvardhan",
+    "entryURL": "https://scrimba.com/scrim/c4Zrz8sR",
+    "thumbnail": "Yashvardhan.png",
+    "winner": false
+  },
+  {
+    "name": "Dave",
+    "entryURL": "https://scrimba.com/scrim/co78348288884364389aa5b74",
+    "thumbnail": "Dave.png",
+    "winner": false
+  },
+  {
+    "name": "Emerson",
+    "entryURL": "https://scrimba.com/scrim/cBq3EyHJ",
+    "thumbnail": "Emerson.png",
+    "winner": false
+  }
 ],
   "timer": [
     {
@@ -255,7 +302,6 @@
       "winner": false
     }                                                                        
   ],
-  
   "ball": [
     {
       "name": "Cytrynko",
