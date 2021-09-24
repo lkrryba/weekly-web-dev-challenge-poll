@@ -52,6 +52,18 @@
     "entryURL": "https://scrimba.com/scrim/cocec46cda25b375aa8d6b110",
     "thumbnail": "Itzikb.png",
     "winner": false
+  },
+  {
+    "name": "Mike Robards",
+    "entryURL": "https://scrimba.com/scrim/co64944b581e5fc1a7f29ca5b",
+    "thumbnail": "MikeR.png",
+    "winner": false
+  },
+  {
+    "name": "Aaron",
+    "entryURL": "https://scrimba.com/scrim/co98849649686d582239b3203",
+    "thumbnail": "Aaron.png",
+    "winner": false
   }
 ],
   "timer": [
