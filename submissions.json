@@ -82,6 +82,42 @@
     "entryURL": "https://scrimba.com/scrim/co8ac4c248eaa1e9c3ce9115b",
     "thumbnail": "Bernard.png",
     "winner": false
+  },
+  {
+    "name": "Rachel",
+    "entryURL": "https://scrimba.com/scrim/co7f24dcc89ea7f30907396d9",
+    "thumbnail": "Rachel.png",
+    "winner": false
+  },
+  {
+    "name": "Paulina",
+    "entryURL": "https://scrimba.com/scrim/cKQrKmSL",
+    "thumbnail": "Paulina.png",
+    "winner": false
+  },
+  {
+    "name": "MathArt",
+    "entryURL": "https://scrimba.com/scrim/cE6Zn7fw",
+    "thumbnail": "MathArt.png",
+    "winner": false
+  },
+  {
+    "name": "Lealem",
+    "entryURL": "https://scrimba.com/scrim/cN9yN3UB",
+    "thumbnail": "Lealem.png",
+    "winner": false
+  },
+  {
+    "name": "Miri52",
+    "entryURL": "https://scrimba.com/scrim/coae346fbbc5accb41d7872e0",
+    "thumbnail": "Miri52.png",
+    "winner": false
+  },
+  {
+    "name": "Peter",
+    "entryURL": "https://scrimba.com/scrim/cobe845a9bebb79aeb032d4c0",
+    "thumbnail": "Peter.png",
+    "winner": false
   }
 ],
   "timer": [
