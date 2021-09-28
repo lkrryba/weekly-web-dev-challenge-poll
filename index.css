@@ -218,7 +218,7 @@ tablet+ styles
     footer {
         flex-direction: row;
         justify-content: space-between;
-        padding: 0 2rem;
+        padding: 0 4rem;
     }
     .footer-logo {
         width: 150px;
