@@ -187,6 +187,7 @@ footer p {
     color: black;
     font-size: 1rem;
     font-weight: 600;
+    margin-bottom: .25rem;
 }
 
 footer a {
@@ -201,7 +202,7 @@ footer a:hover {
 
 .footer-logo {
     width: 100px;
-    padding-bottom: 1rem;
+    padding-bottom: .25rem;
 }
 
 .footer-col-one, .footer-col-two, .footer-col-three {
@@ -222,7 +223,7 @@ tablet+ styles
     }
     .footer-logo {
         width: 150px;
-        padding: 1rem 0;
+        padding: 1rem 0 .5rem 0;
     }
     .footer-col-one {
         width: 30%;
@@ -232,6 +233,7 @@ tablet+ styles
     }
     footer p {
         font-size: 1.25rem;
+        margin-bottom: .5rem;
     }
     footer a {
         padding-top: 1.25rem;
