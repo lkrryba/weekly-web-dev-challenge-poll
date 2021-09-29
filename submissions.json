@@ -118,6 +118,24 @@
     "entryURL": "https://scrimba.com/scrim/cobe845a9bebb79aeb032d4c0",
     "thumbnail": "Peter.png",
     "winner": false
+  },
+  {
+    "name": "Ronald from the Hague",
+    "entryURL": "https://scrimba.com/scrim/co2f04701bf20a20e7106a4af",
+    "thumbnail": "Ronald.png",
+    "winner": false
+  },
+  {
+    "name": "Dhiraj",
+    "entryURL": "https://scrimba.com/scrim/cRMgR2sV",
+    "thumbnail": "Dhiraj.png",
+    "winner": false
+  },
+  {
+    "name": "Vasyl",
+    "entryURL": "https://scrimba.com/scrim/cQgGJdHM",
+    "thumbnail": "Vasyl.png",
+    "winner": false
   }
 ],
   "timer": [
