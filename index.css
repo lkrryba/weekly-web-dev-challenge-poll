@@ -237,6 +237,7 @@ tablet+ styles
     }
     footer a {
         padding-top: 1.25rem;
+        padding-left: 0;
     }
 
 }
