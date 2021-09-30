@@ -189,10 +189,10 @@ desktop styles
 @media only screen and (min-width: 970px) {
     .logo {
         margin: 0 auto;
-        width: 400px;
+        width: 150px;
     }
     h1 {
-        font-size: 1.5em;
+        font-size: 2.25em;
         margin-bottom: 0.5em;
     }
     .page-container {
