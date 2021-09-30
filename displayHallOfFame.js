@@ -11,17 +11,30 @@ getData(jsonPath)
 
 function check(data, names) {
     names.forEach(item => {
-        for (const entry of Object.entries(data[item])) { // iterate over entries for each past challenge
-            if (entry[1].winner) { // find entries where winner = true
-                console.log(item, entry[1]);
-                const challengeName = item;
+        // iterate over entries for each past challenge
+        for (const entry of Object.entries(data[item])) {
+            // find entries where winner = true
+            if (entry[1].winner) {
+                const challengeNameString = item;
+                // remove underscore + capitalise first letter
+                let challengeName = challengeNameString.replace('_', ' ').split(' ')
+                for (let i = 0; i < challengeName.length; i++) {
+                    challengeName[i] = challengeName[i][0].toUpperCase() + challengeName[i].substr(1);
+                }
+                challengeName = challengeName.join(' ')
+
+                //assign ither values to gariables
                 const winnerName = entry[1].name
                 const winnerUrl = entry[1].entryURL
                 const winnerThumbnail = entry[1].thumbnail
-                const imagePath = `${imagesBasePath}${challengeName}/${challengeName}_imgs/${winnerThumbnail}`
-                
+                const imagePath = `${imagesBasePath}${challengeNameString}/${challengeNameString}_imgs/${winnerThumbnail}`
+                const challengePath = `${imagesBasePath}${challengeNameString}/${challengeNameString}.html`
+
+                // set up the div to hold the entry         
                 const hallOfFameElement = document.createElement('div')
                 hallOfFameElement.classList.add('submission')
+
+                //build the entry
                 const link = document.createElement('a')
                 link.href = winnerUrl
                 link.target = '_blank'
@@ -31,18 +44,17 @@ function check(data, names) {
                 img.src = imagePath
                 img.classList.add('submission-img')
                 link.appendChild(img)
-                const challengeH2 = document.createElement('h2')
-                challengeH2.textContent = challengeName
-                link.appendChild(challengeH2)
-                const nameParagraph = document.createElement('p')
-                nameParagraph.textContent = winnerName
+                const nameParagraph = document.createElement('h3')
+                nameParagraph.textContent = `${winnerName}'s winning entry for the ${challengeName} challenge! 🏆`
                 link.appendChild(nameParagraph)
                 const altText = document.createAttribute('alt')
                 altText.textContent = `${winnerName.name}'s submission`
                 img.setAttributeNode(altText)
 
+                // injext div into dom
                 const hallOfFameDiv = document.querySelector('#hall-of-fame')
                 hallOfFameDiv.appendChild(hallOfFameElement)
+
             }
         }
     })
