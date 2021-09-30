@@ -148,6 +148,12 @@
     "entryURL": "https://g-radiant.netlify.app/",
     "thumbnail": "Abdelrahman.png",
     "winner": false
+  },
+  {
+    "name": "Aaron K",
+    "entryURL": "https://scrimba.com/scrim/coa504967a91d814224d6e500",
+    "thumbnail": "AaronK.png",
+    "winner": false
   }
 ],
   "timer": [
