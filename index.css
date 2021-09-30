@@ -83,7 +83,7 @@ a:active {
     margin-bottom: 1.5em;
 }
 
-.submission > a:hover >  .submission-img {
+.submission > a:hover > .submission-img {
     filter: invert(75%);
 }
 
@@ -99,7 +99,6 @@ a:active {
 .submission > a {
     text-decoration: none;
 }
-
 
 /* buttons */
 
@@ -174,13 +173,21 @@ li::marker {
     font-weight: 700;
 }
 
+.placeholder {
+    background-color: grey; 
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    box-shadow: -5px 5px 0px 5px #2b283a;
+}
+
 @keyframes pulse {
     to {
         transform: scale(1.2) rotate(3deg);
     }
 }
-
-
 
 /* *************************
 desktop styles
@@ -190,6 +197,7 @@ desktop styles
     .logo {
         margin: 0 auto;
         width: 400px;
+        height: 65px;
     }
     h1 {
         font-size: 1.5em;
