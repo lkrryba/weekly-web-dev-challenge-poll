@@ -16,8 +16,8 @@ function check(data, names) {
             // find entries where winner = true
             if (entry[1].winner) {
                 const challengeNameString = item;
-                // remove underscore + capitalise first letter
-                let challengeName = challengeNameString.replace('_', ' ').split(' ')
+                // remove underscores + capitalise first letter
+                let challengeName = challengeNameString.replace(/_/g, ' ').split(' ')
                 for (let i = 0; i < challengeName.length; i++) {
                     challengeName[i] = challengeName[i][0].toUpperCase() + challengeName[i].substr(1);
                 }
