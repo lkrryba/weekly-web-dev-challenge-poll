@@ -154,6 +154,12 @@
     "entryURL": "https://scrimba.com/scrim/coa504967a91d814224d6e500",
     "thumbnail": "AaronK.png",
     "winner": false
+  },
+  {
+    "name": "Snowbit",
+    "entryURL": "https://gradient-generator-tool.vercel.app/",
+    "thumbnail": "Snowbit.png",
+    "winner": false
   }
 ],
   "timer": [
