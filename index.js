@@ -1,7 +1,7 @@
-import { renderSubmissions, getSubmissions } from "./submissions.js"
-import { displaySubmissionCount } from "/displaySubmissionCount.js"
-import {renderPreviousChallenges} from './prevChallengesList.js'
+import { renderSubmissions, getSubmissions } from "./submissions.js";
+import { displaySubmissionCount } from "/displaySubmissionCount.js";
 import { countdown } from "./challengeCountdown.js";
+// All awaits need to be wrapped into async iifes,
 // because top level await (https://v8.dev/features/top-level-await)
 // isn't supported in safari:
 // https://caniuse.com/?search=top%20level%20await
@@ -11,21 +11,18 @@ import { countdown } from "./challengeCountdown.js";
     const images = '/imgs/entries/'
     const challengeName = "latest_challenge"
     const submissionText = "Submissions so far: "
-   
-    const subs = (await getSubmissions(submissionsJson)).latest_challenge
-    // const subs = (await getSubmissions(submissionsJson))[challengeName]
-    
+
+    const subs = (await getSubmissions(submissionsJson))[challengeName]
+
+    // display num of subs
     // let submissionCountDisplay = document.getElementById("submission-count-display")
     // let submissionCount = Object.keys(subs).length
     // submissionCountDisplay.textContent = "Submissions so far: " + submissionCount
-    // displaySubmissionCount()
     displaySubmissionCount(challengeName, submissionText)
-  
-    renderSubmissions(subs, images)
-  
-    renderPreviousChallenges()
-})()
 
+
+    renderSubmissions(subs, images);
+})();
 
 //Challenge Countdown
 //Date Format -> Month day, year time/hour Timezone
