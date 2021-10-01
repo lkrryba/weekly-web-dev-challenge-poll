@@ -7,6 +7,5 @@ export async function displaySubmissionCount(challengeName, submissionText) {
     // display num of subs
     let submissionCountDisplay = document.getElementById("submission-count-display")
     let submissionCount = Object.keys(subs).length
-    submissionCountDisplay.textContent = submissionText + submissionCount
-
+    submissionCountDisplay.textContent += submissionCount
 }
