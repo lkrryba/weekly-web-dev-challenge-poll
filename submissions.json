@@ -160,6 +160,18 @@
     "entryURL": "https://gradient-generator-tool.vercel.app/",
     "thumbnail": "Snowbit.png",
     "winner": false
+  },
+  {
+    "name": "Fabio",
+    "entryURL": "https://scrimba.com/scrim/co1674a2e89b5f4cad6ddaed0?a=28.0.3.L1",
+    "thumbnail": "Fabio.png",
+    "winner": false
+  },
+  {
+    "name": "Anna",
+    "entryURL": "https://loving-austin-f43a3a.netlify.app/",
+    "thumbnail": "Anna.png",
+    "winner": false
   }
 ],
   "timer": [
