@@ -7,15 +7,19 @@ import { countdown } from "./challengeCountdown.js";
 // https://caniuse.com/?search=top%20level%20await
 
 (async () => {
-    const submissionsJson = "./submissions.json";
-    const images = "/imgs/entries/";
+    const submissionsJson = "./submissions.json"
+    const images = '/imgs/entries/'
+    const challengeName = "latest_challenge"
+    const submissionText = "Submissions so far: "
 
-    const subs = (await getSubmissions(submissionsJson)).latest_challenge;
+    const subs = (await getSubmissions(submissionsJson))[challengeName]
+
     // display num of subs
     // let submissionCountDisplay = document.getElementById("submission-count-display")
     // let submissionCount = Object.keys(subs).length
     // submissionCountDisplay.textContent = "Submissions so far: " + submissionCount
-    displaySubmissionCount();
+    displaySubmissionCount(challengeName, submissionText)
+
 
     renderSubmissions(subs, images);
 })();
