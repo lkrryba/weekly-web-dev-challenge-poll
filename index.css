@@ -11,7 +11,11 @@ body {
 body {
     font-family: 'Karla', sans-serif;
     padding: 2em;
+}
+
+.gradient {
     background-color: #c7b9ff;
+    background-image: linear-gradient(to right, #c7b9ff, 50%, #f3bf99);
 }
 
 .page-container {
