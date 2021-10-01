@@ -7,6 +7,6 @@ export async function displaySubmissionCount() {
     // display num of subs 
     let submissionCountDisplay = document.getElementById("submission-count-display")
     let submissionCount = Object.keys(subs).length
-    submissionCountDisplay.textContent = "Submissions so far: " + submissionCount
+    submissionCountDisplay.textContent += submissionCount
 
 }

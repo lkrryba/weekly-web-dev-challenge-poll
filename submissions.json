@@ -118,6 +118,48 @@
     "entryURL": "https://scrimba.com/scrim/cobe845a9bebb79aeb032d4c0",
     "thumbnail": "Peter.png",
     "winner": false
+  },
+  {
+    "name": "Ronald from the Hague",
+    "entryURL": "https://scrimba.com/scrim/co2f04701bf20a20e7106a4af",
+    "thumbnail": "Ronald.png",
+    "winner": false
+  },
+  {
+    "name": "Dhiraj",
+    "entryURL": "https://scrimba.com/scrim/cRMgR2sV",
+    "thumbnail": "Dhiraj.png",
+    "winner": false
+  },
+  {
+    "name": "Vasyl",
+    "entryURL": "https://scrimba.com/scrim/cQgGJdHM",
+    "thumbnail": "Vasyl.png",
+    "winner": false
+  },
+  {
+    "name": "Michael Alim",
+    "entryURL": "https://scrimba.com/scrim/cob0244dca9c16f0d8629d108",
+    "thumbnail": "MichaelA.png",
+    "winner": false
+  },
+  {
+    "name": "Abdelrahman",
+    "entryURL": "https://g-radiant.netlify.app/",
+    "thumbnail": "Abdelrahman.png",
+    "winner": false
+  },
+  {
+    "name": "Aaron K",
+    "entryURL": "https://scrimba.com/scrim/coa504967a91d814224d6e500",
+    "thumbnail": "AaronK.png",
+    "winner": false
+  },
+  {
+    "name": "Snowbit",
+    "entryURL": "https://gradient-generator-tool.vercel.app/",
+    "thumbnail": "Snowbit.png",
+    "winner": false
   }
 ],
   "timer": [
