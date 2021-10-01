@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
     margin: 0;
     padding: 0;
 }
@@ -11,7 +10,16 @@ body {
 body {
     font-family: 'Karla', sans-serif;
     padding: 2em;
+}
+
+.gradient {
     background-color: #c7b9ff;
+    background-image:
+    -webkit-gradient(linear, left bottom, right top, from(#c7b9ff), to(#f3bf99));
+    background-image: -webkit-linear-gradient(45deg, #c7b9ff, #f3bf99);
+    background-image: -moz-linear-gradient(45deg, #c7b9ff, #f3bf99);
+    background-image: -o-linear-gradient(45deg, #c7b9ff, #f3bf99);
+    background-image: linear-gradient(to right, #c7b9ff, 50%, #f3bf99);
 }
 
 .page-container {
@@ -38,15 +46,13 @@ header {
     color: #ffffff;
 }
 
-.btn_home:hover,
-.btn_home:focus {
+.btn_home:hover, .btn_home:focus {
     background: #c7b9ff;
     cursor: pointer;
     color: black;
 }
 
-h1,
-.subtitle {
+h1, .subtitle {
     text-align: center;
 }
 
@@ -63,8 +69,7 @@ a {
     text-decoration: none;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
     font-weight: 700;
 }
 
@@ -96,7 +101,7 @@ a:active {
     box-shadow: -5px 5px 0px 5px #2b283a;
 }
 
-.submission > a {
+.submission>a {
     text-decoration: none;
 }
 
@@ -110,8 +115,7 @@ a:active {
     text-decoration: none;
 }
 
-.btn:hover,
-.btn:focus {
+.btn:hover, .btn:focus {
     transform: skew(-20deg);
 }
 
@@ -199,6 +203,73 @@ li::marker {
     to {
         transform: scale(1.2) rotate(3deg);
     }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 6rem 0 1rem 0;
+}
+
+footer p {
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: .25rem;
+}
+
+footer a {
+    color: black;
+    padding: .25rem 0 0 1rem;
+}
+
+footer a:hover {
+    color: black;
+    font-weight: unset;
+}
+
+.footer-logo {
+    width: 100px;
+    padding-bottom: .25rem;
+}
+
+.footer-col-one, .footer-col-two, .footer-col-three {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* *************************
+tablet+ styles
+************************* */
+@media only screen and (min-width: 700px) {
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 4rem;
+    }
+    .footer-logo {
+        width: 150px;
+        padding: 1rem 0 .5rem 0;
+    }
+    .footer-col-one {
+        width: 30%;
+    }
+    .footer-col-two, .footer-col-three {
+        text-align: right;
+    }
+    footer p {
+        font-size: 1.25rem;
+        margin-bottom: .5rem;
+    }
+    footer a {
+        padding-top: 1.25rem;
+        padding-left: 0;
+    }
+
 }
 
 /* *************************
