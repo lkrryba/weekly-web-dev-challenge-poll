@@ -241,6 +241,43 @@ footer a:hover {
     flex-direction: column;
 }
 
+/* easter egg */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    min-height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15vh auto;
+    padding: 20px;
+    padding-top: 0;
+    border: 1px solid #888;
+    max-width: 600px;
+    max-height: 100vh;
+}
+
+#pumpkinModalClose {
+    margin: 0;
+    padding-top:5px;
+    text-align: center;
+}
+
+#pumpkinImage {
+    width: 100%;
+    height: auto;
+}
+
+/* easter egg end */
 
 /* *************************
 tablet+ styles
