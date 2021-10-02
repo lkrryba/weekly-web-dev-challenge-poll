@@ -105,6 +105,20 @@ a:active {
     text-decoration: none;
 }
 
+/*submission title*/
+
+.submission-title{
+    display: flex;
+    justify-content: center;
+}
+
+.submission-title>h2{
+    font-size: 2em;
+    background-image: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* buttons */
 
 .btn {
