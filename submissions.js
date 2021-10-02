@@ -35,7 +35,7 @@ export function renderSubmissions(submissions, imagePath) {
         
         // Inject the submission element into the DOM
         const takePartDiv = document.querySelector('.take-part')
-        takePartDiv.insertAdjacentElement('beforebegin', submissionElement)
+        takePartDiv.insertAdjacentElement('afterend', submissionElement)
     })
 }
 
