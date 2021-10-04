@@ -205,8 +205,20 @@
   },
   {
     "name": "M Javad Roosta",
-    "entryURL": "https://scrimba.com/scrim/co9174b18a74a1833b15e7be0/",
+    "entryURL": "https://scrimba.com/scrim/co9174b18a74a1833b15e7be0/gb",
     "thumbnail": "mjr.png",
+    "winner": false
+  },
+  {
+    "name": "GB",
+    "entryURL": "https://scrimba.com/scrim/cPNNVEfk",
+    "thumbnail": "gb.png",
+    "winner": false
+  },
+  {
+    "name": "WillForCoding",
+    "entryURL": "https://scrimba.com/scrim/coaa94847960f24ee7b0a642b",
+    "thumbnail": "will.png",
     "winner": false
   }
 ],
