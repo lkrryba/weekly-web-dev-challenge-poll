@@ -9,6 +9,7 @@ export function renderSubmissions(submissions, imagePath) {
       array[j] = temp;
     }
   };
+
   shuffleArray(submissions);
   submissions.forEach((submission, index) => {
     // Create a new submission element with a class of submission
