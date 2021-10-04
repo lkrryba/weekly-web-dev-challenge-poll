@@ -9,7 +9,7 @@ html, body {
 
 body {
     font-family: 'Karla', sans-serif;
-    padding: 2em;
+    overflow-x: hidden;
 }
 
 .gradient {
@@ -27,6 +27,126 @@ body {
     border-radius: 10px;
     padding: 1em;
 }
+/* Navbar Start */
+
+
+.nav-opener {
+    position: absolute;
+    top: 1em;
+    right: 1.3em;
+    z-index: 2;
+}
+
+.nav-opener:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.nav-opener div {
+    content: '';
+    width: 1.5em;
+    height: 4px;
+    margin: 4px 0;
+    border-radius: 20%;
+    background-color: black;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: white;
+    padding: 2em;
+    box-shadow:  -5px 5px 5px 0px rgba(100, 100, 100, .5);
+    z-index: 1;
+    transform: translateX(105%);
+    transition: .3s transform ease-in;
+    height: 100vh;
+}
+
+.nav-scrimba {
+    margin: 2em 0 0 0;
+}
+
+.nav-logo {
+    width: 250px;
+}
+
+.nav-other-links {
+    display: flex; 
+    flex-direction: column;
+
+}
+
+.nav-other-links a {
+    margin-bottom: 3em;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.nav-other-links a:hover,
+.nav-other-links a:focus-visible {
+    font-weight: normal;
+    text-shadow: black 1px 0 0;
+}
+
+.nav-other-links a:last-of-type {
+    margin: 0;
+}
+
+.nav-open {
+    transform: translateX(0);
+}
+
+@media only screen and (min-width: 715px) {
+    .nav-opener {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 0 2em 0;
+        background: rgba(255, 255, 255, .7);
+        height: auto;
+        width: unset;
+        transform: translateX(0);
+        position: static;
+        padding: 1em;
+        box-shadow: unset;
+        transition: transform 0s;
+    }
+    
+    .nav-scrimba {
+        margin-left: 2em;
+        height: 3;
+        margin: 1em 2em;
+    }
+    
+    .nav-logo {
+        width: 250px;
+    }
+    
+    .nav-other-links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .nav-other-links a {
+        margin: 0 2em 0 0;
+        font-size: 1.4rem;
+    }
+    
+
+}
+
+/* Navbar End */
 
 header {
     display: flex;
@@ -69,8 +189,8 @@ a {
     text-decoration: none;
 }
 
-a:hover, a:focus {
-    font-weight: 700;
+a:hover, a:focus-visible {
+    text-shadow: black 1px 0 0;
 }
 
 a:active {
