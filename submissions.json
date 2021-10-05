@@ -46,6 +46,12 @@
     "entryURL": "https://scrimba.com/scrim/cod18436a9df10ae0212302d8",
     "thumbnail": "Bilal.jpg",
     "winner": false
+  },
+  {
+    "name": "Hugo",
+    "entryURL": "https://scrimba.com/scrim/co09049bd8d72fe5ab1590b83",
+    "thumbnail": "Hugo.jpg",
+    "winner": false
   }
 ],
   "gradient_generator" : [
