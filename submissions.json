@@ -1,4 +1,54 @@
-{"latest_challenge" : [
+{"latest_challenge": [
+  {
+    "name": "Omar910",
+    "entryURL": "https://scrimba.com/scrim/coc0c4dada37ed294cb0692e0",
+    "thumbnail": "Omar910.jpg",
+    "winner": false
+  },
+  {
+    "name": "Joshua",
+    "entryURL": "https://scrimba.com/scrim/coa3e4da89af7d89298d990bb",
+    "thumbnail": "Joshua.jpg",
+    "winner": false
+  },
+  {
+    "name": "Wahid",
+    "entryURL": "https://scrimba.com/scrim/cDyyP6fv",
+    "thumbnail": "Wahid.jpg",
+    "winner": false
+  },
+  {
+    "name": "Su",
+    "entryURL": "https://scrimba.com/scrim/co7ab4534ace5e68a6d638d04",
+    "thumbnail": "Su.jpg",
+    "winner": false
+  },
+  {
+    "name": "BlizZard",
+    "entryURL": "https://scrimba.com/scrim/coae44cca9d88027548898556",
+    "thumbnail": "BlizZard.jpg",
+    "winner": false
+  },
+  {
+    "name": "Aaron",
+    "entryURL": "https://scrimba.com/scrim/co36044bd9f61a9ddafdbb941",
+    "thumbnail": "Aaron.jpg",
+    "winner": false
+  },
+  {
+    "name": "Kyesmine",
+    "entryURL": "https://scrimba.com/scrim/coaf64d41ada26fad3c210375",
+    "thumbnail": "Kyesmine.jpg",
+    "winner": false
+  },
+  {
+    "name": "Bilal",
+    "entryURL": "https://scrimba.com/scrim/cod18436a9df10ae0212302d8",
+    "thumbnail": "Bilal.jpg",
+    "winner": false
+  }
+],
+  "gradient_generator" : [
   {
     "name": "Ripleyx",
     "entryURL": "https://scrimba.com/scrim/co81245c5b8fd668d64391f0a",
@@ -177,7 +227,7 @@
     "name": "Prakash",
     "entryURL": "https://scrimba.com/scrim/c4ZZ38hV?a=776.0.3.L10",
     "thumbnail": "Prakash.png",
-    "winner": false
+    "winner": true
   },
   {
     "name": "Erik Von Schlehenried",

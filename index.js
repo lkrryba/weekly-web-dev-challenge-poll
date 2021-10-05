@@ -29,7 +29,7 @@ import { countdown } from "./challengeCountdown.js";
 
 //Challenge Countdown
 //Date Format -> Month day, year time/hour Timezone
-countdown(new Date("October 4, 2021 13:00:00 GMT+01:00"));
+countdown(new Date("October 25, 2021 13:00:00 GMT+01:00"));
 
 
 /* easter egg */
