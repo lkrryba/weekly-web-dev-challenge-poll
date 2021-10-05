@@ -31,6 +31,16 @@ import { countdown } from "./challengeCountdown.js";
 //Date Format -> Month day, year time/hour Timezone
 countdown(new Date("October 25, 2021 13:00:00 GMT+01:00"));
 
+// Mobile Nav Opener
+const navOpener = document.querySelector('.nav-opener')
+const nav = document.querySelector('nav')
+
+navOpener.addEventListener('click', () => {
+    nav.classList.toggle('nav-open');
+    navOpener.classList.toggle('exit')
+})
+
+
 
 /* easter egg */
 
