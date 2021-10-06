@@ -165,9 +165,16 @@ header {
 h1, .subtitle {
     text-align: center;
 }
+.subtitle{
+    font-size: 30px;
+}
 
 h1 {
     font-size: 1em;
+}
+.header-title{
+    margin: 20px;
+    font-size: 2em;
 }
 
 .deadline-p {
@@ -188,9 +195,12 @@ a:active {
 }
 
 .logo {
-    width: 250px;
+    /* width: 250px; */
+    max-height: 50px;
 }
-
+.home-logo{
+    display: none;
+}
 .submission {
     width: 100%;
     max-width: 300px;
@@ -388,11 +398,20 @@ footer a:hover {
 }
 
 /* easter egg end */
+/* *************************
+mobile+ styles
+************************* */
+@media only screen and (max-width: 715px) {
+    .home-logo{
+        display: block;
+    }
+  }
 
 /* *************************
 tablet+ styles
 ************************* */
 @media only screen and (min-width: 700px) {
+    
     footer {
         flex-direction: row;
         justify-content: space-between;
@@ -426,13 +445,14 @@ desktop styles
 @media only screen and (min-width: 970px) {
     .logo {
         margin: 0 auto;
-        width: 150px;
-        height: 65px;
+        max-height: 100px;
+        /* height: 100px;
+        width: 300px; */
     }
     h1 {
-        font-size: 2.25em;
+        font-size: 4em;
         margin-bottom: 0.5em;
-        font-weight: bold;
+        font-weight: 900;
     }
     .page-container {
         margin: 0 auto;
