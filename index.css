@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -9,8 +8,7 @@ html, body {
 }
 
 body {
-    /* font-family: 'Karla', sans-serif; */
-    font-family: 'Noto Sans Display', sans-serif;
+    font-family: 'Karla', sans-serif;
     overflow-x: hidden;
 }
 
