@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -8,7 +9,8 @@ html, body {
 }
 
 body {
-    font-family: 'Karla', sans-serif;
+    /* font-family: 'Karla', sans-serif; */
+    font-family: 'Noto Sans Display', sans-serif;
     overflow-x: hidden;
 }
 
@@ -175,9 +177,16 @@ header {
 h1, .subtitle {
     text-align: center;
 }
+.subtitle{
+    font-size: 30px;
+}
 
 h1 {
     font-size: 1em;
+}
+.header-title{
+    margin: 20px;
+    font-size: 2em;
 }
 
 .deadline-p {
@@ -198,7 +207,8 @@ a:active {
 }
 
 .logo {
-    width: 250px;
+    /* width: 250px; */
+    max-height: 50px;
 }
 
 .submission {
@@ -436,8 +446,9 @@ desktop styles
 @media only screen and (min-width: 970px) {
     .logo {
         margin: 0 auto;
-        width: 150px;
-        height: 65px;
+        max-height: 100px;
+        /* height: 100px;
+        width: 300px; */
     }
     h1 {
         font-size: 2.25em;
