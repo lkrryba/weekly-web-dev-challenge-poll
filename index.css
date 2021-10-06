@@ -208,7 +208,9 @@ a:active {
     /* width: 250px; */
     max-height: 50px;
 }
-
+.home-logo{
+    display: none;
+}
 .submission {
     width: 100%;
     max-width: 300px;
@@ -406,11 +408,20 @@ footer a:hover {
 }
 
 /* easter egg end */
+/* *************************
+mobile+ styles
+************************* */
+@media only screen and (max-width: 715px) {
+    .home-logo{
+        display: block;
+    }
+  }
 
 /* *************************
 tablet+ styles
 ************************* */
 @media only screen and (min-width: 700px) {
+    
     footer {
         flex-direction: row;
         justify-content: space-between;
