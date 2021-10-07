@@ -12,104 +12,65 @@
       rel="stylesheet"
     />
 	<title>FAQ</title>
-
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body class="gradient">
 
+
 	<div class="page-container">
+		<!-- Scrimba logo -->
 		<div class="top-logo">
 			<a href="https://scrimba.com/" rel="noopener" target="_blank"><img class="logo" src="imgs/scrimba-black.svg" alt="scrimba-logo"></a>
 		</div>
+
 		<div class="container">
-		  <div class="row">
-		                    <!-- ***** FAQ Start ***** -->
-		                    <div class="col-md-6 offset-md-3">
-		                        <div class="faq-title text-center pb-3">
-		                            <h2>FAQ</h2>
-		                        </div>
-		                    </div>
-		                    <div class="col-md-6 offset-md-3">
-		                        <div class="faq" id="accordion">
-		                            <div class="card">
-		                                <div class="card-header" id="faqHeading-1">
-		                                    <div class="mb-0">
-		                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-		                                            <span class="badge">1</span>What is Weekly Web Dev Challenge?
-		                                        </h5>
-		                                    </div>
-		                                </div>
-		                                <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
-		                                    <div class="card-body">
-		                                        <p>Each week we release a new challenge to test your knowledge of HTML, CSS, JavaScript, UI Design, and more! This is a great chance to practice and show off your code. We also have Weekly Live stream who offers you career advice, coding advice and lots of other tips and tricks! Also, its a great fun and chance to win prizes!!✨ </p>
-		                                    </div>
-		                                </div>
-		                            </div>
-		                            <div class="card">
-		                                <div class="card-header" id="faqHeading-2">
-		                                    <div class="mb-0">
-		                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-		                                            <span class="badge">2</span>How do I get started?
-		                                        </h5>
-		                                    </div>
-		                                </div>
-		                                <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
-		                                    <div class="card-body">
-		                                        <p>Make sure you go to the <a href="https://scrimba.com/learn/weeklychallenge" target="_blank">course</a> and click on Get Started so that the challenge lands directly in your inbox. And then just head to the latest challenge either through the email or from course page. Solve the challenge.💙And then tweet your solution using <strong>#WeeklyWebDevChallenge</strong>.</p>
-		                                    </div>
-		                                </div>
-		                            </div>
-		                            <div class="card">
-		                                <div class="card-header" id="faqHeading-3">
-		                                    <div class="mb-0">
-		                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-		                                            <span class="badge">3</span>Where can I see previous submissions and winners?
-		                                        </h5>
-		                                    </div>
-		                                </div>
-		                                <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
-		                                    <div class="card-body">
-		                                        <p>You can check out some amazing submissions <a href="https://weeklywebdevchallenge.scrimba.com/" target="_blank">here</a> and check out the previous live streams on <a href="https://www.youtube.com/playlist?list=PLqYFXd9GTRVVIDogH1wHkP1FTBTOzG3Si" target="_blank">youtube</a>.</p>
-		                                    </div>
-		                                </div>
-		                            </div>
-		                            <div class="card">
-		                                <div class="card-header" id="faqHeading-4">
-		                                    <div class="mb-0">
-		                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-		                                            <span class="badge">4</span>What do the winners get?
-		                                        </h5>
-		                                    </div>
-		                                </div>
-		                                <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
-		                                    <div class="card-body">
-		                                        <p>There are two chances to win the prizes.🎉First is through voting on our live stream, and the winner gets Scrimba Swags and Free 6 months subscription.🏆Second winner is selected randomly from all the entries and that winner receives Free 6 months subscription as well😀</p>
-		                                    </div>
-		                                </div>
-		                            </div>
-		                            <div class="card">
-		                                <div class="card-header" id="faqHeading-5">
-		                                    <div class="mb-0">
-		                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-		                                            <span class="badge">5</span>Have some more questions?
-		                                        </h5>
-		                                    </div>
-		                                </div>
-		                                <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
-		                                    <div class="card-body">
-		                                        <p>Join our <a href="https://discord.gg/scrimba">discord server</a>. On there, you can get to know other web dev students 🎓, share your coding wins 🏆 and questions 🤔, and we will make sure you have fun there and clear your doubts.🎈</p>
-		                                    </div>
-		                                </div>
-		                            </div>
-		                        </div>
-		                    </div>
-		                  </div>
-		                </div>
-               
-	</div>
+			<div class="faq-title">
+				<h2>FAQ</h2>
+			</div>
+			<div class="faqs">
+			<button class="accordion">What is Weekly Web Dev Challenge?</button>
+			<div class="panel">
+			  <p>Each week we release a new challenge to test your knowledge of HTML, CSS, JavaScript, UI Design, and more! This is a great chance to practice and show off your code. We also have Weekly Live stream who offers you career advice, coding advice and lots of other tips and tricks! Also, its a great fun and chance to win prizes!!✨ </p>
+			</div>
+
+			<button class="accordion">How do I get started?</button>
+			<div class="panel">
+			  <p>Make sure you go to the <a href="https://scrimba.com/learn/weeklychallenge" target="_blank">course</a> and click on Get Started so that the challenge lands directly in your inbox. And then just head to the latest challenge either through the email or from course page. Solve the challenge.💙And then tweet your solution using <strong>#WeeklyWebDevChallenge</strong>.</p>
+			</div>
+
+			<button class="accordion">Where can I see previous submissions and winners?</button>
+			<div class="panel">
+			  <p>You can check out some amazing submissions <a href="https://weeklywebdevchallenge.scrimba.com/" target="_blank">here</a> and check out the previous live streams on <a href="https://www.youtube.com/playlist?list=PLqYFXd9GTRVVIDogH1wHkP1FTBTOzG3Si" target="_blank">youtube</a>.</p>
+			</div>
+
+			<button class="accordion">What do the winners get?</button>
+			<div class="panel">
+			  <p>There are two chances to win the prizes.🎉First is through voting on our live stream, and the winner gets Scrimba Swags and Free 6 months subscription.🏆Second winner is selected randomly from all the entries and that winner receives Free 6 months subscription as well😀</p>
+			</div>
+
+			<button class="accordion">Have some more questions?</button>
+			<div class="panel">
+			  <p>Join our <a href="https://discord.gg/scrimba">discord server</a>. On there, you can get to know other web dev students 🎓, share your coding wins 🏆 and questions 🤔, and we will make sure you have fun there and clear your doubts.🎈</p>
+			</div>
+		</div>   
+</div>
+
+	<!-- Script to toggle the card -->
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var panel = this.nextElementSibling;
+		    if (panel.style.maxHeight) {
+		      panel.style.maxHeight = null;
+		    } else {
+		      panel.style.maxHeight = panel.scrollHeight + "px";
+		    } 
+		  });
+		}
+	</script>
 	
 </body>
 </html>
