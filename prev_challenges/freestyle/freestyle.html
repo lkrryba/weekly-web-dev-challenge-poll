@@ -24,7 +24,7 @@
     <title>Weekly Web Dev Challenge</title>
   </head>
 
-  <body class="gradient">
+  <body>
     <div class="page-container">
       <header>
         <a class="btn btn_home" href="../../index.html"
@@ -203,6 +203,18 @@
         <!-- End of Submission -->
       </div>
     </div>
-    <script src="index.js"></script>
+    <script>
+      let colorOptions = [
+    "#AAD1B6", // Green
+    "#B5CAF9", // Blue
+    "#C7B9FF", // Purple
+    "#F0B9DD", // Pink
+    "#F3BF99", // Orange
+    "#FBF3AB", // Yellow
+    "linear-gradient(to right, #c7b9ff, 50%, #f3bf99)", // Purple --> Orange gradient
+  ];
+  let selectedColor = colorOptions[Math.floor(Math.random() * colorOptions.length)];
+  document.body.style.backgroundColor = selectedColor;
+    </script>
   </body>
 </html>
