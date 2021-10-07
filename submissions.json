@@ -64,6 +64,42 @@
     "entryURL": "https://scrimba.com/scrim/coa6d4894b8bf6077ac583c76",
     "thumbnail": "Frederik.jpg",
     "winner": false
+  },
+  {
+    "name": "Antti",
+    "entryURL": "https://scrimba.com/scrim/co74c42029f2a9bc4595152e5",
+    "thumbnail": "Antti.jpg",
+    "winner": false
+  },
+  {
+    "name": "Nebocoder",
+    "entryURL": "https://scrimba.com/scrim/co6c3400385a7cd711b7a59bd",
+    "thumbnail": "Nebocoder.jpg",
+    "winner": false
+  },
+  {
+    "name": "Benjamin",
+    "entryURL": "https://scrimba.com/scrim/coc4b49fca594cbc657a1be54",
+    "thumbnail": "Benjamin.jpg",
+    "winner": false
+  },
+  {
+    "name": "Yatharth",
+    "entryURL": "https://scrimba.com/scrim/co6274a9e84de76bfab899513",
+    "thumbnail": "Yatharth.jpg",
+    "winner": false
+  },
+  {
+    "name": "SnowBit",
+    "entryURL": "https://word-count-react.vercel.app/app",
+    "thumbnail": "SnowBit.jpg",
+    "winner": false
+  },
+  {
+    "name": "Esa",
+    "entryURL": "https://scrimba.com/scrim/co99f4924af48505a1380c9a4",
+    "thumbnail": "Esa.jpg",
+    "winner": false
   }
 ],
   "gradient_generator" : [
