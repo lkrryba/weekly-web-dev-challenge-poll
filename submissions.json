@@ -100,6 +100,36 @@
     "entryURL": "https://scrimba.com/scrim/co99f4924af48505a1380c9a4",
     "thumbnail": "Esa.jpg",
     "winner": false
+  },
+  {
+    "name": "Dave",
+    "entryURL": "https://scrimba.com/scrim/co6fe4c0caf52e8003e57abfd",
+    "thumbnail": "Dave.jpg",
+    "winner": false
+  },
+  {
+    "name": "Zaid",
+    "entryURL": "https://scrimba.com/scrim/czv98gSe",
+    "thumbnail": "Zaid.jpg",
+    "winner": false
+  },
+  {
+    "name": "Meg",
+    "entryURL": "https://scrimba.com/scrim/c4Zzv9UL",
+    "thumbnail": "Meg.jpg",
+    "winner": false
+  },
+  {
+    "name": "Navneet",
+    "entryURL": "https://scrimba.com/scrim/co0b04b8eb0b79e58e6320caf",
+    "thumbnail": "Navneet.jpg",
+    "winner": false
+  },
+  {
+    "name": "Richard",
+    "entryURL": "https://scrimba.com/scrim/cod67492ea3442dc7086a827e",
+    "thumbnail": "Richard.jpg",
+    "winner": false
   }
 ],
   "gradient_generator" : [
