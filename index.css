@@ -13,14 +13,14 @@ body {
 }
 
 .page-container {
+    margin: 0 auto;
     background-color: aliceblue;
     border-radius: 10px;
-    padding: 1em;
-    max-width: 1000px;
+    padding: 2em;
+    max-width: 1200px;
 }
+
 /* Navbar Start */
-
-
 .nav-opener {
     position: absolute;
     top: 1em;
@@ -237,7 +237,7 @@ a:active {
 
 .btn:hover, 
 .btn:focus {
-    transform: skew(-20deg);
+    transform: skew(-10deg);
 }
 
 .btn-poll {
@@ -270,7 +270,8 @@ li::marker {
 
 .challenge-container {
     display: grid;
-    max-width: 1400px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
     margin: 0 auto;
     position: relative;
 }
@@ -279,6 +280,8 @@ li::marker {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     position: relative;
+    transform: scale(1.1);
+
 }
 
 .winner::after {
@@ -399,19 +402,24 @@ footer a:hover {
 }
 
 /* easter egg end */
+
 /* *************************
 mobile+ styles
 ************************* */
-@media only screen and (max-width: 715px) {
+@media only screen and (max-width: 650px) {
     .home-logo{
         display: block;
     }
-  }
+    .challenge-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 /* *************************
 tablet+ styles
 ************************* */
 @media only screen and (min-width: 700px) {
+    
     
     footer {
         flex-direction: row;
@@ -456,23 +464,117 @@ desktop styles
         font-weight: 900;
     }
 
-    .page-container {
-        margin: 0 auto;
-        max-width: 1500px;
-    }
-
-    .challenge-container {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
-    }
-
-    .winner {
+    /* .winner {
         transform: scale(1.2);
-    }
+    } */
 
     .btn-poll {
         padding: 0.5em 1em;
         font-size: 1.25rem;
         margin: 0;
     }
+}
+
+.gradient {
+    background-color: #c7b9ff;
+    background-image:
+    -webkit-gradient(linear, left bottom, right top, from(#c7b9ff), to(#f3bf99));
+    background-image: -webkit-linear-gradient(45deg, #c7b9ff, #f3bf99);
+    background-image: -moz-linear-gradient(45deg, #c7b9ff, #f3bf99);
+    background-image: -o-linear-gradient(45deg, #c7b9ff, #f3bf99);
+    background-image: linear-gradient(to right, #c7b9ff, 50%, #f3bf99);
+}
+
+/* faq */
+
+.faq {
+    height: 100vh;
+    padding: 2em;
+}
+
+.top-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.logo {
+    width: 250px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* faq accordian */
+.faq-title {
+  text-decoration: underline #E91E63;
+  text-underline-position: under;
+  padding: 1em;
+}
+
+.faqs {
+  width: 90%;
+}
+
+.accordion {
+  background-color: #C9F8D1;
+  color: #000;
+  cursor: pointer;
+  padding: 1.2em;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1em;
+  letter-spacing: 1px;
+  transition: 0.4s;
+}
+
+.accordion:hover {
+  margin-left: 10px;
+}
+
+.active, 
+.accordion:hover {
+  background-color: #FCF5B2;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #000;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  color: #6F8BA4;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.panel>p{
+  padding:0.8em;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+
+/*media query for questions*/
+@media only screen and (max-width: 950px){
+  .faqs{
+    width: 80%;
+  }
 }
