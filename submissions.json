@@ -142,6 +142,12 @@
     "entryURL": "https://scrimba.com/scrim/cobff440da55c9d41da07ff33",
     "thumbnail": "erik.jpg",
     "winner": false
+  },
+  {
+    "name": "Learning Out Loud",
+    "entryURL": "https://scrimba.com/scrim/co4d3476f8bcbc7ca812cf980",
+    "thumbnail": "Learning.jpg",
+    "winner": false
   }
 ],
   "gradient_generator" : [
