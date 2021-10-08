@@ -136,6 +136,12 @@
     "entryURL": "https://scrimba.com/scrim/co9084b3b81d8545c1ea22a74",
     "thumbnail": "John.jpg",
     "winner": false
+  },
+  {
+    "name": "Erik Von Schlehenried",
+    "entryURL": "https://scrimba.com/scrim/cobff440da55c9d41da07ff33",
+    "thumbnail": "erik.jpg",
+    "winner": false
   }
 ],
   "gradient_generator" : [
