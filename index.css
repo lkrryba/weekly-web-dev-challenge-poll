@@ -16,6 +16,7 @@ body {
     background-color: aliceblue;
     border-radius: 10px;
     padding: 1em;
+    max-width: 1000px;
 }
 /* Navbar Start */
 
@@ -165,7 +166,7 @@ header {
 h1, .subtitle {
     text-align: center;
 }
-.subtitle{
+.subtitle {
     font-size: 30px;
 }
 
@@ -178,7 +179,6 @@ h1 {
 }
 
 .deadline-p {
-    /* max-width: 40ch; */
     text-align: center;
 }
 
@@ -195,12 +195,13 @@ a:active {
 }
 
 .logo {
-    /* width: 250px; */
     max-height: 50px;
 }
-.home-logo{
+
+.home-logo {
     display: none;
 }
+
 .submission {
     width: 100%;
     max-width: 300px;
@@ -226,7 +227,6 @@ a:active {
 }
 
 /* buttons */
-
 .btn {
     text-align: center;
     background: #5035ff;
@@ -235,7 +235,8 @@ a:active {
     text-decoration: none;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover, 
+.btn:focus {
     transform: skew(-20deg);
 }
 
@@ -277,7 +278,6 @@ li::marker {
 .winner {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    /* transform: scale(1.2); */
     position: relative;
 }
 
@@ -356,13 +356,14 @@ footer a:hover {
     padding-bottom: .25rem;
 }
 
-.footer-col-one, .footer-col-two, .footer-col-three {
+.footer-col-one, 
+.footer-col-two, 
+.footer-col-three {
     display: flex;
     flex-direction: column;
 }
 
 /* easter egg */
-
 .modal {
     display: none;
     position: fixed;
@@ -424,7 +425,8 @@ tablet+ styles
     .footer-col-one {
         width: 30%;
     }
-    .footer-col-two, .footer-col-three {
+    .footer-col-two, 
+    .footer-col-three {
         text-align: right;
     }
     footer p {
@@ -446,25 +448,28 @@ desktop styles
     .logo {
         margin: 0 auto;
         max-height: 100px;
-        /* height: 100px;
-        width: 300px; */
     }
+
     h1 {
         font-size: 4em;
         margin-bottom: 0.5em;
         font-weight: 900;
     }
+
     .page-container {
         margin: 0 auto;
         max-width: 1500px;
     }
+
     .challenge-container {
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
     }
+
     .winner {
         transform: scale(1.2);
     }
+
     .btn-poll {
         padding: 0.5em 1em;
         font-size: 1.25rem;
