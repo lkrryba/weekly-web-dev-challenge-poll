@@ -1,25 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-        />
-        <link rel="stylesheet" href="index.css" />
-        <link rel="icon" type="img/png" href="imgs/pumpkin.png" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, minimum-scale=1"
-        />
-        <title>Hall of Fame - Weekly Web Dev Challenge</title>
-      </head>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="img/png" href="imgs/pumpkin.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title>Hall of Fame - Weekly Web Dev Challenge</title>
+</head>
 
 <body class="gradient">
     <div class="page-container">
@@ -29,29 +20,19 @@
             <h2>Each of these apps was crowned winner of the weekly Web Dev Challenge 🏆🎉</h2>
         </header>
         <div class="challenge-container" id="hall-of-fame">
-              <!-- Submission will be injected here by javascript -->
+            <!-- Submission will be injected here by javascript -->
 
         </div>
     </div>
-    <footer>
-        <div class="footer-col-one">  
-            <img class="footer-logo" src="../../../imgs/scrimba-black.svg" alt="scrimba-logo">           
-            <a rel="noopener" href="https://scrimba.com/">Scrimba</a>
-            <a rel="noopener" href="https://scrimba.com/learn/weeklychallenge">Weekly Web Dev Challenge</a>
-        </div>
-        <div class="footer-col-two">
-            <p>Resources/Social</p>
-            <a rel="noopener" href="https://twitter.com/scrimba">Twitter</a>
-            <a rel="noopener" href="https://www.youtube.com/c/Scrimba">YouTube</a>
-            <a rel="noopener" href="https://scrimba.com/podcast/">Scrimba Podcast</a>
-        </div>
-        <div class="footer-col-three">
-            <p>Site Engineers</p>
-            <a rel="noopener" href="https://twitter.com/RybaLeanne">@RybaLeanne</a>
-            <a rel="noopener" href="https://twitter.com/thebigdavec">@thebigdavec</a>
-        </div>
-</footer >
+    <!-- Start of Footer -->
+    <footer-component>
+        <!-- imported from components/footer.js REQUIRES pumpkin.js -->
+    </footer-component>
+    <!-- End of Footer -->
+    <script type="module" src="components/footer.js" type="text/javascript" defer></script>
     <script type="module" src="displayHallOfFame.js"></script>
+    <script type="module" src="pumpkin.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
 </body>
 
 </html>
