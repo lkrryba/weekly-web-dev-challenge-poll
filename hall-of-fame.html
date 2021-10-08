@@ -13,9 +13,15 @@
 </head>
 
 <body class="gradient">
+    <!-- Start of Nav -->
+    <nav-component>
+        <!-- imported from components/nav.js -->
+    </nav-component>
+    <!-- Endn of Nav  -->
     <div class="page-container">
         <header>
-            <img class="logo" src="../../../imgs/scrimba-black.svg" alt="scrimba-logo">
+            <a href="https://scrimba.com/" rel="noopener" target="_blank" class="home-logo"><img class="logo"
+                src="../../../imgs/scrimba-black.svg" alt="scrimba-logo"></a>
             <h1>The Hall of Fame</h1>
             <h2>Each of these apps was crowned winner of the weekly Web Dev Challenge 🏆🎉</h2>
         </header>
@@ -29,6 +35,7 @@
         <!-- imported from components/footer.js REQUIRES pumpkin.js -->
     </footer-component>
     <!-- End of Footer -->
+    <script type="module" src="components/nav.js" type="text/javascript" defer></script>
     <script type="module" src="components/footer.js" type="text/javascript" defer></script>
     <script type="module" src="displayHallOfFame.js"></script>
     <script type="module" src="pumpkin.js" defer></script>
