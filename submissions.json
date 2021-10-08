@@ -130,6 +130,12 @@
     "entryURL": "https://scrimba.com/scrim/cod67492ea3442dc7086a827e",
     "thumbnail": "Richard.jpg",
     "winner": false
+  },
+  {
+    "name": "John Pirog",
+    "entryURL": "https://scrimba.com/scrim/co9084b3b81d8545c1ea22a74",
+    "thumbnail": "John.jpg",
+    "winner": false
   }
 ],
   "gradient_generator" : [
