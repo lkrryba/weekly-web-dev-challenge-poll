@@ -39,6 +39,10 @@
 		{
 			"name": "Pomodoro Timer",
 			"path": "prev_challenges/timer/timer.html"
+		},
+		{
+			"name": "Gradient Generator",
+			"path": "prev_challenges/gradient_generator/gradient_generator.html"
 		}
 	]
 }

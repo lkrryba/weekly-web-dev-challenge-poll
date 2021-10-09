@@ -1,15 +1,26 @@
 export function renderSubmissions(submissions, imagePath) {
   // Loop through submissions array
+
+
+  const shuffleArray = (array) => {
+    for (var i = array.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+  };
+
+  shuffleArray(submissions);
   submissions.forEach((submission, index) => {
     // Create a new submission element with a class of submission
-    // console.log(submission);
     const submissionElement = document.createElement("div");
     submissionElement.classList.add("submission");
 
     // If it is the winner, add the winner class
-    if (submission.winner) {
-      submissionElement.classList.add("winner");
-    }
+
+    if (submission.winner) submissionElement.classList.add("winner");
+
 
     // Add elements to submission element
     // First the anchor tag (link)

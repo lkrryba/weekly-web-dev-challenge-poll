@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css" />
+	<link rel="icon" type="img/png" href="imgs/pumpkin.png" />
+	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet"/>
+	<title>FAQ</title>
+</head>
+<body class=" faq gradient">
+	<div class="page-container">
+		<!-- Scrimba logo -->
+		<div class="top-logo">
+			<a href="https://scrimba.com/" rel="noopener" target="_blank"><img class="logo" src="imgs/scrimba-black.svg" alt="scrimba-logo"></a>
+		</div>
+
+		<div class="container">
+			<div class="faq-title">
+				<h2>FAQ</h2>
+			</div>
+			<div class="faqs">
+			<button class="accordion">What is Weekly Web Dev Challenge?</button>
+			<div class="panel">
+			  <p>Each week we release a new challenge to test your knowledge of HTML, CSS, JavaScript, UI Design, and more! This is a great chance to practice and show off your code. We also have Weekly Live stream who offers you career advice, coding advice and lots of other tips and tricks! Also, its a great fun and chance to win prizes!!✨ </p>
+			</div>
+
+			<button class="accordion">How do I get started?</button>
+			<div class="panel">
+			  <p>Make sure you go to the <a href="https://scrimba.com/learn/weeklychallenge" target="_blank" rel="noopener">course</a> and click on Get Started so that the challenge lands directly in your inbox. And then just head to the latest challenge either through the email or from course page. Solve the challenge.💙And then tweet your solution using <strong>#WeeklyWebDevChallenge</strong>.</p>
+			</div>
+
+			<button class="accordion">Where can I see previous submissions and winners?</button>
+			<div class="panel">
+			  <p>You can check out some amazing submissions <a href="https://weeklywebdevchallenge.scrimba.com/" target="_blank" rel="noopener">here</a> and check out the previous live streams on <a href="https://www.youtube.com/playlist?list=PLqYFXd9GTRVVIDogH1wHkP1FTBTOzG3Si" target="_blank" rel="noopener">youtube</a>.</p>
+			</div>
+
+			<button class="accordion">What do the winners get?</button>
+			<div class="panel">
+			  <p>There are two chances to win the prizes.🎉 The first is through voting on our live stream, and the winner gets Scrimba swag and Free 6-month subscription.🏆 The second winner is selected randomly from all the entries and that winner receives a free 6-month subscription as well 😀</p>
+			</div>
+
+			<button class="accordion">Have some more questions?</button>
+			<div class="panel">
+			  <p>Join our <a href="https://discord.gg/scrimba" rel="noopener">Discord server</a>. On there, you can get to know other web dev students 🎓, share your coding wins 🏆 and questions 🤔, and we will make sure you have fun there and clear your doubts.🎈</p>
+			</div>
+		</div>   
+</div>
+
+	<!-- Script to toggle the card -->
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var panel = this.nextElementSibling;
+		    if (panel.style.maxHeight) {
+		      panel.style.maxHeight = null;
+		    } else {
+		      panel.style.maxHeight = panel.scrollHeight + "px";
+		    } 
+		  });
+		}
+	</script>
+	
+</body>
+</html>

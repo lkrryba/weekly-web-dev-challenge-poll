@@ -1,108 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-    />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="icon" type="img/png" href="imgs/pumpkin.png" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1"
-    />
-    <title>Weekly Web Dev Challenge</title>
-  </head>
-<body class="gradient">
-    <div class="page-container">
-        <header>
-            <!-- <a role="button" rel="noopener" href="https://www.polltab.com/PkV4u3l_Fxi" class="btn btn-poll" data-tooltip="Vote closes 5:15pm Sept 20th" target="_blank">Vote here!</a> -->
-            <a href="https://scrimba.com/" rel="noopener" target="_blank"><img class="logo" src="../../../imgs/scrimba-black.svg" alt="scrimba-logo"></a>
-            <h1>Weekly Web Dev Challenge Submissions</h1>
-            <p class="subtitle"><a target="_blank" rel="noopener" href="https://scrimba.com/learn/weeklychallenge/the-weekly-web-dev-challenge-gradient-generator-latest-challenge-code-to-win-co54c4b29830fcb5dfe04c953">Gradient Generator 🌈</a></p>   
-            <p>Challenge Countdown: <strong id="challenge-countdown-display">loading...</strong></p>         
-            <!-- <p class="voting-instructions-p">Vote by 5:15pm BST today to choose a winner ↗️!</p>          -->
-            <p id="submission-count-display"></p>
-        </header>
 
-      <div class="challenge-container">
-        <!-- Submission will be injected here by javascript -->
-        <div id="placeholder0" class="submission">
-          <div class="placeholder"></div>
-        </div>
-        <div id="placeholder1" class="submission">
-          <div class="placeholder"></div>
-        </div>
-        <div id="placeholder2" class="submission">
-          <div class="placeholder"></div>
-        </div>
-        <div id="placeholder3" class="submission">
-          <div class="placeholder"></div>
-        </div>
-        <div id="placeholder4" class="submission">
-          <div class="placeholder"></div>
-        </div>
-        <div id="placeholder5" class="submission">
-          <div class="placeholder"></div>
-        </div>
-        <div id="placeholder6" class="submission">
-          <div class="placeholder"></div>
-        </div>
-        <div id="placeholder7" class="submission">
-          <div class="placeholder"></div>
-        </div>
-        <div id="placeholder8" class="submission">
-          <div class="placeholder"></div>
-        </div>
-        <div id="placeholder9" class="submission">
-          <div class="placeholder"></div>
-        </div>
-            <div class="submission take-part">
-                <a role="button" rel="noopener"
-                    href="https://scrimba.com/learn/weeklychallenge/the-weekly-web-dev-challenge-gradient-generator-latest-challenge-code-to-win-co54c4b29830fcb5dfe04c953"
-                    target="_blank">
-                    <img class="submission-img" src="imgs/take_part.png" alt="Click here to take part" />
-                </a>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="icon" type="img/png" href="imgs/pumpkin.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>Weekly Web Dev Challenge</title>
+</head>
 
-            <div class="prev_challenges">
-                <p>Previous challenges 👀</p>
-            </div>
-        </div>  
-       
+<body>
+  <!-- Start of Nav -->
+  <div class="nav-opener">
+    <div class="nav-icon-line-1"></div>
+    <div class="nav-icon-line-2"></div>
+    <div class="nav-icon-line-3"></div>
+  </div>
+  <nav>
+    <a class="nav-scrimba" href="https://scrimba.com/" rel="noopener" target="_blank"><img class="nav-logo"
+        src="../../../imgs/scrimba-black.svg" alt="scrimba-logo"></a>
+    <div class="nav-other-links">
+      <a target="_blank" rel="noopener"
+        href="https://scrimba.com/learn/weeklychallenge/the-weekly-web-dev-challenge-word-count-latest-challenge-code-to-win-cE62LvsB">Current
+        Challenge</a>
+      <a href="https://weeklywebdevchallenge.scrimba.com/hall-of-fame" rel="noopener" target="_blank">Hall of Fame</a>
+      <a href="#prev_challenges">Previous Challenges</a>
     </div>
-    <div id="pumpkinModal" class="modal">
-        <div class="modal-content">
-            <img id="pumpkinImage" src="./imgs/pumpkin-ee.png" onmousedown="party.confetti(this)" />
-            <h3 id="pumpkinModalClose">🎉🎊 Pumpkin is proud of you 🎊 🎉</h3>
-        </div>
+  </nav>
+
+  <div class="page-container">
+    <!-- Start of Header -->
+    <header>
+      <!-- <a role="button" rel="noopener" href="https://www.polltab.com/FET276s4L" class="btn btn-poll" data-tooltip="Vote closes 5:15pm today" target="_blank">Vote here!</a> -->
+      <a href="https://scrimba.com/" rel="noopener" target="_blank" class="home-logo"><img class="logo"
+          src="../../../imgs/scrimba-black.svg" alt="scrimba-logo"></a>
+      <h1 class="header-title">Weekly Web Dev Challenge Submissions</h1>
+      <p class="subtitle"><a target="_blank" rel="noopener"
+          href="https://scrimba.com/learn/weeklychallenge/the-weekly-web-dev-challenge-word-count-latest-challenge-code-to-win-cE62LvsB">Word
+          Count 🧮</a></p>
+      <p>Challenge Countdown: <strong id="challenge-countdown-display">loading...</strong></p>
+      <!-- <p class="voting-instructions-p">Vote by 5:15pm BST today to choose a winner ↗️!</p>          -->
+      <p id="submission-count-display"></p>
+    </header>
+    <!-- Challenge Container -->
+    <div class="challenge-container">
+      <!-- Submission will be injected here by javascript -->
+      <div id="placeholder0" class="submission">
+        <div class="placeholder"></div>
+      </div>
+      <div id="placeholder1" class="submission">
+        <div class="placeholder"></div>
+      </div>
+      <div id="placeholder2" class="submission">
+        <div class="placeholder"></div>
+      </div>
+      <div id="placeholder3" class="submission">
+        <div class="placeholder"></div>
+      </div>
+      <div id="placeholder4" class="submission">
+        <div class="placeholder"></div>
+      </div>
+      <div id="placeholder5" class="submission">
+        <div class="placeholder"></div>
+      </div>
+      <div id="placeholder6" class="submission">
+        <div class="placeholder"></div>
+      </div>
+      <div id="placeholder7" class="submission">
+        <div class="placeholder"></div>
+      </div>
+      <div id="placeholder8" class="submission">
+        <div class="placeholder"></div>
+      </div>
+      <div id="placeholder9" class="submission">
+        <div class="placeholder"></div>
+      </div>
+      <div class="submission take-part">
+        <a role="button" rel="noopener"
+          href="https://scrimba.com/learn/weeklychallenge/the-weekly-web-dev-challenge-word-count-latest-challenge-code-to-win-cE62LvsB"
+          target="_blank">
+          <img class="submission-img" src="imgs/take_part.png" alt="Click here to take part" />
+        </a>
+      </div>
+      <div id="prev_challenges" class="prev_challenges">
+        <p>Previous challenges 👀</p>
+      </div>
     </div>
-    <footer>
-        <div class="footer-col-one">  
-            <img class="footer-logo" src="../../../imgs/scrimba-black.svg" alt="scrimba-logo">           
-            <a rel="noopener" href="https://scrimba.com/">Scrimba</a>
-            <a rel="noopener" href="https://scrimba.com/learn/weeklychallenge">Weekly Web Dev Challenge</a>
-        </div>
-        <div class="footer-col-two">
-            <p>Resources/Social</p>
-            <a rel="noopener" href="https://twitter.com/scrimba">Twitter</a>
-            <a rel="noopener" href="https://www.youtube.com/c/Scrimba">YouTube</a>
-            <a rel="noopener" href="https://scrimba.com/podcast/">Scrimba Podcast</a>
-        </div>
-        <div class="footer-col-three">
-            <p>Site Engineers</p>
-            <a rel="noopener" href="https://twitter.com/RybaLeanne">@RybaLeanne</a>
-            <a rel="noopener" href="https://twitter.com/thebigdavec">@thebigdavec</a>
-            <a rel="noopener" id="pumpkin" class="confettiClicks" onmousedown="party.confetti(this)">@pumpkin</a>
-        </div>
-</footer >
-    <script type="module" src="index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
-  </body>
+  </div>
+  <!-- Start of Footer -->
+  <footer-component>
+    <!-- imported from components/footer.js REQUIRES pumpkin.js -->
+  </footer-component>
+  <!-- End of Footer -->
+  <!-- Scripts -->
+  <script type="module" src="components/footer.js" type="text/javascript" defer></script>
+  <script type="module" src="index.js" defer></script>
+  <script type="module" src="pumpkin.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+</body>
+
 </html>
