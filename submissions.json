@@ -91,7 +91,7 @@
   },
   {
     "name": "SnowBit",
-    "entryURL": "https://word-count-react.vercel.app/app",
+    "entryURL": "https://word-count-react.vercel.app/",
     "thumbnail": "SnowBit.jpg",
     "winner": false
   },
@@ -147,6 +147,30 @@
     "name": "Learning Out Loud",
     "entryURL": "https://scrimba.com/scrim/co4d3476f8bcbc7ca812cf980",
     "thumbnail": "Learning.jpg",
+    "winner": false
+  },
+  {
+    "name": "DG",
+    "entryURL": "https://scrimba.com/scrim/cpwZNZSQ",
+    "thumbnail": "DG.jpg",
+    "winner": false
+  },
+  {
+    "name": "Mansi",
+    "entryURL": "https://scrimba.com/scrim/coe4e492ebb7e5fde1fd3e230",
+    "thumbnail": "Mansi.jpg",
+    "winner": false
+  },
+  {
+    "name": "Intensity",
+    "entryURL": "https://scrimba.com/scrim/co1b94838811d3e6e8caf7ccc",
+    "thumbnail": "Intensity.jpg",
+    "winner": false
+  },
+  {
+    "name": "Tim Rinkel",
+    "entryURL": "https://scrimba.com/scrim/cod40429a8af80a915d983c78",
+    "thumbnail": "TimR.jpg",
     "winner": false
   }
 ],
