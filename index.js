@@ -30,6 +30,7 @@ import { countdown } from "./challengeCountdown.js";
 //Date Format -> Month day, year time/hour Timezone
 countdown(new Date("October 25, 2021 13:00:00 GMT+01:00"));
 
+
 /* Random background color on page load */
 let colorOptions = [
   "#AAD1B6", // Green
@@ -43,3 +44,4 @@ let colorOptions = [
 let selectedColor =
   colorOptions[Math.floor(Math.random() * colorOptions.length)];
 document.body.style.background = selectedColor;
+
