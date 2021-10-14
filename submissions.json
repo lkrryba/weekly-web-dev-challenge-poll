@@ -1,5 +1,23 @@
 {"latest_challenge": [
   {
+    "name": "Achraf",
+    "entryURL": "https://scrimba.com/scrim/codf24ef597e407cc8db9c00f",
+    "thumbnail": "Achraf.jpg",
+    "winner": false
+  },
+  {
+    "name": "Caro",
+    "entryURL": "https://scrimba.com/scrim/co4854730865a403dfe1d5c81",
+    "thumbnail": "Caro.jpg",
+    "winner": false
+  },
+  {
+    "name": "Alana",
+    "entryURL": "https://alanacapcreates-wwdc-freestyle070521.netlify.app",
+    "thumbnail": "Alana.jpg",
+    "winner": false
+  },
+  {
     "name": "Omar910",
     "entryURL": "https://scrimba.com/scrim/coc0c4dada37ed294cb0692e0",
     "thumbnail": "Omar910.jpg",
