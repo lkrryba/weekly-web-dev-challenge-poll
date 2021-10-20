@@ -238,6 +238,12 @@
     "entryURL": "https://scrimba.com/scrim/cocc1469e8b1f3acb4bacf8ee",
     "thumbnail": "Terence.jpg",
     "winner": false
+  },
+  {
+    "name": "Neon",
+    "entryURL": "https://scrimba.com/scrim/cVbMy2sg",
+    "thumbnail": "Neon.jpg",
+    "winner": false
   }
 ],
   "gradient_generator" : [
