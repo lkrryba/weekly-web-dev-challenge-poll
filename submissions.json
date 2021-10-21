@@ -244,6 +244,18 @@
     "entryURL": "https://scrimba.com/scrim/cVbMy2sg",
     "thumbnail": "Neon.jpg",
     "winner": false
+  },
+  {
+    "name": "Evangelista Grace",
+    "entryURL": "https://scrimba.com/scrim/co19b46f0b8ef1be694629090",
+    "thumbnail": "EvangelistaG.jpg",
+    "winner": false
+  },
+  {
+    "name": "Abdulrahman",
+    "entryURL": "https://scrimba.com/scrim/co3034e2fb3f48e9f02ed4c04",
+    "thumbnail": "Abdulrahman.jpg",
+    "winner": false
   }
 ],
   "gradient_generator" : [
