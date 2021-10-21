@@ -30,13 +30,14 @@ connectedCallback(){
       <p>Resources/Social</p>
       <a rel="noopener" href="https://twitter.com/scrimba">Twitter</a>
       <a rel="noopener" href="https://www.youtube.com/c/Scrimba">YouTube</a>
+      <a rel="noopener" href="https://discord.gg/xYbN3ukJZY">Discord</a>
       <a rel="noopener" href="https://scrimba.com/podcast/">Scrimba Podcast</a>
     </div>
     <div class="footer-col-three">
       <p>Site Engineers</p>
       <a rel="noopener" href="https://twitter.com/RybaLeanne">@RybaLeanne</a>
       <a rel="noopener" href="https://twitter.com/thebigdavec">@thebigdavec</a>
-      <a rel="noopener" id="pumpkin" class="confettiClicks" onmousedown="party.confetti(this)">@pumpkin</a>
+      <a rel="noopener" id="pumpkin" class="confettiClicks" onmousedown="party.confetti(this)" style="cursor: pointer;">@pumpkin</a>
     </div>
   </footer >
     `

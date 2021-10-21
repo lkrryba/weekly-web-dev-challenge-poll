@@ -1,6 +1,6 @@
 # Weekly Web Dev Challenge 🎉
 
-[![Scrimba logo](imgs/scrimba-black.svg)](https://scrimba.com)
+[![Scrimba logo](imgs/word-logo-white-bg.png)](https://scrimba.com)
 
 This is a github repository for [Scrimba's weekly web dev challenge](https://scrimba.com/learn/weeklychallenge) where you can test all your HTML, CSS, JavaScript and UI Design skills! 👀
 

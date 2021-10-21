@@ -1,4 +1,4 @@
-export function renderSubmissions(submissions, imagePath) {
+export function renderSubmissions(submissions, imagePath, isIndex) {
   // Loop through submissions array
 
   const shuffleArray = (array) => {
@@ -46,7 +46,11 @@ export function renderSubmissions(submissions, imagePath) {
 
     // Inject the submission element into the DOM
     const takePartDiv = document.querySelector(".take-part");
-    takePartDiv.insertAdjacentElement("afterend", submissionElement);
+    if (isIndex) {
+      takePartDiv.insertAdjacentElement("afterend", submissionElement);
+    } else {
+      takePartDiv.insertAdjacentElement("beforebegin", submissionElement);
+    }
   });
 }
 
