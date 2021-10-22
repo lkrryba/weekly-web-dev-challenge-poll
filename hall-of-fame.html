@@ -1,45 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
     <link rel="stylesheet" href="index.css" />
     <link rel="icon" type="img/png" href="imgs/pumpkin.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
     <title>Hall of Fame - Weekly Web Dev Challenge</title>
-</head>
+  </head>
 
-<body class="gradient">
+  <body class="gradient">
     <!-- Start of Nav -->
     <nav-component>
-        <!-- imported from components/nav.js -->
+      <!-- imported from components/nav.js -->
     </nav-component>
     <!-- Endn of Nav  -->
     <div class="page-container">
-        <header>
-            <a href="https://scrimba.com/" rel="noopener" target="_blank" class="home-logo"><img class="logo"
-                src="../../../imgs/scrimba-black.svg" alt="scrimba-logo"></a>
-            <h1>The Hall of Fame</h1>
-            <h2>Each of these apps was crowned winner of the weekly Web Dev Challenge 🏆🎉</h2>
-        </header>
-        <div class="challenge-container" id="hall-of-fame">
-            <!-- Submission will be injected here by javascript -->
-
-        </div>
+      <header>
+        <a
+          href="https://scrimba.com/"
+          rel="noopener"
+          target="_blank"
+          class="home-logo"
+          ><img
+            class="logo"
+            src="../../../imgs/scrimba-black.svg"
+            alt="scrimba-logo"
+        /></a>
+        <h1>The Hall of Fame</h1>
+        <h2>
+          Each of these apps was crowned winner of the weekly Web Dev Challenge
+          🏆🎉
+        </h2>
+      </header>
+      <div class="challenge-container" id="hall-of-fame">
+        <!-- Submission will be injected here by javascript -->
+      </div>
     </div>
     <!-- Start of Footer -->
     <footer-component>
-        <!-- imported from components/footer.js REQUIRES pumpkin.js -->
+      <!-- imported from components/footer.js REQUIRES pumpkin.js -->
     </footer-component>
     <!-- End of Footer -->
-    <script type="module" src="components/nav.js" type="text/javascript" defer></script>
-    <script type="module" src="components/footer.js" type="text/javascript" defer></script>
-    <script type="module" src="displayHallOfFame.js"></script>
-    <script type="module" src="pumpkin.js" defer></script>
+    <script
+      type="module"
+      src="./components/nav.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script
+      type="module"
+      src="./components/footer.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script type="module" src="./utils/displayHallOfFame.js"></script>
+    <script type="module" src="./utils/pumpkin.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
-</body>
-
+  </body>
 </html>

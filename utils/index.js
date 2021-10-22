@@ -1,5 +1,5 @@
 import { renderSubmissions, getSubmissions } from "./submissions.js";
-import { displaySubmissionCount } from "/displaySubmissionCount.js";
+import { displaySubmissionCount } from "./displaySubmissionCount.js";
 import { renderPreviousChallenges } from "./prevChallengesList.js";
 import { countdown } from "./challengeCountdown.js";
 // because top level await (https://v8.dev/features/top-level-await)
@@ -7,8 +7,8 @@ import { countdown } from "./challengeCountdown.js";
 // https://caniuse.com/?search=top%20level%20await
 
 (async () => {
-  const submissionsJson = "./submissions.json";
-  const images = "/imgs/entries/";
+  const submissionsJson = "../submissions.json";
+  const images = "../imgs/entries/";
   const challengeName = "latest_challenge";
   const submissionText = "Submissions so far: ";
 
@@ -30,7 +30,6 @@ import { countdown } from "./challengeCountdown.js";
 //Date Format -> Month day, year time/hour Timezone
 countdown(new Date("October 25, 2021 13:00:00 GMT+01:00"));
 
-
 /* Random background color on page load */
 let colorOptions = [
   "#AAD1B6", // Green
@@ -44,4 +43,3 @@ let colorOptions = [
 let selectedColor =
   colorOptions[Math.floor(Math.random() * colorOptions.length)];
 document.body.style.background = selectedColor;
-
