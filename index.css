@@ -353,6 +353,15 @@ footer a:hover {
   font-weight: unset;
 }
 
+footer i {
+  margin: 5px;
+  padding: 5px 0 0;
+}
+
+footer i::before {
+  padding: 0 5px;
+}
+
 .footer-logo {
   width: 100px;
   padding-bottom: 0.25rem;
@@ -363,6 +372,14 @@ footer a:hover {
 .footer-col-three {
   display: flex;
   flex-direction: column;
+}
+
+.spacing-span {
+  margin: 0; 
+}
+
+.spacing-svg {
+  margin-right: 5px;
 }
 
 /* easter egg */
@@ -414,6 +431,12 @@ mobile+ styles
   }
   .challenge-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+  footer a {
+    padding: 0;
+  }
+  footer i {
+    margin: 0;
   }
 }
 
@@ -471,6 +494,9 @@ desktop styles
     padding: 0.5em 1em;
     font-size: 1.25rem;
     margin: 0;
+  }
+  .spacing-span {
+    margin: 5px 0; 
   }
 }
 
@@ -579,5 +605,11 @@ desktop styles
 @media only screen and (max-width: 950px) {
   .faqs {
     width: 80%;
+  }
+  footer a {
+    padding: 0;
+  }
+  footer i {
+    margin: 0;
   }
 }
