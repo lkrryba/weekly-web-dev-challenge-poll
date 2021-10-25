@@ -256,6 +256,42 @@
     "entryURL": "https://scrimba.com/scrim/co3034e2fb3f48e9f02ed4c04",
     "thumbnail": "Abdulrahman.jpg",
     "winner": false
+  },
+  {
+    "name": "Ayush",
+    "entryURL": "https://scrimba.com/scrim/cye2ppT4",
+    "thumbnail": "Ayush.jpg",
+    "winner": false
+  },
+  {
+    "name": "MDias",
+    "entryURL": "https://scrimba.com/scrim/czv8KacD",
+    "thumbnail": "MDias.jpg",
+    "winner": false
+  },
+  {
+    "name": "Raine",
+    "entryURL": "https://scrimba.com/scrim/cvNJPQcn",
+    "thumbnail": "Raine.jpg",
+    "winner": false
+  },
+  {
+    "name": "The BIMsider",
+    "entryURL": "https://scrimba.com/scrim/c6RrNbsK",
+    "thumbnail": "BIMsider.jpg",
+    "winner": false
+  },
+  {
+    "name": "Ambreen",
+    "entryURL": "https://thetechjournal.github.io/challenge-word-counter/",
+    "thumbnail": "Ambreen.jpg",
+    "winner": false
+  },
+  {
+    "name": "Patrick",
+    "entryURL": "https://beslerpatryk.github.io/word-counter/",
+    "thumbnail": "Patrick.jpg",
+    "winner": false
   }
 ],
   "gradient_generator" : [
@@ -1989,6 +2025,14 @@
       "entryURL": "https://scrimba.com/scrim/cod2b48d3a5b5d8fafbfd836c",
       "thumbnail": "Ifo.png",
       "winner": false
+    }
+  ],
+  "course_card": [
+    {
+      "name": "Ambreen",
+      "entryURL": "https://thetechjournal.github.io/scrimba-card-clone-blobs/",
+      "thumbnail": "Ambreen.jpg",
+      "winner": true
     }
   ]
 }
