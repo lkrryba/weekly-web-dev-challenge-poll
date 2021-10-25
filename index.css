@@ -9,8 +9,14 @@ body {
 }
 
 body {
-  font-family: "Karla", sans-serif;
+  font-family: 'Karla', sans-serif;
   overflow-x: hidden;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a {
+    transition: all 0.14s ease-in;
+  }
 }
 
 .page-container {
@@ -35,7 +41,7 @@ body {
 }
 
 .nav-opener div {
-  content: "";
+  content: '';
   width: 1.5em;
   height: 4px;
   margin: 4px 0;
@@ -226,6 +232,11 @@ a:active {
   text-decoration: none;
 }
 
+.prev_challenges ul {
+  display: grid;
+  gap: 0.5em;
+}
+
 /* buttons */
 .btn {
   text-align: center;
@@ -265,7 +276,7 @@ a:active {
 }
 
 li::marker {
-  content: "⚡️";
+  content: '⚡️';
 }
 
 .challenge-container {
@@ -284,7 +295,7 @@ li::marker {
 }
 
 .winner::after {
-  content: " 🏆";
+  content: ' 🏆';
   position: absolute;
   top: 1rem;
   left: 1rem;
@@ -333,7 +344,7 @@ footer {
   justify-content: center;
   width: 100%;
   padding: 0 1rem;
-  margin: 6rem 0 1rem 0;
+  margin: 4rem 0 1rem 0;
 }
 
 footer p {
@@ -549,7 +560,7 @@ desktop styles
 }
 
 .accordion:after {
-  content: "\002B";
+  content: '\002B';
   color: #000;
   font-weight: bold;
   float: right;
@@ -557,7 +568,7 @@ desktop styles
 }
 
 .active:after {
-  content: "\2212";
+  content: '\2212';
 }
 
 .panel {
