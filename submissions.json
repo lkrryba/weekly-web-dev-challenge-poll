@@ -138,7 +138,7 @@
     "winner": false
   },
   {
-    "name": "Erik Von Schlehenried",
+    "name": "Erik Von S",
     "entryURL": "https://scrimba.com/scrim/cobff440da55c9d41da07ff33",
     "thumbnail": "erik.jpg",
     "winner": false
@@ -303,6 +303,12 @@
     "name": "Joelelyon",
     "entryURL": "https://joel-nwamba.github.io/word-count/",
     "thumbnail": "Joelelyon.jpg",
+    "winner": false
+  },
+  {
+    "name": "Leanne & Michael 🤡",
+    "entryURL": "https://scrimba.com/scrim/co6a9403ca4a7c05f186177be",
+    "thumbnail": "LM.jpg",
     "winner": false
   }
 ],
