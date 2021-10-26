@@ -1,4 +1,31 @@
-{"latest_challenge": [
+{
+  "latest_challenge": [
+    {
+      "name": "Joshua",
+      "entryURL": "https://scrimba.com/scrim/co3bf4cfe8c1bc4783d4fa9bc",
+      "thumbnail": "Joshua.jpg",
+      "winner": false
+    },
+    {
+      "name": "Dave",
+      "entryURL": "https://scrimba.com/scrim/co30c4d018c12260fb1264353",
+      "thumbnail": "Dave.jpg",
+      "winner": false
+    },
+    {
+      "name": "MilosV",
+      "entryURL": "https://scrimba.com/scrim/co28642d1a056fb27fd84c62b",
+      "thumbnail": "MilosV.jpg",
+      "winner": false
+    },
+    {
+      "name": "Kaveri",
+      "entryURL": "https://scrimba.com/scrim/cob0241cea6233b444dad5b71",
+      "thumbnail": "Kaveri.jpg",
+      "winner": false
+    }
+  ],
+  "word_count": [
   {
     "name": "Omar910",
     "entryURL": "https://scrimba.com/scrim/coc0c4dada37ed294cb0692e0",
@@ -297,7 +324,7 @@
     "name": "Himanshu",
     "entryURL": "https://scrimba.com/scrim/cbVGKbAb",
     "thumbnail": "Himanshu.jpg",
-    "winner": false
+    "winner": true
   },
   {
     "name": "Joelelyon",

@@ -13,12 +13,7 @@ import { countdown } from "./challengeCountdown.js";
   const submissionText = "Submissions so far: ";
 
   const subs = (await getSubmissions(submissionsJson)).latest_challenge;
-  // const subs = (await getSubmissions(submissionsJson))[challengeName]
 
-  // let submissionCountDisplay = document.getElementById("submission-count-display")
-  // let submissionCount = Object.keys(subs).length
-  // submissionCountDisplay.textContent = "Submissions so far: " + submissionCount
-  // displaySubmissionCount()
   displaySubmissionCount(challengeName, submissionText);
 
   renderSubmissions(subs, images, true);
@@ -28,7 +23,7 @@ import { countdown } from "./challengeCountdown.js";
 
 //Challenge Countdown
 //Date Format -> Month day, year time/hour Timezone
-countdown(new Date("October 25, 2021 13:00:00 GMT+01:00"));
+countdown(new Date("November 8, 2021 13:00:00 GMT+00:00"));
 
 
 /* Random background color on page load */

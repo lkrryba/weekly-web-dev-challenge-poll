@@ -34,7 +34,7 @@ connectedCallback(){
       <a class="nav-scrimba" href="https://scrimba.com/" rel="noopener" target="_blank"><img class="nav-logo" src="../../../imgs/scrimba-black.svg" alt="scrimba-logo"></a>
       <div class="nav-other-links">
         ${ lastSegment.length !== 0 ? `<a href="/" rel="noopener" target="_blank">Home</a>` : ``} 
-        <a target="_blank" rel="noopener" href="https://scrimba.com/learn/weeklychallenge/the-weekly-web-dev-challenge-word-count-latest-challenge-code-to-win-cE62LvsB">Current Challenge</a>  
+        <a target="_blank" rel="noopener" href="https://scrimba.com/learn/weeklychallenge/weekly-web-dev-challenge-space-button-latest-challenge-code-to-win-cedGMEup">Current Challenge</a>  
         <a href="/hall-of-fame.html" rel="noopener" target="_blank">Hall of Fame</a>
         <a href="/#prev_challenges">Previous Challenges</a>
       </div>

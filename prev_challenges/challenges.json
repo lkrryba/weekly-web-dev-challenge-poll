@@ -43,6 +43,10 @@
 		{
 			"name": "Gradient Generator",
 			"path": "prev_challenges/gradient_generator/gradient_generator.html"
+		},
+		{
+			"name": "Word Count",
+			"path": "prev_challenges/word_count/word_count.html"
 		}
 	]
 }

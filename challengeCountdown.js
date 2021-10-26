@@ -6,6 +6,7 @@ export const countdown = function (date) {
     const cd = setInterval(function () {
         const currentDate = new Date();
         const diffInMiliseconds = date - currentDate;
+        console.log(date)
         const diffInSeconds = Math.trunc(diffInMiliseconds / 1000);
         const daysLeft = Math.trunc(diffInSeconds / 3600 / 24);
         const hoursLeft = Math.trunc(diffInSeconds / 3600) % 24;
