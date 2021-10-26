@@ -23,6 +23,12 @@
       "entryURL": "https://scrimba.com/scrim/cob0241cea6233b444dad5b71",
       "thumbnail": "Kaveri.jpg",
       "winner": false
+    },
+    {
+      "name": "Lee",
+      "entryURL": "https://scrimba.com/scrim/co2354dc1966d6f3ad38d1282",
+      "thumbnail": "Lee.jpg",
+      "winner": false
     }
   ],
   "word_count": [
@@ -2480,8 +2486,16 @@
   "currency_converter": [
     {
       "name": "Kaustubh",
-      "entryURL": "https://scrimba.com/scrim/coea54deebbb1e9c2e530d8c7",
+      "entryURL": "https://scrimba.com/scrim/co2564f5da4235c0990f04b84",
       "thumbnail": "Kaustubh.jpg",
+      "winner": true
+    }
+  ],
+  "days_old": [
+    {
+      "name": "Lucky Victory",
+      "entryURL": "https://lucky-victory.github.io/days-old-calculator/",
+      "thumbnail": "LV.jpg",
       "winner": true
     }
   ]
