@@ -36,6 +36,7 @@ connectedCallback(){
         ${ lastSegment.length !== 0 ? `<a href="/" rel="noopener" target="_blank">Home</a>` : ``} 
         <a target="_blank" rel="noopener" href="https://scrimba.com/learn/weeklychallenge/weekly-web-dev-challenge-space-button-latest-challenge-code-to-win-cedGMEup">Current Challenge</a>  
         <a href="/hall-of-fame.html" rel="noopener" target="_blank">Hall of Fame</a>
+        <a href="/faq.html" rel="noopener" target="_blank">FAQ</a>
         <a href="/#prev_challenges">Previous Challenges</a>
       </div>
     </nav>    
