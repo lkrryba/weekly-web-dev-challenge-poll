@@ -25,6 +25,7 @@
   </head>
 
   <body >
+    <nav-component><!-- imported from components/nav.js --></nav-component>
     <div class="page-container">
       <!-- Start Of Header -->
 
@@ -94,5 +95,14 @@
 
     <script type="module" src="./index.js"></script>
     <script src=../../background.js></script>
+    <!-- Start of Footer -->
+    <footer-component>
+    <!-- imported from components/footer.js REQUIRES pumpkin.js -->
+    </footer-component>
+    <!-- End of Footer -->
+    <script type="module" src="components/nav.js" type="text/javascript" defer></script>
+    <script type="module" src="components/footer.js" type="text/javascript" defer></script>
+    <script type="module" src="pumpkin.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
   </body>
 </html>
