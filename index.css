@@ -149,14 +149,14 @@ header {
   padding: 1em;
 }
 
-header .countdown-submissions{
-  display:flex;
-  flex-direction:column;
+header .countdown-submissions {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-@media only screen and (min-width: 715px){
-  header .countdown-submissions{
+@media only screen and (min-width: 715px) {
+  header .countdown-submissions {
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
@@ -469,6 +469,12 @@ tablet+ styles
   footer a {
     padding-top: 1.25rem;
     padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .challenge-container {
+    gap: 2rem;
   }
 }
 
