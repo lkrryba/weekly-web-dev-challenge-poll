@@ -23,6 +23,18 @@
       "entryURL": "https://scrimba.com/scrim/cob0241cea6233b444dad5b71",
       "thumbnail": "Kaveri.jpg",
       "winner": false
+    },
+    {
+      "name": "Lee",
+      "entryURL": "https://scrimba.com/scrim/co2354dc1966d6f3ad38d1282",
+      "thumbnail": "Lee.jpg",
+      "winner": false
+    },
+    {
+      "name": "Ripleyx",
+      "entryURL": "https://scrimba.com/scrim/co60c44a1a3594e603fd619eb",
+      "thumbnail": "Ripleyx.jpg",
+      "winner": false
     }
   ],
   "word_count": [
@@ -2442,6 +2454,62 @@
       "name": "Ambreen",
       "entryURL": "https://thetechjournal.github.io/scrimba-card-clone-blobs/",
       "thumbnail": "Ambreen.jpg",
+      "winner": true
+    }
+  ],
+  "hungry_cat": [
+    {
+      "name": "md",
+      "entryURL": "https://scrimba.com/scrim/co1b34a808641d2886f75f7cd",
+      "thumbnail": "md.jpg",
+      "winner": true
+    }
+  ],
+  "404_page": [
+    {
+      "name": "Artur",
+      "entryURL": "https://arturpawlowski5.github.io/01-404-Not-Found-Scrimba/#",
+      "thumbnail": "Artur.jpg",
+      "winner": true
+    }
+  ],
+  "dog_years_converter": [
+    {
+      "name": "Maeling",
+      "entryURL": "https://maelingmurphy.github.io/dog-human-age-converter/",
+      "thumbnail": "Maeling.jpg",
+      "winner": true
+    }
+  ],
+  "budget_calculator": [
+    {
+      "name": "Palak",
+      "entryURL": "https://scrimba.com/scrim/co2564f5da4235c0990f04b84",
+      "thumbnail": "Palak.jpg",
+      "winner": true
+    }
+  ],
+  "currency_converter": [
+    {
+      "name": "Kaustubh",
+      "entryURL": "https://scrimba.com/scrim/co2564f5da4235c0990f04b84",
+      "thumbnail": "Kaustubh.jpg",
+      "winner": true
+    }
+  ],
+  "days_old": [
+    {
+      "name": "Lucky Victory",
+      "entryURL": "https://lucky-victory.github.io/days-old-calculator/",
+      "thumbnail": "LV.jpg",
+      "winner": true
+    }
+  ],
+  "nav_bar": [
+    {
+      "name": "Andy",
+      "entryURL": "https://scrimba.com/scrim/co244472fa5d3c3289e6c261f",
+      "thumbnail": "Andy.jpg",
       "winner": true
     }
   ]
