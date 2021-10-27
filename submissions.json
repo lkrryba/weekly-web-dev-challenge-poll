@@ -29,6 +29,12 @@
       "entryURL": "https://scrimba.com/scrim/co2354dc1966d6f3ad38d1282",
       "thumbnail": "Lee.jpg",
       "winner": false
+    },
+    {
+      "name": "Ripleyx",
+      "entryURL": "https://scrimba.com/scrim/co60c44a1a3594e603fd619eb",
+      "thumbnail": "Ripleyx.jpg",
+      "winner": false
     }
   ],
   "word_count": [
@@ -2496,6 +2502,14 @@
       "name": "Lucky Victory",
       "entryURL": "https://lucky-victory.github.io/days-old-calculator/",
       "thumbnail": "LV.jpg",
+      "winner": true
+    }
+  ],
+  "nav_bar": [
+    {
+      "name": "Andy",
+      "entryURL": "https://scrimba.com/scrim/co244472fa5d3c3289e6c261f",
+      "thumbnail": "Andy.jpg",
       "winner": true
     }
   ]
