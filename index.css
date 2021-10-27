@@ -119,8 +119,6 @@ nav {
   }
 
   .nav-scrimba {
-    margin-left: 2em;
-    height: 3;
     margin: 1em 2em;
   }
 
@@ -137,6 +135,10 @@ nav {
   .nav-other-links a {
     margin: 0 2em 0 0;
     font-size: 1.4rem;
+  }
+
+  .nav-other-links a:last-of-type {
+    margin-right: 2em;
   }
 }
 
