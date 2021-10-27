@@ -1,28 +1,25 @@
 //get end of url to decide whether to display "home" on menu
-const url = window.location.href;
-const lastSegment = url.split("/").pop();
+const url = window.location.href
+const lastSegment = url.split('/').pop()
 
 // Mobile Nav Opener only loads after html has parsed else "navOpener" doesn't exist
 document.addEventListener('DOMContentLoaded', (event) => {
   const navOpener = document.querySelector('.nav-opener')
   const nav = document.querySelector('nav')
-  
-  navOpener.addEventListener('click', () => {
-      nav.classList.toggle('nav-open');
-      navOpener.classList.toggle('exit')
-  })
 
+  navOpener.addEventListener('click', () => {
+    nav.classList.toggle('nav-open')
+    navOpener.classList.toggle('exit')
+  })
 })
 
 // the nav html
-class Nav extends HTMLElement{
-    constructor(){
-        super()
+class Nav extends HTMLElement {
+  constructor() {
+    super()
+  }
 
-    }
-    
-
-connectedCallback(){
+  connectedCallback() {
     this.innerHTML = `
     <!-- Start of Nav -->
     <div class="nav-opener">
@@ -33,15 +30,19 @@ connectedCallback(){
     <nav>
       <a class="nav-scrimba" href="https://scrimba.com/" rel="noopener" target="_blank"><img class="nav-logo" src="../../../imgs/scrimba-black.svg" alt="scrimba-logo"></a>
       <div class="nav-other-links">
-        ${ lastSegment.length !== 0 ? `<a href="/" rel="noopener" target="_blank">Home</a>` : ``} 
+        ${
+          lastSegment.length !== 0
+            ? `<a href="/" rel="noopener" target="_blank">Home</a>`
+            : ``
+        } 
         <a target="_blank" rel="noopener" href="https://scrimba.com/learn/weeklychallenge/weekly-web-dev-challenge-space-button-latest-challenge-code-to-win-cedGMEup">Current Challenge</a>  
         <a href="/hall-of-fame.html" rel="noopener" target="_blank">Hall of Fame</a>
         <a href="/#prev_challenges">Previous Challenges</a>
+        <a href="/faq.html" rel="noopener" target="_blank">FAQ</a>
       </div>
     </nav>    
     `
-}
-
+  }
 }
 
 customElements.define('nav-component', Nav)

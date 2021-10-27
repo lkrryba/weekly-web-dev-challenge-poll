@@ -35,8 +35,7 @@ connectedCallback(){
     </div>
     <div class="footer-col-three">
       <p>Site Engineers</p>
-      <a rel="noopener" href="https://twitter.com/RybaLeanne">@RybaLeanne</a>
-      <a rel="noopener" href="https://twitter.com/thebigdavec">@thebigdavec</a>
+      <a rel="noopener" href="https://github.com/lkrryba/weekly-web-dev-challenge-poll/graphs/contributors">Contributors</a>
       <a rel="noopener" id="pumpkin" class="confettiClicks" onmousedown="party.confetti(this)" style="cursor: pointer;">@pumpkin</a>
     </div>
   </footer >
