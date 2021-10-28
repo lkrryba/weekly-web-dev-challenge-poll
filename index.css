@@ -392,6 +392,43 @@ footer a:hover {
   flex-direction: column;
 }
 
+/* Add Icons to footer*/
+.icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 5px;
+}
+
+.twitter::before {
+  font-family: "Font Awesome 5 Brands"; content: "\f099";
+}
+.youtube::before {
+  font-family: "Font Awesome 5 Brands"; content: "\f167";
+}
+.discord::before {
+  font-family: "Font Awesome 5 Brands"; content: "\f392";
+}
+.podcast::before {
+  font-family: "Font Awesome 5 Free"; content: "\f2ce";
+  font-weight: 900;
+}
+
+.scrimba-logo::before {
+content: "";
+display: inline-block;
+height: 11px;
+width: 15px;
+background-size: 15px;
+background-image: url("imgs/SVG-Scrimba-Logo.png");
+background-repeat: no-repeat;
+margin-right: 5px;
+}
+/* End of add Icons to footer*/
+
+
 /* easter egg */
 .modal {
   display: none;
