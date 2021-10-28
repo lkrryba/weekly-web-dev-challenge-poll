@@ -23,15 +23,15 @@ connectedCallback(){
     <footer>
     <div class="footer-col-one">  
       <img class="footer-logo" src="../../../imgs/scrimba-black.svg" alt="scrimba-logo">           
-      <a rel="noopener" href="https://scrimba.com/">Scrimba</a>
-      <a rel="noopener" href="https://scrimba.com/learn/weeklychallenge">Weekly Web Dev Challenge</a>
+      <a rel="noopener" href="https://scrimba.com/" class="scrimba-logo">Scrimba</a>
+      <a rel="noopener" href="https://scrimba.com/learn/weeklychallenge" class="scrimba-logo">Weekly Web Dev Challenge</a>
     </div>
     <div class="footer-col-two">
       <p>Resources/Social</p>
-      <a rel="noopener" href="https://twitter.com/scrimba">Twitter</a>
-      <a rel="noopener" href="https://www.youtube.com/c/Scrimba">YouTube</a>
-      <a rel="noopener" href="https://discord.gg/xYbN3ukJZY">Discord</a>
-      <a rel="noopener" href="https://scrimba.com/podcast/">Scrimba Podcast</a>
+      <a rel="noopener" href="https://twitter.com/scrimba" class="icon twitter">Twitter</a>
+      <a rel="noopener" href="https://www.youtube.com/c/Scrimba" class="icon youtube">YouTube</a>
+      <a rel="noopener" href="https://discord.gg/xYbN3ukJZY" class="icon discord">Discord</a>
+      <a rel="noopener" href="https://scrimba.com/podcast/" class="icon podcast">Scrimba Podcast</a>
     </div>
     <div class="footer-col-three">
       <p>Site Engineers</p>
