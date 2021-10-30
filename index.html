@@ -14,9 +14,11 @@
 </head>
 
 <body>
-  <nav-component><!-- imported from components/nav.js --></nav-component>
+  <nav-component>
+    <!-- imported from components/nav.js -->
+  </nav-component>
 
-  <div class="page-container">
+  <main class="page-container">
     <header>
       <!-- <a role="button" rel="noopener" href="https://www.polltab.com/_ZPuKYSipS" class="btn btn-poll" data-tooltip="Vote closes 5:15pm today" target="_blank">Vote here!</a> -->
       <a href="https://scrimba.com/" rel="noopener" target="_blank" class="home-logo"><img class="logo"
@@ -29,12 +31,12 @@
         </a>
       </p>
       <div class="countdown-submissions">
-          <p>Challenge Countdown: <strong id="challenge-countdown-display">loading...</strong></p>
-          <p id="submission-count-display"></p>
+        <p>Challenge Countdown: <strong id="challenge-countdown-display">loading...</strong></p>
+        <p id="submission-count-display"></p>
       </div>
     </header>
     <!-- Challenge Container -->
-    <div class="challenge-container">
+    <section class="challenge-container">
       <!-- Submission will be injected here by javascript -->
       <div id="placeholder0" class="submission">
         <div class="placeholder"></div>
@@ -67,9 +69,11 @@
       <div id="prev_challenges" class="prev_challenges">
         <p>Previous challenges 👀</p>
       </div>
-    </div>
-  </div>
-  <footer-component><!-- imported from components/footer.js REQUIRES pumpkin.js --></footer-component>
+    </section>
+  </main>
+  <footer-component>
+    <!-- imported from components/footer.js REQUIRES pumpkin.js -->
+  </footer-component>
 
   <script type="module" src="components/nav.js" type="text/javascript" defer></script>
   <script type="module" src="components/footer.js" type="text/javascript" defer></script>
