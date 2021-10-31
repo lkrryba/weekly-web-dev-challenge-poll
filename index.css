@@ -651,7 +651,7 @@ desktop styles
     width: 80%;
   }
 }
-button {
+.button {
   cursor: pointer;
   --glow-color: rgb(217, 176, 255);
   --glow-spread-color: rgba(191, 123, 255, 0.3);
@@ -675,7 +675,7 @@ button {
   transition: all 0.3s;
  }
  
- button::after {
+ .button::after {
   pointer-events: none;
   content: "";
   position: absolute;
@@ -689,7 +689,7 @@ button {
   transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
  }
  
- button:hover {
+ .button:hover {
   color: var(--btn-color);
   background-color: var(--glow-color);
   box-shadow: 0 0 1em .25em var(--glow-color),
@@ -697,7 +697,7 @@ button {
          inset 0 0 .75em .25em var(--glow-color);
  }
  
- button:active {
+ .button:active {
   box-shadow: 0 0 0.6em .25em var(--glow-color),
          0 0 2.5em 2em var(--glow-spread-color),
          inset 0 0 .5em .25em var(--glow-color);
