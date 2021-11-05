@@ -137,6 +137,24 @@
       "entryURL": "https://scrimba.com/scrim/co64a4c4c945b2d955c07a616",
       "thumbnail": "Elena.jpg",
       "winner": false
+    },
+    {
+      "name": "Keshuook",
+      "entryURL": "https://scrimba.com/scrim/c3kvvkh2",
+      "thumbnail": "Keshuook.jpg",
+      "winner": false
+    },
+    {
+      "name": "Karan Pandit",
+      "entryURL": "https://babayaga110.github.io/WeeklyWebDevChallenge_ButtonHover/",
+      "thumbnail": "KaranP.jpg",
+      "winner": false
+    },
+    {
+      "name": "Aung",
+      "entryURL": "https://scrimba.com/scrim/c3kEaBAb",
+      "thumbnail": "Aung.jpg",
+      "winner": false
     }
   ],
   "word_count": [
