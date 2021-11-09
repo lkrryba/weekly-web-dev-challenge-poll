@@ -47,6 +47,10 @@
 		{
 			"name": "Word Count",
 			"path": "prev_challenges/word_count/word_count.html"
+		},
+		{
+			"name": "Space button",
+			"path": "prev_challenges/space_button/space_button.html"
 		}
 	]
 }

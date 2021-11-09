@@ -23,7 +23,7 @@ import { countdown } from "./challengeCountdown.js";
 
 //Challenge Countdown
 //Date Format -> Month day, year time/hour Timezone
-countdown(new Date("November 8, 2021 13:00:00 GMT+00:00"));
+countdown(new Date("November 22, 2021 13:00:00 GMT+00:00"));
 
 
 /* Random background color on page load */

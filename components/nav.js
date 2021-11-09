@@ -35,7 +35,7 @@ class Nav extends HTMLElement {
             ? `<a href="/" rel="noopener" target="_blank">Home</a>`
             : ``
         } 
-        <a target="_blank" rel="noopener" href="https://scrimba.com/learn/weeklychallenge/weekly-web-dev-challenge-space-button-latest-challenge-code-to-win-cedGMEup">Current Challenge</a>  
+        <a target="_blank" rel="noopener" href="https://scrimba.com/learn/weeklychallenge/the-weekly-web-dev-challenge-dark-light-theme-latest-challenge-code-to-win-co24f4cd08039faab7eff7a98">Current Challenge</a>  
         <a href="/hall-of-fame.html" rel="noopener" target="_blank">Hall of Fame</a>
         <a href="/#prev_challenges">Previous Challenges</a>
         <a href="/faq.html" rel="noopener" target="_blank">FAQ</a>
