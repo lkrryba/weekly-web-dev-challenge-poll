@@ -255,6 +255,19 @@ a:active {
   overflow-y: scroll;
 }
 
+.prev_challenges ul::-webkit-scrollbar {
+  width: 10px;
+}
+
+.prev_challenges ul::-webkit-scrollbar-track {
+  background: #fffad1; 
+}
+
+.prev_challenges ul::-webkit-scrollbar-thumb {
+  background: #c7b9ff; 
+}
+
+
 /* buttons */
 .btn {
   text-align: center;
@@ -445,17 +458,6 @@ footer a:hover {
   font-family: "Font Awesome 5 Free"; content: "\f2ce";
   font-weight: 900;
 }
-
-.scrimba-logo::before {
-content: "";
-display: inline-block;
-height: 11px;
-width: 15px;
-background-size: 15px;
-background-image: url("imgs/SVG-Scrimba-Logo.png");
-background-repeat: no-repeat;
-margin-right: 5px;
-}
 /* End of add Icons to footer*/
 
 
@@ -522,7 +524,7 @@ tablet+ styles
   }
   .footer-logo {
     width: 150px;
-    padding: 1rem 0 0.5rem 0;
+    padding: 0 0 0.5rem 0;
   }
   .footer-col-one {
     width: 30%;

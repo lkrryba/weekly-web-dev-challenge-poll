@@ -22,8 +22,9 @@ connectedCallback(){
   </div>
     <footer>
     <div class="footer-col-one">  
-      <img class="footer-logo" src="../../../imgs/scrimba-black.svg" alt="scrimba-logo">           
-      <a rel="noopener" href="https://scrimba.com/" class="scrimba-logo">Scrimba</a>
+      <a rel="noopener" href="https://scrimba.com/" class="scrimba-logo">
+        <img class="footer-logo" src="../../../imgs/scrimba-black.svg" alt="scrimba-logo">  
+      </a>
       <a rel="noopener" href="https://scrimba.com/learn/weeklychallenge" class="scrimba-logo">Weekly Web Dev Challenge</a>
     </div>
     <div class="footer-col-two">
