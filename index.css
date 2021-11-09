@@ -251,6 +251,8 @@ a:active {
 .prev_challenges ul {
   display: grid;
   gap: 0.5em;
+  max-height: 300px;
+  overflow-y: scroll;
 }
 
 /* buttons */
@@ -326,7 +328,8 @@ li::marker {
   font-weight: 700;
 }
 
-.placeholder {
+.placeholder,
+.take-part {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -342,7 +345,8 @@ li::marker {
   background-size: 500px 100%;
 }
 
-.placeholder p {
+.placeholder p,
+.take-part p {
   font-size: 1.1rem;
   transform: rotate(-90deg);
   /* Safari */
@@ -353,6 +357,15 @@ li::marker {
   -o-transform: rotate(-45deg);
   /* IE */
   -ms-transform: rotate(-45deg45)
+}
+
+.take-part {
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.take-part p {
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 @keyframes shimmer {

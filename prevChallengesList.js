@@ -1,7 +1,6 @@
 export async function renderPreviousChallenges() {
   const response = await fetch('./prev_challenges/challenges.json')
   const challenges = await response.json()
-  // console.log(challenges)
 
   const container = document.querySelector('.prev_challenges')
   const unorderedList = document.createElement('ul')
