@@ -251,7 +251,7 @@ a:active {
 .prev_challenges ul {
   display: grid;
   gap: 0.5em;
-  max-height: 300px;
+  max-height: 250px;
   overflow-y: scroll;
 }
 
@@ -339,7 +339,7 @@ li::marker {
   margin: 0 auto;
   margin-bottom: 1.5em;
   box-shadow: -5px 5px 0px 5px #2b283a;
-  animation: shimmer 5s infinite linear alternate-reverse;
+  animation: shimmer 10s infinite linear alternate-reverse;
   background: #c7b9ff;
   background: linear-gradient(270deg, #aad1b6, #b5caf9, #c7b9ff, #f0b9dd, #f3bf99, #fffad1);
   background-size: 500px 100%;
@@ -360,7 +360,11 @@ li::marker {
 }
 
 .take-part {
-  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+   rgba(240, 46, 170, 0.3) -10px 10px, 
+   rgba(240, 46, 170, 0.2) -15px 15px, 
+   rgba(240, 46, 170, 0.1) -20px 20px, 
+   rgba(240, 46, 170, 0.05) -25px 25px;
 }
 
 .take-part p {
