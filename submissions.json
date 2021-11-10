@@ -23,6 +23,18 @@
       "entryURL": "https://scrimba.com/scrim/co8d2404dbf70a6c6eb2d7c40",
       "thumbnail": "Didier.jpg",
       "winner": false
+    },
+    {
+      "name": "BlizZard",
+      "entryURL": "https://scrimba.com/scrim/co53649c190b844115d0fa78d",
+      "thumbnail": "BlizZard.jpg",
+      "winner": false
+    },
+    {
+      "name": "Andrew Strain",
+      "entryURL": "https://scrimba.com/scrim/co1844f5bb406b5a42ec1dec6",
+      "thumbnail": "Andrew-Strain.jpg",
+      "winner": false
     }
   ],
   "space_button": [
