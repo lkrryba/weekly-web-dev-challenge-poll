@@ -41,6 +41,30 @@
       "entryURL": "https://scrimba.com/scrim/co27f44a9a2b87df6a2f11751",
       "thumbnail": "Mike.jpg",
       "winner": false
+    },
+    {
+      "name": "Aviad",
+      "entryURL": "https://scrimba.com/scrim/coa814f08baae80475f616cbf",
+      "thumbnail": "Aviad.jpg",
+      "winner": false
+    },
+    {
+      "name": "Edson",
+      "entryURL": "https://scrimba.com/scrim/cedp9bsP",
+      "thumbnail": "Edson.jpg",
+      "winner": false
+    },
+    {
+      "name": "Steven",
+      "entryURL": "https://s-palfreyman.github.io/Light-dark-site/",
+      "thumbnail": "Steven.jpg",
+      "winner": false
+    },
+    {
+      "name": "Terence Roach",
+      "entryURL": "https://scrimba.com/scrim/coaa340fe911cf15b3feace73",
+      "thumbnail": "Troach.jpg",
+      "winner": false
     }
   ],
   "space_button": [
