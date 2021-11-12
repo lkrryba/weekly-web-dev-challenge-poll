@@ -33,6 +33,7 @@ connectedCallback(){
       <a rel="noopener" href="https://www.youtube.com/c/Scrimba" class="icon youtube">YouTube</a>
       <a rel="noopener" href="https://discord.gg/xYbN3ukJZY" class="icon discord">Discord</a>
       <a rel="noopener" href="https://scrimba.com/podcast/" class="icon podcast">Scrimba Podcast</a>
+      <a rel="noopener" href="https://scrimba.ck.page/scrimba-community-digest" class="icon digest">Scrimba newsletter</a>
     </div>
     <div class="footer-col-three">
       <p>Site Engineers</p>
