@@ -65,6 +65,24 @@
       "entryURL": "https://scrimba.com/scrim/coaa340fe911cf15b3feace73",
       "thumbnail": "Troach.jpg",
       "winner": false
+    },
+    {
+      "name": "NeboCoder",
+      "entryURL": "https://scrimba.com/scrim/coef54215951afaa8521be8d8",
+      "thumbnail": "Nebocoder.jpg",
+      "winner": false
+    },
+    {
+      "name": "Renzo",
+      "entryURL": "https://scrimba.com/scrim/c99earcR",
+      "thumbnail": "Renzo.jpg",
+      "winner": false
+    },
+    {
+      "name": "Obum",
+      "entryURL": "https://scrimba.com/scrim/coaa94144b596e4d12210d962",
+      "thumbnail": "Obum.jpg",
+      "winner": false
     }
   ],
   "space_button": [
