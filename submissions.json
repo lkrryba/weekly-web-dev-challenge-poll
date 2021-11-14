@@ -83,6 +83,18 @@
       "entryURL": "https://scrimba.com/scrim/coaa94144b596e4d12210d962",
       "thumbnail": "Obum.jpg",
       "winner": false
+    },
+    {
+      "name": "Ameya",
+      "entryURL": "https://ameyayeg.github.io/lightdarktoggle/",
+      "thumbnail": "Ameya.jpg",
+      "winner": false
+    },
+    {
+      "name": "SnowBit",
+      "entryURL": "https://snowbit-coderboi.github.io/dark-light-toggle/",
+      "thumbnail": "SnowBit.jpg",
+      "winner": false
     }
   ],
   "space_button": [
