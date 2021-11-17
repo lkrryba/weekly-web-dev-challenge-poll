@@ -1,56 +1,56 @@
 {
 	"challenges": [
 		{
-			"name": "Pricing component",
-			"path": "prev_challenges/pricing_component/pricing_component.html"
-		},
-		{
-			"name": "Tip Calculator",
-			"path": "prev_challenges/tip_calculator/tip_calculator.html"
-		},
-		{
-			"name": "Freestyle",
-			"path": "prev_challenges/freestyle/freestyle.html"
-		},
-		{
-			"name": "Accessibilty",
-			"path": "prev_challenges/accessibility/accessibility.html"
-		},
-		{
-			"name": "CatBasket",
-			"path": "prev_challenges/cat_basket/cat_basket.html"
-		},
-		{
-			"name": "Energy Meter",
-			"path": "prev_challenges/energy_meter/energy_meter.html"
-		},
-		{
-			"name": "Name Beautifier",
-			"path": "prev_challenges/name_beautifier/name_beautifier.html"
-		},
-		{
-			"name": "JavaScript Loader",
-			"path": "prev_challenges/loader/loader.html"
-		},
-		{
-			"name": "Magic 8-ball",
-			"path": "prev_challenges/ball/ball.html"
-		},
-		{
-			"name": "Pomodoro Timer",
-			"path": "prev_challenges/timer/timer.html"
-		},
-		{
-			"name": "Gradient Generator",
-			"path": "prev_challenges/gradient_generator/gradient_generator.html"
+			"name": "Space button",
+			"path": "prev_challenges/space_button/space_button.html"
 		},
 		{
 			"name": "Word Count",
 			"path": "prev_challenges/word_count/word_count.html"
 		},
 		{
-			"name": "Space button",
-			"path": "prev_challenges/space_button/space_button.html"
+			"name": "Gradient Generator",
+			"path": "prev_challenges/gradient_generator/gradient_generator.html"
+		},
+		{
+			"name": "Pomodoro Timer",
+			"path": "prev_challenges/timer/timer.html"
+		},
+		{
+			"name": "Magic 8-ball",
+			"path": "prev_challenges/ball/ball.html"
+		},
+		{
+			"name": "JavaScript Loader",
+			"path": "prev_challenges/loader/loader.html"
+		},
+		{
+			"name": "Name Beautifier",
+			"path": "prev_challenges/name_beautifier/name_beautifier.html"
+		},
+		{
+			"name": "Energy Meter",
+			"path": "prev_challenges/energy_meter/energy_meter.html"
+		},
+		{
+			"name": "CatBasket",
+			"path": "prev_challenges/cat_basket/cat_basket.html"
+		},
+		{
+			"name": "Accessibilty",
+			"path": "prev_challenges/accessibility/accessibility.html"
+		},
+		{
+			"name": "Freestyle",
+			"path": "prev_challenges/freestyle/freestyle.html"
+		},
+		{
+			"name": "Tip Calculator",
+			"path": "prev_challenges/tip_calculator/tip_calculator.html"
+		},
+		{
+			"name": "Pricing component",
+			"path": "prev_challenges/pricing_component/pricing_component.html"
 		}
 	]
 }

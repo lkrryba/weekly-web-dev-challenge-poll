@@ -4,7 +4,7 @@ export async function renderPreviousChallenges() {
 
   const container = document.querySelector('.prev_challenges')
   const unorderedList = document.createElement('ul')
-
+  // const reversedChallenges = challenges.reverse()
   challenges.challenges.forEach((challenge) => {
     const listItem = document.createElement('li')
     const anchorTag = document.createElement('a')
