@@ -131,6 +131,30 @@
       "entryURL": "https://scrimba.com/scrim/cof1444b49c718d50f4e40921",
       "thumbnail": "Soransh.jpg",
       "winner": false
+    },
+    {
+      "name": "Aung",
+      "entryURL": "https://scrimba.com/learn/weeklychallenge/fork-of-the-weekly-web-dev-challenge-dark-light-theme-latest-challenge-code-to-win-clone-clone-cRMk98sa",
+      "thumbnail": "Aung.jpg",
+      "winner": false
+    },
+    {
+      "name": "Zaid Marrie",
+      "entryURL": "https://scrimba.com/scrim/cQg79zcP",
+      "thumbnail": "ZaidM.jpg",
+      "winner": false
+    },
+    {
+      "name": "Max",
+      "entryURL": "https://scrimba.com/scrim/co080466db715e8ef22e5ba91",
+      "thumbnail": "Max.jpg",
+      "winner": false
+    },
+    {
+      "name": "Sajtowski",
+      "entryURL": "https://scrimba.com/scrim/co5da4f0189a5fc92025198ea",
+      "thumbnail": "Sajtowski.jpg",
+      "winner": false
     }
   ],
   "space_button": [
@@ -138,6 +162,12 @@
       "name": "Joshua",
       "entryURL": "https://scrimba.com/scrim/co3bf4cfe8c1bc4783d4fa9bc",
       "thumbnail": "Joshua.jpg",
+      "winner": false
+    },
+    {
+      "name": "Elizabeth",
+      "entryURL": "https://scrimba.com/scrim/coafb4937b8a956f4e75c855a",
+      "thumbnail": "Elizabeth.jpg",
       "winner": false
     },
     {
