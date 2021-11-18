@@ -155,6 +155,30 @@
       "entryURL": "https://scrimba.com/scrim/co5da4f0189a5fc92025198ea",
       "thumbnail": "Sajtowski.jpg",
       "winner": false
+    },
+    {
+      "name": "Maria",
+      "entryURL": "https://scrimba.com/learn/weeklychallenge/fork-of-note-at-0-36-co2ff4364bb416d6e4721533c",
+      "thumbnail": "Maria.jpg",
+      "winner": false
+    },
+    {
+      "name": "Hamdy",
+      "entryURL": "https://scrimba.com/scrim/co84d4b7a80a2a30d6be6d3d9",
+      "thumbnail": "Hamdy.jpg",
+      "winner": false
+    },
+    {
+      "name": "Prem",
+      "entryURL": "https://scrimba.com/scrim/co97d451c9f81fc10f302e616",
+      "thumbnail": "Prem.jpg",
+      "winner": false
+    },
+    {
+      "name": "Bernard",
+      "entryURL": "https://scrimba.com/learn/weeklychallenge/fork-of-the-weekly-web-dev-challenge-dark-light-theme-latest-challenge-code-to-win-coa1b4ea6be8e6a67227e0bd2",
+      "thumbnail": "Bernard.jpg",
+      "winner": false
     }
   ],
   "space_button": [
@@ -718,231 +742,231 @@
     "thumbnail": "LM.jpg",
     "winner": false
   }
-],
-  "gradient_generator" : [
-  {
-    "name": "Ripleyx",
-    "entryURL": "https://scrimba.com/scrim/co81245c5b8fd668d64391f0a",
-    "thumbnail": "Ripleyx.png",
-    "winner": false
-  },
-  {
-    "name": "Mansi",
-    "entryURL": "https://scrimba.com/scrim/co4fe440a95e4dd7a788c4fc0",
-    "thumbnail": "Mansi.png",
-    "winner": false
-  },
-  {
-    "name": "Uma",
-    "entryURL": "https://scrimba.com/scrim/cyew3ytd",
-    "thumbnail": "Uma.png",
-    "winner": false
-  },
-  {
-    "name": "Eric B",
-    "entryURL": "https://scrimba.com/scrim/cnG4WMtJ",
-    "thumbnail": "Eric.png",
-    "winner": false
-  },
-  {
-    "name": "Benjamin",
-    "entryURL": "https://scrimba.com/scrim/co9fc4dc7a3e371522e6d2835",
-    "thumbnail": "Benjamin.png",
-    "winner": false
-  },
-  {
-    "name": "Yashvardhan",
-    "entryURL": "https://scrimba.com/scrim/c4Zrz8sR",
-    "thumbnail": "Yashvardhan.png",
-    "winner": false
-  },
-  {
-    "name": "Dave",
-    "entryURL": "https://scrimba.com/scrim/co78348288884364389aa5b74",
-    "thumbnail": "Dave.png",
-    "winner": false
-  },
-  {
-    "name": "Emerson",
-    "entryURL": "https://scrimba.com/scrim/cBq3EyHJ",
-    "thumbnail": "Emerson.png",
-    "winner": false
-  },
-  {
-    "name": "Itzikb",
-    "entryURL": "https://scrimba.com/scrim/cocec46cda25b375aa8d6b110",
-    "thumbnail": "Itzikb.png",
-    "winner": false
-  },
-  {
-    "name": "Mike Robards",
-    "entryURL": "https://scrimba.com/scrim/co64944b581e5fc1a7f29ca5b",
-    "thumbnail": "MikeR.png",
-    "winner": false
-  },
-  {
-    "name": "Aaron",
-    "entryURL": "https://scrimba.com/scrim/co98849649686d582239b3203",
-    "thumbnail": "Aaron.png",
-    "winner": false
-  },
-  {
-    "name": "Lauren",
-    "entryURL": "https://scrimba.com/scrim/c3k6KLHb",
-    "thumbnail": "Lauren.png",
-    "winner": false
-  },
-  {
-    "name": "Leanne & Michael 🤡",
-    "entryURL": "https://scrimba.com/scrim/co7c64eb3941bf364655a3d89",
-    "thumbnail": "LM.png",
-    "winner": false
-  },
-  {
-    "name": "Bernard",
-    "entryURL": "https://scrimba.com/scrim/co8ac4c248eaa1e9c3ce9115b",
-    "thumbnail": "Bernard.png",
-    "winner": false
-  },
-  {
-    "name": "Rachel",
-    "entryURL": "https://scrimba.com/scrim/co7f24dcc89ea7f30907396d9",
-    "thumbnail": "Rachel.png",
-    "winner": false
-  },
-  {
-    "name": "Paulina",
-    "entryURL": "https://scrimba.com/scrim/cKQrKmSL",
-    "thumbnail": "Paulina.png",
-    "winner": false
-  },
-  {
-    "name": "MathArt",
-    "entryURL": "https://scrimba.com/scrim/cE6Zn7fw",
-    "thumbnail": "MathArt.png",
-    "winner": false
-  },
-  {
-    "name": "Lealem",
-    "entryURL": "https://scrimba.com/scrim/cN9yN3UB",
-    "thumbnail": "Lealem.png",
-    "winner": false
-  },
-  {
-    "name": "Miri52",
-    "entryURL": "https://scrimba.com/scrim/coae346fbbc5accb41d7872e0",
-    "thumbnail": "Miri52.png",
-    "winner": false
-  },
-  {
-    "name": "Peter",
-    "entryURL": "https://scrimba.com/scrim/cobe845a9bebb79aeb032d4c0",
-    "thumbnail": "Peter.png",
-    "winner": false
-  },
-  {
-    "name": "Ronald from the Hague",
-    "entryURL": "https://scrimba.com/scrim/co2f04701bf20a20e7106a4af",
-    "thumbnail": "Ronald.png",
-    "winner": false
-  },
-  {
-    "name": "Dhiraj",
-    "entryURL": "https://scrimba.com/scrim/cRMgR2sV",
-    "thumbnail": "Dhiraj.png",
-    "winner": false
-  },
-  {
-    "name": "Vasyl",
-    "entryURL": "https://scrimba.com/scrim/cQgGJdHM",
-    "thumbnail": "Vasyl.png",
-    "winner": false
-  },
-  {
-    "name": "Michael Alim",
-    "entryURL": "https://scrimba.com/scrim/cob0244dca9c16f0d8629d108",
-    "thumbnail": "MichaelA.png",
-    "winner": false
-  },
-  {
-    "name": "Abdelrahman",
-    "entryURL": "https://g-radiant.netlify.app/",
-    "thumbnail": "Abdelrahman.png",
-    "winner": false
-  },
-  {
-    "name": "Aaron K",
-    "entryURL": "https://scrimba.com/scrim/coa504967a91d814224d6e500",
-    "thumbnail": "AaronK.png",
-    "winner": false
-  },
-  {
-    "name": "Snowbit",
-    "entryURL": "https://gradient-generator-tool.vercel.app/",
-    "thumbnail": "Snowbit.png",
-    "winner": false
-  },
-  {
-    "name": "Fabio",
-    "entryURL": "https://scrimba.com/scrim/co1674a2e89b5f4cad6ddaed0?a=28.0.3.L1",
-    "thumbnail": "Fabio.png",
-    "winner": false
-  },
-  {
-    "name": "Anna",
-    "entryURL": "https://loving-austin-f43a3a.netlify.app/",
-    "thumbnail": "Anna.png",
-    "winner": false
-  },
-  {
-    "name": "Prakash",
-    "entryURL": "https://scrimba.com/scrim/c4ZZ38hV?a=776.0.3.L10",
-    "thumbnail": "Prakash.png",
-    "winner": true
-  },
-  {
-    "name": "Erik Von Schlehenried",
-    "entryURL": "https://scrimba.com/scrim/co6bc4fcbbb6848c59c42a13c",
-    "thumbnail": "Erik.png",
-    "winner": false
-  },
-  {
-    "name": "Rijavecb",
-    "entryURL": "https://scrimba.com/scrim/cJLLaVsq",
-    "thumbnail": "Rijavecb.png",
-    "winner": false
-  },
-  {
-    "name": "Connor",
-    "entryURL": "https://scrimba.com/scrim/co61248f5ac9d60527255248f",
-    "thumbnail": "Connor.png",
-    "winner": false
-  },
-  {
-    "name": "Ambreen",
-    "entryURL": "https://thetechjournal.github.io/challenge-gradient-generator/",
-    "thumbnail": "Ambreen.png",
-    "winner": false
-  },
-  {
-    "name": "M Javad Roosta",
-    "entryURL": "https://scrimba.com/scrim/co9174b18a74a1833b15e7be0/gb",
-    "thumbnail": "mjr.png",
-    "winner": false
-  },
-  {
-    "name": "GB",
-    "entryURL": "https://scrimba.com/scrim/cPNNVEfk",
-    "thumbnail": "gb.png",
-    "winner": false
-  },
-  {
-    "name": "WillForCoding",
-    "entryURL": "https://scrimba.com/scrim/coaa94847960f24ee7b0a642b",
-    "thumbnail": "will.png",
-    "winner": false
-  }
-],
+  ],
+    "gradient_generator" : [
+    {
+      "name": "Ripleyx",
+      "entryURL": "https://scrimba.com/scrim/co81245c5b8fd668d64391f0a",
+      "thumbnail": "Ripleyx.png",
+      "winner": false
+    },
+    {
+      "name": "Mansi",
+      "entryURL": "https://scrimba.com/scrim/co4fe440a95e4dd7a788c4fc0",
+      "thumbnail": "Mansi.png",
+      "winner": false
+    },
+    {
+      "name": "Uma",
+      "entryURL": "https://scrimba.com/scrim/cyew3ytd",
+      "thumbnail": "Uma.png",
+      "winner": false
+    },
+    {
+      "name": "Eric B",
+      "entryURL": "https://scrimba.com/scrim/cnG4WMtJ",
+      "thumbnail": "Eric.png",
+      "winner": false
+    },
+    {
+      "name": "Benjamin",
+      "entryURL": "https://scrimba.com/scrim/co9fc4dc7a3e371522e6d2835",
+      "thumbnail": "Benjamin.png",
+      "winner": false
+    },
+    {
+      "name": "Yashvardhan",
+      "entryURL": "https://scrimba.com/scrim/c4Zrz8sR",
+      "thumbnail": "Yashvardhan.png",
+      "winner": false
+    },
+    {
+      "name": "Dave",
+      "entryURL": "https://scrimba.com/scrim/co78348288884364389aa5b74",
+      "thumbnail": "Dave.png",
+      "winner": false
+    },
+    {
+      "name": "Emerson",
+      "entryURL": "https://scrimba.com/scrim/cBq3EyHJ",
+      "thumbnail": "Emerson.png",
+      "winner": false
+    },
+    {
+      "name": "Itzikb",
+      "entryURL": "https://scrimba.com/scrim/cocec46cda25b375aa8d6b110",
+      "thumbnail": "Itzikb.png",
+      "winner": false
+    },
+    {
+      "name": "Mike Robards",
+      "entryURL": "https://scrimba.com/scrim/co64944b581e5fc1a7f29ca5b",
+      "thumbnail": "MikeR.png",
+      "winner": false
+    },
+    {
+      "name": "Aaron",
+      "entryURL": "https://scrimba.com/scrim/co98849649686d582239b3203",
+      "thumbnail": "Aaron.png",
+      "winner": false
+    },
+    {
+      "name": "Lauren",
+      "entryURL": "https://scrimba.com/scrim/c3k6KLHb",
+      "thumbnail": "Lauren.png",
+      "winner": false
+    },
+    {
+      "name": "Leanne & Michael 🤡",
+      "entryURL": "https://scrimba.com/scrim/co7c64eb3941bf364655a3d89",
+      "thumbnail": "LM.png",
+      "winner": false
+    },
+    {
+      "name": "Bernard",
+      "entryURL": "https://scrimba.com/scrim/co8ac4c248eaa1e9c3ce9115b",
+      "thumbnail": "Bernard.png",
+      "winner": false
+    },
+    {
+      "name": "Rachel",
+      "entryURL": "https://scrimba.com/scrim/co7f24dcc89ea7f30907396d9",
+      "thumbnail": "Rachel.png",
+      "winner": false
+    },
+    {
+      "name": "Paulina",
+      "entryURL": "https://scrimba.com/scrim/cKQrKmSL",
+      "thumbnail": "Paulina.png",
+      "winner": false
+    },
+    {
+      "name": "MathArt",
+      "entryURL": "https://scrimba.com/scrim/cE6Zn7fw",
+      "thumbnail": "MathArt.png",
+      "winner": false
+    },
+    {
+      "name": "Lealem",
+      "entryURL": "https://scrimba.com/scrim/cN9yN3UB",
+      "thumbnail": "Lealem.png",
+      "winner": false
+    },
+    {
+      "name": "Miri52",
+      "entryURL": "https://scrimba.com/scrim/coae346fbbc5accb41d7872e0",
+      "thumbnail": "Miri52.png",
+      "winner": false
+    },
+    {
+      "name": "Peter",
+      "entryURL": "https://scrimba.com/scrim/cobe845a9bebb79aeb032d4c0",
+      "thumbnail": "Peter.png",
+      "winner": false
+    },
+    {
+      "name": "Ronald from the Hague",
+      "entryURL": "https://scrimba.com/scrim/co2f04701bf20a20e7106a4af",
+      "thumbnail": "Ronald.png",
+      "winner": false
+    },
+    {
+      "name": "Dhiraj",
+      "entryURL": "https://scrimba.com/scrim/cRMgR2sV",
+      "thumbnail": "Dhiraj.png",
+      "winner": false
+    },
+    {
+      "name": "Vasyl",
+      "entryURL": "https://scrimba.com/scrim/cQgGJdHM",
+      "thumbnail": "Vasyl.png",
+      "winner": false
+    },
+    {
+      "name": "Michael Alim",
+      "entryURL": "https://scrimba.com/scrim/cob0244dca9c16f0d8629d108",
+      "thumbnail": "MichaelA.png",
+      "winner": false
+    },
+    {
+      "name": "Abdelrahman",
+      "entryURL": "https://g-radiant.netlify.app/",
+      "thumbnail": "Abdelrahman.png",
+      "winner": false
+    },
+    {
+      "name": "Aaron K",
+      "entryURL": "https://scrimba.com/scrim/coa504967a91d814224d6e500",
+      "thumbnail": "AaronK.png",
+      "winner": false
+    },
+    {
+      "name": "Snowbit",
+      "entryURL": "https://gradient-generator-tool.vercel.app/",
+      "thumbnail": "Snowbit.png",
+      "winner": false
+    },
+    {
+      "name": "Fabio",
+      "entryURL": "https://scrimba.com/scrim/co1674a2e89b5f4cad6ddaed0?a=28.0.3.L1",
+      "thumbnail": "Fabio.png",
+      "winner": false
+    },
+    {
+      "name": "Anna",
+      "entryURL": "https://loving-austin-f43a3a.netlify.app/",
+      "thumbnail": "Anna.png",
+      "winner": false
+    },
+    {
+      "name": "Prakash",
+      "entryURL": "https://scrimba.com/scrim/c4ZZ38hV?a=776.0.3.L10",
+      "thumbnail": "Prakash.png",
+      "winner": true
+    },
+    {
+      "name": "Erik Von Schlehenried",
+      "entryURL": "https://scrimba.com/scrim/co6bc4fcbbb6848c59c42a13c",
+      "thumbnail": "Erik.png",
+      "winner": false
+    },
+    {
+      "name": "Rijavecb",
+      "entryURL": "https://scrimba.com/scrim/cJLLaVsq",
+      "thumbnail": "Rijavecb.png",
+      "winner": false
+    },
+    {
+      "name": "Connor",
+      "entryURL": "https://scrimba.com/scrim/co61248f5ac9d60527255248f",
+      "thumbnail": "Connor.png",
+      "winner": false
+    },
+    {
+      "name": "Ambreen",
+      "entryURL": "https://thetechjournal.github.io/challenge-gradient-generator/",
+      "thumbnail": "Ambreen.png",
+      "winner": false
+    },
+    {
+      "name": "M Javad Roosta",
+      "entryURL": "https://scrimba.com/scrim/co9174b18a74a1833b15e7be0/gb",
+      "thumbnail": "mjr.png",
+      "winner": false
+    },
+    {
+      "name": "GB",
+      "entryURL": "https://scrimba.com/scrim/cPNNVEfk",
+      "thumbnail": "gb.png",
+      "winner": false
+    },
+    {
+      "name": "WillForCoding",
+      "entryURL": "https://scrimba.com/scrim/coaa94847960f24ee7b0a642b",
+      "thumbnail": "will.png",
+      "winner": false
+    }
+  ],
   "timer": [
     {
       "name": "Michael Alim",
