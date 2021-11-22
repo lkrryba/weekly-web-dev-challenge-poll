@@ -50,20 +50,24 @@ body {
 }
 
 nav {
-  display: flex;
+  display: none;
+  width: 300px;
+  padding: 2em;
   flex-direction: column;
   justify-content: space-around;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   background: white;
-  padding: 2em;
   box-shadow: -5px 5px 5px 0px rgba(100, 100, 100, 0.5);
   z-index: 1;
-  transform: translateX(105%);
-  transition: 0.3s transform ease-in;
   height: 100vh;
 }
+
+.nav-open {
+  display: flex;
+}
+
 
 .nav-scrimba {
   margin: 2em 0 0 0;
@@ -92,10 +96,6 @@ nav {
 
 .nav-other-links a:last-of-type {
   margin: 0;
-}
-
-.nav-open {
-  transform: translateX(0);
 }
 
 @media only screen and (min-width: 715px) {
