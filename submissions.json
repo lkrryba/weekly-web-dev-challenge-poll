@@ -1,6 +1,14 @@
 {
   "latest_challenge": [
     {
+      "name": "Dave",
+      "entryURL": "https://scrimba.com/scrim/co9574343917b25502ddadfac",
+      "thumbnail": "Dave.jpg",
+      "winner": false
+    }
+  ],
+  "light_dark_theme": [
+    {
       "name": "Artem",
       "entryURL": "https://scrimba.com/scrim/co24b446983bd7d1890ec5ab4",
       "thumbnail": "Artem.jpg",
@@ -238,7 +246,7 @@
       "name": "Karan Pandit",
       "entryURL": "https://babayaga110.github.io/WeeklyWebDevChallenge_DarkMode/",
       "thumbnail": "KaranP.jpg",
-      "winner": false
+      "winner": true
     },
     {
       "name": "Sid",
