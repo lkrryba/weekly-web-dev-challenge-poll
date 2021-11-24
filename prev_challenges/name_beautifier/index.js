@@ -1,5 +1,5 @@
-import { renderSubmissions, getSubmissions } from "/submissions.js"
-import { displaySubmissionCount } from "/displaySubmissionCount.js"
+import { renderSubmissions, getSubmissions } from "../../utils/submissions.js"
+import { displaySubmissionCount } from "../../utils/displaySubmissionCount.js"
 
 // All awaits need to be wrapped into async iifes,
 // because top level await (https://v8.dev/features/top-level-await)
