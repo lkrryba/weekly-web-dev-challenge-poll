@@ -1,5 +1,5 @@
-import { renderSubmissions, getSubmissions } from "/submissions.js"
-import { displaySubmissionCount } from "/displaySubmissionCount.js"
+import { renderSubmissions, getSubmissions } from "../../utils/submissions"
+import { displaySubmissionCount } from "../../utils/displaySubmissionCount.js"
 
 (async () => {
     const submissionsJson = "../../submissions.json"
