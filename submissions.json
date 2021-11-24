@@ -5,6 +5,30 @@
       "entryURL": "https://scrimba.com/scrim/co9574343917b25502ddadfac",
       "thumbnail": "Dave.jpg",
       "winner": false
+    },
+    {
+      "name": "Steve",
+      "entryURL": "https://s-palfreyman.github.io/screensaver/",
+      "thumbnail": "Steve.jpg",
+      "winner": false
+    },
+    {
+      "name": "Debbie",
+      "entryURL": "https://scrimba.com/scrim/co4ad4e7091f4876bcbf4d8e8",
+      "thumbnail": "Debbie.jpg",
+      "winner": false
+    },
+    {
+      "name": "Renzo",
+      "entryURL": "https://scrimba.com/scrim/c2gpLkCN",
+      "thumbnail": "Renzo.jpg",
+      "winner": false
+    },
+    {
+      "name": "Amanda",
+      "entryURL": "https://scrimba.com/scrim/coc344cc1bdedb6241e78705e",
+      "thumbnail": "Amanda.jpg",
+      "winner": false
     }
   ],
   "light_dark_theme": [
@@ -252,6 +276,12 @@
       "name": "Sid",
       "entryURL": "https://unruffled-fermat-bd396d.netlify.app/",
       "thumbnail": "Sid.jpg",
+      "winner": false
+    },
+    {
+      "name": "Richard",
+      "entryURL": "https://scrimba.com/scrim/co70d47e6ab52d2c923def966",
+      "thumbnail": "Richard.jpg",
       "winner": false
     }
   ],
@@ -2980,4 +3010,3 @@
     }
   ]
 }
-
