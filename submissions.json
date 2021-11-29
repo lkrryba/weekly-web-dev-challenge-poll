@@ -41,7 +41,44 @@
       "entryURL": "https://scrimba.com/scrim/codab4e2da5721899796f41ae",
       "thumbnail": "LM.jpg",
       "winner": false
+    },
+    {
+      "name": "Patrick",
+      "entryURL": "https://scrimba.com/scrim/ckrJREUP",
+      "thumbnail": "Patrick.jpg",
+      "winner": false
+    },
+    {
+      "name": "Ambreen",
+      "entryURL": "https://scrimba.com/scrim/cofb44b94a42de219ef818e03",
+      "thumbnail": "Ambreen.jpg",
+      "winner": false
+    },
+    {
+      "name": "Nebocoder",
+      "entryURL": "https://scrimba.com/scrim/co7044a34a186e3a46fbf537c",
+      "thumbnail": "Nebocoder.jpg",
+      "winner": false
+    },
+    {
+      "name": "Zaid Marrie",
+      "entryURL": "https://scrimba.com/scrim/cQg2gRUG",
+      "thumbnail": "ZaidM.jpg",
+      "winner": false
+    },
+    {
+      "name": "Elizabeth",
+      "entryURL": "https://scrimba.com/scrim/co05e45458663e023c1e8c9d7",
+      "thumbnail": "Elizabeth.jpg",
+      "winner": false
+    },
+    {
+      "name": "Isaiah",
+      "entryURL": "https://scrimba.com/scrim/cVbwJmSK",
+      "thumbnail": "Isaiah.jpg",
+      "winner": false
     }
+
   ],
   "light_dark_theme": [
     {
