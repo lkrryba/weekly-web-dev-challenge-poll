@@ -83,6 +83,18 @@
       "entryURL": "https://scrimba.com/scrim/co539488383467e9784fdad50",
       "thumbnail": "Milos.jpg",
       "winner": false
+    },
+     {
+      "name": "Neon",
+      "entryURL": "https://scrimba.com/scrim/cKQ9eZtD",
+      "thumbnail": "Neon.jpg",
+      "winner": false
+    },
+    {
+      "name": "Tim Rinkel",
+      "entryURL": "https://scrimba.com/scrim/co5de4a3386b5a88b7d177c8b",
+      "thumbnail": "TimR.jpg",
+      "winner": false
     }
 
   ],
