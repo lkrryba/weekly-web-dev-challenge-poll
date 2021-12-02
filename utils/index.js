@@ -1,5 +1,5 @@
 import { renderSubmissions, getSubmissions } from "./submissions.js";
-import { displaySubmissionCount } from "/displaySubmissionCount.js";
+import { displaySubmissionCount } from "./displaySubmissionCount.js";
 import { renderPreviousChallenges } from "./prevChallengesList.js";
 import { countdown } from "./challengeCountdown.js";
 // because top level await (https://v8.dev/features/top-level-await)

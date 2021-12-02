@@ -1,7 +1,7 @@
-import { getSubmissions } from '/submissions.js'
+import { getSubmissions } from './submissions'
 
 export async function displaySubmissionCount(challengeName, submissionText) {
-  const submissionsJson = '/submissions.json'
+  const submissionsJson = './submissions.json'
   const subs = (await getSubmissions(submissionsJson))[challengeName]
 
   // display num of subs
