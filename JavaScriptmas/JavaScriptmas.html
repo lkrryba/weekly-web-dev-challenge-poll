@@ -6,8 +6,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
-  <link rel="stylesheet" href="index.css" />
-  <link rel="icon" type="img/png" href="imgs/pumpkin.png" />
+  <link rel="stylesheet" href="../index.css" />
+  <link rel="icon" type="img/png" href="../imgs/pumpkin.png" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
   <title>Weekly Web Dev Challenge</title>
@@ -22,13 +22,19 @@
       <a href="https://scrimba.com/" rel="noopener" target="_blank" class="home-logo"><img class="logo"
           src="../../../imgs/scrimba-black.svg" alt="scrimba-logo"></a>
       <h1 class="header-title">🎅 JavaScriptmas Solutions of the Day ☃️</h1>
-      <p class="subtitle">
+      <p class="subtitle" style="padding-bottom: 0.5em;">
         <a target="_blank" rel="noopener" 
           href="https://scrimba.com/learn/javascriptmas2021/">
           🎄 Join JavaScriptmas 🎄 
         </a>
       </p>
-      <div style="min-height: 40vh;">
+      <div class="challenge-container" style="min-height: 40vh;">
+        <div class="javascriptmas-SOTD">
+          <a target="_blank" re ="noopener" href="https://scrimba.com/scrim/c99JdmCG">
+          <img src="1-Joshua.jpg" alt="Joshua's solution"/>
+          <p>Day 1 - Joshua</p>
+        </a>
+        </div>
           <p>Amazing submissions will go here. In the meantime, <a target="_blank" rel="noopener" href="https://elfyourself.com?mId=467732">here are some elves</a>.</p>
       </div>
     </header>
@@ -37,9 +43,9 @@
   </div>
   <footer-component><!-- imported from components/footer.js REQUIRES pumpkin.js --></footer-component>
 
-  <script type="module" src="components/nav.js" type="text/javascript" defer></script>
-  <script type="module" src="components/footer.js" type="text/javascript" defer></script>
-  <script type="module" src="index.js" defer></script>
+  <script type="module" src="../components/nav.js" type="text/javascript" defer></script>
+  <script type="module" src="../components/footer.js" type="text/javascript" defer></script>
+  <script type="module" src="../index.js" defer></script>
   <script type="module" src="pumpkin.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
 </body>
