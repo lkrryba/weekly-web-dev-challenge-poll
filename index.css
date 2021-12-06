@@ -750,6 +750,7 @@ desktop styles
   font-weight: bold;
   display: flex;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .javascriptmas-SOTD  img {
@@ -759,4 +760,16 @@ desktop styles
 }
 .javascriptmas-SOTD  p {
   margin-top: 0.25em;
+}
+
+.javascriptmas-SOTD .pick {
+  position: absolute;
+  font-family: 'Mountains of Christmas', cursive;
+  left: 55%;
+  top: 60%;
+  transform: rotate(-25deg);
+  background: #fff;
+  padding: 0.25em 0.5rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
 }
