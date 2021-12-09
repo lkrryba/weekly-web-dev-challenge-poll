@@ -765,7 +765,7 @@ desktop styles
 .javascriptmas-SOTD .pick {
   position: absolute;
   font-family: 'Mountains of Christmas', cursive;
-  left: 55%;
+  left: 200px;
   top: 60%;
   transform: rotate(-25deg);
   background: #fff;
