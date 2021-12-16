@@ -756,10 +756,10 @@ desktop styles
 .javascriptmas-SOTD  img {
   border-radius: 10px;
   max-width: 250px;
-  height: 250px;
+  height: 260px;
 }
 .javascriptmas-SOTD  p {
-  margin-top: 0.25em;
+  margin-top: 0.5em;
 }
 
 .javascriptmas-SOTD .pick {
