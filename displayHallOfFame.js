@@ -11,6 +11,7 @@ getData(jsonPath)
 
 function check(data, names) {
     names.forEach(item => {
+        
         // iterate over entries for each past challenge
         for (const entry of Object.entries(data[item])) {
             // find entries where winner = true
