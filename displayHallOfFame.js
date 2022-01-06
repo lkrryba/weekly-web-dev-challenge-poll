@@ -54,7 +54,6 @@ function check(data, names) {
                 // injext div into dom
                 const hallOfFameDiv = document.querySelector('#hall-of-fame')
                 hallOfFameDiv.appendChild(hallOfFameElement)
-
             }
         }
     })

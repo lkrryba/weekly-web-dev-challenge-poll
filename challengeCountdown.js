@@ -18,7 +18,7 @@ export const countdown = function (date) {
     challengeCountdownEl.innerHTML = finalString
 
     if (diffInMiliseconds < 0) {
-      challengeCountdownEl.innerHTML = 'ENDED - back next year!'
+      challengeCountdownEl.innerHTML = 'ENDED - look out for new challenges soon!'
       clearInterval(cd)
     }
   }, 1000)

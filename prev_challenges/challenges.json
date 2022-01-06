@@ -1,6 +1,10 @@
 {
 	"challenges": [
 		{
+			"name": "Retro screensaver",
+			"path": "prev_challenges/retro_screensaver/retro_screensaver.html"
+		},
+		{
 			"name": "Light/dark Theme",
 			"path": "prev_challenges/light_dark_theme/light_dark_theme.html"
 		},
