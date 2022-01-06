@@ -38,6 +38,7 @@ class Nav extends HTMLElement {
        
         <a href="/hall-of-fame.html" rel="noopener" target="_blank">Hall of Fame</a>
         <a href="/#prev_challenges">Previous Challenges</a>
+        <a href="/javascriptmas/javascriptmas.html" rel="noopener" target="_blank">JavaScriptmas</a>
         <a href="/faq.html" rel="noopener" target="_blank">FAQ</a>
       </div>
     </nav>    
