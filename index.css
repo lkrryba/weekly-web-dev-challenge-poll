@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -68,18 +69,29 @@ nav {
   display: flex;
 }
 
+.nav-links{
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 .nav-scrimba {
   margin: 2em 0 0 0;
 }
 
 .nav-logo {
-  width: 250px;
+  width: 350px;
 }
 
 .nav-other-links {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  left: 17rem;
+}
+
+.faq-logo{
+  width: 4rem;
 }
 
 .nav-other-links a {
@@ -135,6 +147,13 @@ nav {
   .nav-other-links a {
     margin: 0 2em 0 0;
     font-size: 1.4rem;
+  }
+
+  .FAQ{
+    font-size: 1.4rem;
+    list-style: none;
+    color: #000000;
+    margin-top: 0.4em;
   }
 
   .nav-other-links a:last-of-type {
