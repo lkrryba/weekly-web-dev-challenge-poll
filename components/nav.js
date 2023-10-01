@@ -44,11 +44,6 @@ class Nav extends HTMLElement {
     </nav>    
     `
 
-    // this.innerHTML = `
-    //   <nav>
-
-    //   </nav>
-    // `
     
   }
 }
